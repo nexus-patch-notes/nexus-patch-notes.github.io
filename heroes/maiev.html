@@ -1,0 +1,2935 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <link href="../style.css" rel="stylesheet"/>
+        <title>
+            Maiev — Nexus Patch Notes
+        </title>
+        <link href="../images/assets/logo.png" rel="icon" type="image/x-icon"/>
+    </head>
+    <body>
+        <div class="hero-header fixed">
+            <div class="title-card">
+                <img class="icon-big" src="../images/heroes/maiev.png"/>
+                <h3 class="text-shadow">
+                    Maiev
+                </h3>
+            </div>
+            <a class="guide-card centered partner-link" href="https://www.icy-veins.com/heroes/maiev-build-guide">
+                <img aria-hidden="true" class="svg hover partner-logo" src="../images/icons/icy-veins.svg"/>
+                <h4 class="partner-link text-shadow">
+                    Maiev Build Guide
+                </h4>
+            </a>
+            <div class="dropdown" id="patch-dropdown">
+                <div class="dropdown-button">
+                    Patch Type
+                    <span class="dropdown-cursor">
+                        ▼
+                    </span>
+                </div>
+                <div class="dropdown-content">
+                    <label>
+                        <input checked="" type="checkbox" value="alpha"/>
+                        Alpha
+                    </label>
+                    <label>
+                        <input checked="" type="checkbox" value="beta"/>
+                        Beta
+                    </label>
+                    <label>
+                        <input checked="" type="checkbox" value="ptr"/>
+                        PTR
+                    </label>
+                    <label>
+                        <input checked="" type="checkbox" value="hotfix"/>
+                        Hotfix
+                    </label>
+                    <label>
+                        <input checked="" type="checkbox" value="live"/>
+                        Live
+                    </label>
+                </div>
+            </div>
+            <div class="navigation-bar">
+                <div class="toggle-button">
+                    <img aria-hidden="true" class="svg hover toggle" onclick="toggleDetails()" src="../images/icons/visible-details.svg">
+                        <img aria-hidden="true" class="svg hover toggle hidden" onclick="toggleDetails()" src="../images/icons/hidden-details.svg"/>
+                    </img>
+                </div>
+                <a href="../index.html">
+                    <img aria-hidden="true" class="svg hover" src="../images/icons/home.svg"/>
+                </a>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="panels-list">
+                <div class="panel panel-primary toggle-live" id="patch2025-09-30">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2025-09-30 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.55.13.95213
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2025-09-30" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://www.reddit.com/r/CursedHollow/comments/1nv5nz6/heroes_of_the_storm_live_update_20250930" title="View unofficial Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/reddit.svg"/>
+                                </a>
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/24229032#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <span style="color: rgb(255, 140, 0);">
+                            </span>
+                            <p>
+                                <strong style="color: rgb(153, 0, 255);">
+                                    Base
+                                </strong>
+                            </p>
+                            <ul>
+                                <li>
+                                    <strong style="color: #0099ff;">
+                                        Umbral Bind [W]
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <span style="color: rgb(255, 140, 0);">
+                                                Pull force reduced from 35 to 21.05.
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2025-01-27">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2025-01-27 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.55.9.93565
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2025-01-27" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://www.reddit.com/r/CursedHollow/comments/1ibkqci/heroes_of_the_storm_live_updated_20250127" title="View unofficial Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/reddit.svg"/>
+                                </a>
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/24173974#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    <strong>
+                                        Level 16
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Armored Assault
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Fixed an issue that caused Armored Assault to not grant the full bonus to Umbral Bind's Cleave.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-ptr" id="patch2025-01-06">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/ptr-patch.svg"/>
+                            <span class="text-shadow">
+                                2025-01-06 PTR Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.55.9.93498
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2025-01-06" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/24169794#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    <strong>
+                                        Level 16
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Armored Assault
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Fixed an issue that caused Armored Assault to not grant the full bonus to Umbral Bind's Cleave.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2024-12-09">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2024-12-09 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.55.8.93557
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2024-12-09" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://www.reddit.com/r/CursedHollow/comments/1hahebn/heroes_of_the_storm_live_updated_20241209" title="View unofficial Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/reddit.svg"/>
+                                </a>
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/24161534#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    <strong>
+                                        Level 4
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Sudden Vengeance
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Fixed an issue that caused Sudden Vengeance to not activate Ruthless Spirit.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-ptr" id="patch2024-11-14">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/ptr-patch.svg"/>
+                            <span class="text-shadow">
+                                2024-11-14 PTR Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.55.8.93193
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2024-11-14" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://www.reddit.com/r/CursedHollow/comments/1grfj7c/heroes_of_the_storm_ptr_update_20241114" title="View unofficial Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/reddit.svg"/>
+                                </a>
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/24158871#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    <strong>
+                                        Level 4
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Sudden Vengeance
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Fixed an issue that caused Sudden Vengeance to not activate Ruthless Spirit.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2024-08-12">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2024-08-12 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.55.6.92665
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2024-08-12" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://www.reddit.com/r/CursedHollow/comments/1eso41g/heroes_of_the_storm_update_20240813" title="View unofficial Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/reddit.svg"/>
+                                </a>
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/24126146#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    <strong>
+                                        Base
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Umbral Bind [W]
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Fixed an issue that caused Umbral Bind's cleave to grant Vengeful Knives progress while Blinded or against Evading Heroes.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>
+                                        Level 1
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Naisha's Memento
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Fixed an issue that caused Naisha's Memento to grant Vengeful Knives progress while Blinded or against Evading Heroes.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-ptr" id="patch2024-07-15">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/ptr-patch.svg"/>
+                            <span class="text-shadow">
+                                2024-07-15 PTR Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.55.6.92550
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2024-07-15" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://www.reddit.com/r/CursedHollow/comments/1e7wfxq/heroes_of_the_storm_ptr_updates_20240715_20240719" title="View unofficial Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/reddit.svg"/>
+                                </a>
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/24104602#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    <strong>
+                                        Base
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Umbral Bind [W]
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Fixed an issue that caused Umbral Bind's cleave to grant Vengeful Knives progress while Blinded or against Evading Heroes.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>
+                                        Level 1
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Naisha's Memento
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Fixed an issue that caused Naisha's Memento to grant Vengeful Knives progress while Blinded or against Evading Heroes.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2024-05-21">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2024-05-21 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.55.5.92264
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2024-05-21" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://www.reddit.com/r/CursedHollow/comments/1cyo4tm/heroes_of_the_storm_update_20240521" title="View unofficial Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/reddit.svg"/>
+                                </a>
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/24096021#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    <strong>
+                                        Level 1
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Bonds of Justice [W]
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    No longer causes attacks to display as crits when using Umbral Bind.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>
+                                        Level 4
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Blade Dance [Q]
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Fixed an issue that caused Blade Dance to not grant stacks of Vengeful Knives.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>
+                                        Level 10
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Containment Disc [R1]
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Removed Silence display while Time Stopped.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-ptr" id="patch2024-04-16">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/ptr-patch.svg"/>
+                            <span class="text-shadow">
+                                2024-04-16 PTR Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.55.5.92083
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2024-04-16" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://www.reddit.com/r/CursedHollow/comments/1c5wb1z/heroes_of_the_storm_ptr_update_20240417" title="View unofficial Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/reddit.svg"/>
+                                </a>
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/24077220#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    <strong>
+                                        Level 1
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Bonds of Justice [W]
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    No longer causes attacks to display as crits when using Umbral Bind.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>
+                                        Level 4
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Blade Dance [Q]
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Fixed an issue that caused Blade Dance to not grant stacks of Vengeful Knives.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>
+                                        Level 10
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Containment Disc [R1]
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Removed Silence display while Time Stopped.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2024-02-06">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2024-02-06 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.55.4.91769
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2024-02-06" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://www.reddit.com/r/CursedHollow/comments/1atiwpr/comment/kqxl58l" title="View unofficial Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/reddit.svg"/>
+                                </a>
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/24061887#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Naisha's Memento first bounce can now bounce to inactive Mercenaries if the triggering attack is against an inactive Mercenary.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-ptr" id="patch2024-01-17">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/ptr-patch.svg"/>
+                            <span class="text-shadow">
+                                2024-01-17 PTR Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.55.4.91690
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2024-01-17" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://www.reddit.com/r/heroesofthestorm/comments/19a3g68/patch_notes_explained_january_17_ptr" title="View unofficial Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/reddit.svg"/>
+                                </a>
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/24056177#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Naisha's Memento first bounce can now bounce to inactive Mercenaries if the triggering attack is against an inactive Mercenary.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2023-11-16">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2023-11-16 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.55.4.91368
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2023-11-16" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://www.reddit.com/r/heroesofthestorm/comments/17wvv3i/heroes_difficulty_update_november_16_2023" title="View unofficial Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/reddit.svg"/>
+                                </a>
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/24031812#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Difficulty updated from Hard to Very Hard.
+                                </li>
+                                <li>
+                                    Fixed an issue that caused Vengeful Knives to gain bonus damage from Physical damage while Blinded or if the target is Evading.
+                                </li>
+                                <li>
+                                    Fixed an issue that caused Basic Attacks empowered by Umbral Bind to not grant Vengeful Knives stacks against the primary target.
+                                </li>
+                                <li>
+                                    Fixed an issue that caused Containment Disc's Silence to be bypassable by casting an ability making the target immune to Silence as soon as the Time Stop expires.
+                                </li>
+                                <li>
+                                    Fixed an issue that caused Bonds of Justice to stop displaying bonus damage on the talents tab of the scoreboard after reaching the quest milestone.
+                                </li>
+                                <li>
+                                    Naisha's Memento's Bounces will now bounce to targets immune to area damage.
+                                </li>
+                                <li>
+                                    Naisha's Memento will no longer bounce to Mercenaries that are not currently active.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-ptr" id="patch2023-10-23">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/ptr-patch.svg"/>
+                            <span class="text-shadow">
+                                2023-10-23 PTR Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.55.4.91227
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2023-10-23" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://www.reddit.com/r/heroesofthestorm/comments/17et87v/heroes_difficulty_update_october_23_2023" title="View unofficial Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/reddit.svg"/>
+                                </a>
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/24017507#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Fixed an issue that caused Basic Attacks while Blinded to increase Vengeful Knives damage.
+                                </li>
+                                <li>
+                                    Fixed an issue that caused Umbral Bind to not increase Vengeful Knives damage .
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2021-09-27">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2021-09-27 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.54.4.86223
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2021-09-27" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/23725472#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <p>
+                                <strong style="color: rgb(153, 0, 255);">
+                                    Base
+                                </strong>
+                            </p>
+                            <ul>
+                                <li>
+                                    <strong style="color: rgb(0, 153, 255);">
+                                        Vault of the Wardens [D]
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            Additional functionality: After reaching level 20, gain an additional charge.
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <p>
+                                <strong style="color: rgb(153, 0, 255);">
+                                    Talents
+                                </strong>
+                            </p>
+                            <ul>
+                                <li>
+                                    <strong>
+                                        Level 4
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: rgb(0, 153, 255);">
+                                                Pin Down [Q]
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    First quest reward damage bonus increased from 25% to 35%.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>
+                                        Level 7
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: rgb(0, 153, 255);">
+                                                Bonds of Corruption [W]
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Armor reduction increased from 10 to 15.
+                                                </li>
+                                                <li>
+                                                    Slow amount increased from 20% to 25%.
+                                                </li>
+                                                <li>
+                                                    Duration reduced from 4 to 3 seconds.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>
+                                        Level 10
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: rgb(0, 153, 255);">
+                                                Containment Disc [R1]
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Additional functionality: Heroes leaving Containment are Silenced for 1.5 seconds.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>
+                                        Level 16
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: rgb(0, 153, 255);">
+                                                Armored Assault [Passive]
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Physical damage bonus increased from 20% to 25%.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <blockquote>
+                                <strong>
+                                    Developer Comment:
+                                </strong>
+                                It can be hard for Maiev to outmaneuver her opponents late in the game, so we're excited to see what Maiev players will do with an extra charge of Vault of the Wardens. This is also the first time we're adding new functionality through a level unlock rather than converting a baseline quest or popular talent, so we're interested in your feedback. Additionally, Containment Disc has fallen quite a bit behind Warden's Cage at all levels of play, so we're adding a Silence to further isolate targets and to interrupt big moments.
+                            </blockquote>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2020-08-19">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2020-08-19 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.51.2.81376
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2020-08-19" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/23499824#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Fixed an issue where Pursuit of Vengeance could gain cooldown reduction when hitting non-Heroic targets.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2020-07-15">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2020-07-15 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.51.1.80702
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2020-07-15" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/23476689#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <p>
+                                <strong style="color: rgb(153, 0, 255);">
+                                    Talents
+                                </strong>
+                            </p>
+                            <ul>
+                                <li>
+                                    <strong>
+                                        Level 1
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Pursuit of Vengeance [W]
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Additional functionality: Each Hero hit by Spirit of Vengeance reduces the cooldown of
+                            Umbral Bind by 1 second.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>
+                                        Level 7
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Bonds of Corruption [W]
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Additional functionality: Enemy Heroes pulled by Umbral Bind have their Movement Speed
+                            reduced by 20% for 4 seconds.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>
+                                        Level 10
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Containment Disc [R1]
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Cooldown reduced from 50 to 40 seconds.
+                                                </li>
+                                                <li>
+                                                    Mana cost reduced from 60 to 50.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>
+                                        Level 16
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Vengeful Knives [Q]
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    New functionality: Dealing damage to enemy Heroes causes the next cast of Fan of Knives that
+                            hits enemy Heroes to deal 1% maximum Health as bonus damage, up to 5%.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <blockquote>
+                                <strong>
+                                    Developer Comment:
+                                </strong>
+                                Maiev's talents are largely in a pretty good place, but there's generally 1 talent on most tiers that is not
+        favored compared to its counterparts. We're making some adjustments to these talents in hopes that players will
+        consider them more equal to their peers.
+                            </blockquote>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2020-02-12">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2020-02-12 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.49.3.78256
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2020-02-12" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/23305953#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <div>
+                            </div>
+                            <p>
+                                <strong style="color: rgb(153, 0, 255);">
+                                    Talents
+                                </strong>
+                            </p>
+                            <ul>
+                                <li>
+                                    <strong>
+                                        Level 16
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Cruel Chain [W]
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    New functionality: Umbral Bind grants 25% Movement Speed for 2.5 seconds. In addition, each
+                            time Maiev deals damage to tethered targets, Umbral Bind's pull damage to all targets is
+                            increased by 30%, up to 150%.
+                                                </li>
+                                                <li>
+                                                    This is a reversion to Cruel Chain's previous functionality before last balance patch.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <blockquote>
+                                <strong>
+                                    Developer Comment:
+                                </strong>
+                                We weren't satisfied that the changes we recently made to Maiev's Cruel Chain talent were a clear enough win for
+        the hero overall, so we're going to revert the changes we made to this talent. However, we do believe that
+        Vengeful Knives is in a better, more competitive spot compared to before, so we are keeping those changes in.
+                            </blockquote>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2020-01-22">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2020-01-22 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.49.2.77981
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2020-01-22" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/23237905#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <div>
+                            </div>
+                            <p>
+                                <strong style="color: rgb(153, 0, 255);">
+                                    Talents
+                                </strong>
+                            </p>
+                            <ul>
+                                <li>
+                                    <strong>
+                                        Level 16
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Cruel Chain [W]
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    New functionality: Umbral Bind grants 25% Movement Speed for 2.5 seconds, and its pull
+                            damage is increased by 30% for each tethered target beyond the first, up to 120%.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Vengeful Knives [E]
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    New functionality: for 5 seconds after teleporting with Spirit of Vengeance, Fan of Knives
+                            will deal 1% maximum Health as bonus damage to enemy Heroes. Increase this damage bonus by
+                            an additional 1% for each enemy Hero hit by Spirit of Vengeance.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <blockquote>
+                                <strong>
+                                    Developer Comment:
+                                </strong>
+                                While Maiev is a terror in the hands of the more elite portion of our playerbase, we don't want that to be a
+        reason to not improve talents that we feel could use the help. Cruel Chain and Vengeful Knives have parts of
+        their functionality that didn't feel particularly impactful, so we're adding more clear and useful benefits to
+        each of them, which should make them more usable.
+                            </blockquote>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2019-07-10">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2019-07-10 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.46.1.75132
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2019-07-10" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/23057727#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <p>
+                            </p>
+                            <p>
+                                <strong style="color: rgb(153, 0, 255);">
+                                    Abilities
+                                </strong>
+                            </p>
+                            <ul>
+                                <li>
+                                    <strong style="color: rgb(0, 153, 255);">
+                                        Level 4
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <b>
+                                                Sudden Vengeance [E]
+                                            </b>
+                                            <ul>
+                                                <li>
+                                                    Damage increased from 5% to 6% maximum Health
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Level 7
+                                        </strong>
+                                    </span>
+                                    <ul>
+                                        <li>
+                                            <strong>
+                                                Bonds of Corruption [W]
+                                            </strong>
+                                            <ul style="list-style-type: circle;">
+                                                <li>
+                                                    Adjusted Functionality: Now reduces Armor by 10 for 4 seconds
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div>
+                                <blockquote>
+                                    <strong>
+                                        Developer Comment:
+                                    </strong>
+                                    We're slightly adjusting Bonds of Corruption to better take advantage of Maiev's ability to capitalize on
+            good Umbral Bind pulls by following up with multiple casts of Fan of Knives.  This should allow the talent
+            to be more generally useful outside of teams that primarily take advantage of auto-attacks for their damage.
+                                </blockquote>
+                            </div>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2019-05-22">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2019-05-22 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.45.1.74238
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2019-05-22" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/22990045#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <p>
+                            </p>
+                            <p>
+                                <strong style="color: rgb(153, 0, 255);">
+                                    Base
+                                </strong>
+                            </p>
+                            <ul>
+                                <li>
+                                    <font color="#0099ff">
+                                        <b>
+                                            Spirit of Vengeance [E]
+                                        </b>
+                                    </font>
+                                    <ul>
+                                        <li>
+                                            Damage reduced from 180 to 150
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <p>
+                                <font color="#9900ff">
+                                    <b>
+                                        Abilities
+                                    </b>
+                                </font>
+                            </p>
+                            <ul>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Level 4
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            <strong>
+                                                Sudden Vengeance [E]
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    No longer requires Maiev to Blink within .35 seconds of the Spirit of Vengeance hitting an
+                            enemy Hero for its effect to proc
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Level 7
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            <strong>
+                                                Ruthless Spirit [E]
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    New functionality: Hitting an enemy Hero with Spirit of Vengeance causes Maiev to deal 15%
+                            increased damage for 4 seconds.  This can stack up to 2 times.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div>
+                                <blockquote>
+                                    <strong>
+                                        Developer Comment:
+                                    </strong>
+                                    To help curb Maiev's performance at the highest levels of play, we are reducing her wave clear damage with
+            Spirit of Vengeance, which should mitigate her ability to easily rotate between lanes for ganks.  Due to the
+            fairly low pick rates of talents related to the ability, we also saw an opportunity to beef them up and make
+            them more meaningful options compared to others on their tiers.
+                                </blockquote>
+                            </div>
+                            <p>
+                                <strong>
+                                </strong>
+                            </p>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2019-02-12">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2019-02-12 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.43.0.72191
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2019-02-12" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/22887055#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Fan of Knives will now refund the correct amount of Mana.
+                                </li>
+                                <li>
+                                    Fixed an issue with Blade Dance's visual effects blocking command inputs.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-ptr" id="patch2019-02-04">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/ptr-patch.svg"/>
+                            <span class="text-shadow">
+                                2019-02-04 PTR Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.43.0.72053
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2019-02-04" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/22882354#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Fan of Knives will now refund the correct amount of Mana.
+                                </li>
+                                <li>
+                                    Fixed an issue with Blade Dance's visual effects blocking command inputs.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2019-01-23">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2019-01-23 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.42.1.71652
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2019-01-23" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/22863339#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <p>
+                            </p>
+                            <p>
+                                <strong style="color: rgb(153, 0, 255);">
+                                    Talents
+                                </strong>
+                            </p>
+                            <ul style="list-style-type: circle;">
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Level 4
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Pin Down (Q)
+                                            <ul>
+                                                <li>
+                                                    First Reward damage bonus increased from 15 to 25%
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Level 7
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Bonds of Corruption (W)
+                                            <ul>
+                                                <li>
+                                                    Armor reduction duration increased from 3 to 4 seconds
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Level 13
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Shadow Armor (E)
+                                            <ul>
+                                                <li>
+                                                    Duration increased from 3 to 3.5 seconds
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2018-06-27">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2018-06-27 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.34.3.66182
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2018-06-27" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/21905928#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <div>
+                            </div>
+                            <div>
+                                <span style="color: rgb(153, 51, 255);">
+                                    <strong>
+                                        Abilities
+                                    </strong>
+                                </span>
+                            </div>
+                            <ul>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Warden's Cage (R)
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Warden Avatar duration reduced from 7 to 5 seconds.
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div>
+                                <span style="color: rgb(153, 51, 255);">
+                                    <strong>
+                                        Talents
+                                    </strong>
+                                </span>
+                            </div>
+                            <ul>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Level 1
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Pursuit of Vengeance (W/E)
+                                            <ul>
+                                                <li>
+                                                    Cooldown reduction per Hero tethered increased from 1.5 to 2.5 seconds.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Level 13
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Shadow Armor (E)
+                                            <ul>
+                                                <li>
+                                                    Armor duration increased from 2.5 to 3 seconds.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Level 16
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Cruel Chain (W)
+                                            <ul>
+                                                <li>
+                                                    Damage bonus per stack reduced from 40% to 30%.
+                                                </li>
+                                                <li>
+                                                    Maximum damage bonus reduced from 200% to 150%.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            Vengeful Knives (Q/E)
+                                            <ul>
+                                                <li>
+                                                    Bonus damage per Hero hit increased from 1.2% to 1.5% maximum Health.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <blockquote>
+                                <strong>
+                                    Developer Comment:
+                                </strong>
+                                These changes are directed towards fixing some of Maiev's lower win-rate talents. We also wanted to address the
+        duration of Warden's Cage. We like that it is a big moment for Maiev, but we don't feel it needs to linger quite
+        so long.
+                            </blockquote>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2018-06-06">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2018-06-06 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.33.1.65617
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2018-06-06" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/21791354#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <div>
+                            </div>
+                            <div>
+                                <span style="color: rgb(153, 51, 255);">
+                                    <strong>
+                                        Abilities
+                                    </strong>
+                                </span>
+                            </div>
+                            <ul>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Umbral Bind (W)
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Cooldown increased from 12 to 14 seconds.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Spirit of Vengeance (E)
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Cooldown increased from 10 to 13 seconds.
+                                        </li>
+                                        <li>
+                                            Damage increased from 100 to 180.
+                                        </li>
+                                        <li>
+                                            Adjusted functionality:
+                                            <ul>
+                                                <li>
+                                                    No longer deals bonus damage to Heroes.
+                                                </li>
+                                                <li>
+                                                    Instead, if Spirit of Vengeance hits an enemy Hero, its cooldown is reduced by 4 seconds.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div>
+                                <span style="color: rgb(153, 51, 255);">
+                                    <strong>
+                                        Talents
+                                    </strong>
+                                </span>
+                            </div>
+                            <ul>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Level 4
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Blade Dance (Q)
+                                            <ul>
+                                                <li>
+                                                    Area of effect reduced from 4 to 3.5.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <blockquote>
+                                <strong>
+                                    Developer Comment:
+                                </strong>
+                                The cooldown increase for Umbral Bind will grant the Warden's enemies a bit more of a reprieve between cases of
+        being chained. We are also shifting some of the complexity of Spirit of Vengeance into cooldown reduction upon
+        hitting a Hero, rather than providing bonus Hero damage. This increases Maiev's capability for wave-clear,
+        rewards players that use the ability to engage, and reduces its usefulness as an escape. Overall, Maiev's kit is
+        still slightly over-performing, and we're hoping these changes will get her into a sweet spot.
+                            </blockquote>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-ptr" id="patch2018-06-04">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/ptr-patch.svg"/>
+                            <span class="text-shadow">
+                                2018-06-04 PTR Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.34.0.65579
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2018-06-04" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/21795071#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <div>
+                            </div>
+                            <div>
+                                <span style="color: rgb(153, 51, 255);">
+                                    <strong>
+                                        Abilities
+                                    </strong>
+                                </span>
+                            </div>
+                            <ul>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Umbral Bind (W)
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Cooldown increased from 12 to 14 seconds.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Spirit of Vengeance (E)
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Cooldown increased from 10 to 13 seconds.
+                                        </li>
+                                        <li>
+                                            Damage increased from 100 to 180.
+                                        </li>
+                                        <li>
+                                            Adjusted functionality:
+                                            <ul>
+                                                <li>
+                                                    No longer deals bonus damage to Heroes.
+                                                </li>
+                                                <li>
+                                                    Instead, if Spirit of Vengeance hits an enemy Hero, its cooldown is reduced by 4 seconds.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div>
+                                <span style="color: rgb(153, 51, 255);">
+                                    <strong>
+                                        Talents
+                                    </strong>
+                                </span>
+                            </div>
+                            <ul>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Level 4
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Blade Dance (Q)
+                                            <ul>
+                                                <li>
+                                                    Area of effect reduced from 4 to 3.5.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <blockquote>
+                                <strong>
+                                    Developer Comment:
+                                </strong>
+                                The cooldown increase for Umbral Bind will grant the Warden's enemies a bit more of a reprieve between cases of
+        being chained. We are also shifting some of the complexity of Spirit of Vengeance into cooldown reduction upon
+        hitting a Hero, rather than providing bonus Hero damage. This increases Maiev's capability for wave-clear,
+        rewards players that use the ability to engage, and reduces its usefulness as an escape. Overall, Maiev's kit is
+        still slightly over-performing, and we're hoping these changes will get her into a sweet spot.
+                            </blockquote>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2018-05-09">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2018-05-09 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.32.2.64863
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2018-05-09" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/21749146#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <div>
+                            </div>
+                            <div>
+                                <span style="color: rgb(153, 51, 255);">
+                                    <strong>
+                                        Stats
+                                    </strong>
+                                </span>
+                            </div>
+                            <ul>
+                                <li>
+                                    Health reduced from 2150 to 2021.
+                                </li>
+                                <li>
+                                    Health Regeneration reduced from 4.48 to 4.21.
+                                </li>
+                                <li>
+                                    Basic Attack damage reduced from 150 to 145.
+                                </li>
+                            </ul>
+                            <div>
+                                <span style="color: rgb(153, 51, 255);">
+                                    <strong>
+                                        Abilities
+                                    </strong>
+                                </span>
+                            </div>
+                            <ul>
+                                <li>
+                                    <span style="color: rgb(0, 153, 255);">
+                                        <strong>
+                                            Vault of the Wardens (R)
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Cooldown increased from 12 to 13 seconds.
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2018-03-21">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2018-03-21 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.30.6.63402
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2018-03-21" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/21637154#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <p>
+                            </p>
+                            <p>
+                                <strong style="color: rgb(153, 0, 255);">
+                                    Abilities
+                                </strong>
+                            </p>
+                            <ul>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Vault of Wardens (D)
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Cooldown increased from 9 to 12 seconds
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Fan of Knives (Q)
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Damage reduced from 162 to 152
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Containment Disk (R)
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Cooldown reduced from 65 to 50 seconds
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Warden's Cage (R)
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Cooldown increased from 80 to 100 seconds
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <p>
+                                <strong style="color: rgb(153, 0, 255);">
+                                    Talents
+                                </strong>
+                            </p>
+                            <ul>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Level 7
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Blade Dance (Q)
+                                            <ul>
+                                                <li>
+                                                    Damage reduced from 54 to 50
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Level 13
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Shadow Armor (E)
+                                            <ul>
+                                                <li>
+                                                    Armor reduced from 25 to 20
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <blockquote>
+                                <strong>
+                                    Developer Comment:
+                                </strong>
+                                Maiev is still a powerhouse in the Nexus. To combat this, we're reducing Maiev's damage potential by lowering
+        Fan of Knives damage and Blade Dance (which has powerful synergy with Armored Assault, another overperforming
+        Talent.) We're also allowing opponents more opportunities to punish Maiev by increasing Vault of the Wardens'
+        cooldown and reducing the power of Shadow Armor.
+                            </blockquote>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2018-02-21">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2018-02-21 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.30.3.62424
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2018-02-21" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/21535475#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <p>
+                            </p>
+                            <p>
+                                <strong style="color: rgb(153, 0, 255);">
+                                    Stats
+                                </strong>
+                            </p>
+                            <ul style="list-style-type: circle;">
+                                <li>
+                                    Health reduced from 2236 to 2150
+                                </li>
+                                <li>
+                                    Health Regeneration reduced from 4.66 to 4.48
+                                </li>
+                            </ul>
+                            <p>
+                                <strong style="color: rgb(153, 0, 255);">
+                                    Abilities
+                                </strong>
+                            </p>
+                            <ul>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Vault of the Wardens (Trait)
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Cooldown increased from 8 to 9 seconds
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Fan of Knives (Q)
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Damage reduced from 170 to 162
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <p>
+                                <strong style="color: rgb(153, 0, 255);">
+                                    Talents
+                                </strong>
+                            </p>
+                            <ul>
+                                <li>
+                                    <strong>
+                                        Level 16
+                                    </strong>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Armored Assault (Passive)
+                                            <ul>
+                                                <li>
+                                                    Damage bonus reduced from 25% to 20%
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            Vengeful Knives (E)
+                                            <ul>
+                                                <li>
+                                                    Bonus damage per Hero hit increased from 1% to 1.2%
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <blockquote>
+                                <strong>
+                                    Developer Comment:
+                                </strong>
+                                The changes we released on
+        helped bring Maiev's win-rate down to mortal levels, but she was still a bit too powerful, overall. Today's
+        changes are aimed at slightly lowering both her survivability and burst damage throughput. Our data is showing
+        the majority of her Talents are in healthy spots, but we will keep an eye on them as players start adapting to
+        certain playstyles.
+                            </blockquote>
+                            <p>
+                            </p>
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-hotfix" id="patch2018-02-14">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/hotfix-patch.svg"/>
+                            <span class="text-shadow">
+                                2018-02-14 Hotfix Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.30.2.62212
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2018-02-14" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/21514203#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Casting Spirit of Vengeance just as a Core is destroyed will no longer cause the Spirit to cease animating.
+                                </li>
+                                <li>
+                                    Activating Naisha's Memento will now correctly display an icon indicating its duration in the buff bar.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2018-02-09">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2018-02-09 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.30.1.62119
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2018-02-09" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/21508378#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <p>
+                            </p>
+                            <p>
+                                <strong style="color: rgb(153, 0, 255);">
+                                    Stats
+                                </strong>
+                            </p>
+                            <ul>
+                                <li>
+                                    Basic Attack Damage reduced from 162 to 150
+                                </li>
+                                <li>
+                                    Base Maximum Health increased from 2150 to 2236
+                                </li>
+                                <li>
+                                    Health Regeneration increased from 4.48 to 4.66
+                                </li>
+                            </ul>
+                            <p>
+                                <strong style="color: rgb(153, 0, 255);">
+                                    Abilities
+                                </strong>
+                            </p>
+                            <ul>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Fan of Knives (Q)
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Damage decreased from 180 to 170
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Vault of the Wardens (D)
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            No longer grants passive Armor
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <p>
+                                <strong style="color: rgb(153, 0, 255);">
+                                    Talents
+                                </strong>
+                            </p>
+                            <ul>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Level 1
+                                        </strong>
+                                    </span>
+                                    <ul>
+                                        <li>
+                                            Naisha's Memento (Active)
+                                            <ul>
+                                                <li>
+                                                    Bounces no longer deal bonus damage
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Level 16
+                                        </strong>
+                                    </span>
+                                    <ul>
+                                        <li>
+                                            Armored Assault (Passive)
+                                            <ul>
+                                                <li>
+                                                    Physical Damage bonus decreased from 35 to 25%
+                                                </li>
+                                                <li>
+                                                    Now activates if Maiev has any amount of bonus Armor
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <blockquote>
+                                <strong>
+                                    Developer Comment:
+                                </strong>
+                                Maiev has arrived in the Nexus and seems to be obliterating her foes (as she should) but is slightly deadlier
+        than we intended. The Warden's survivability is currently too high, which allows her to get tons of resets on
+        Fan of Knives while ignoring enemy threats. To address this, we're removing her armor gain from Vault of the
+        Wardens, while slightly lowering her damage output so that she has to stick around in the fight a little longer
+        to take down her opponents. After these changes, we'll continue to keep an eye on Maiev to be sure that she has
+        enough survivability to perform her melee Assassin role, without it feeling like her enemies have little-to-no
+        options for counterplay
+                            </blockquote>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p style="text-align: center;">
+                            </p>
+                            <p style="text-align: center;">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2018-02-06">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2018-02-06 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.30.0.61952
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2018-02-06" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/21509171#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <ul>
+                                <li>
+                                    <div>
+                                        <p>
+                                            Maiev Shadowsong stood watch over the imprisoned Betrayer for ten thousand years, and hunted him
+                    relentlessly after he was released. Some say she's determined; others say she's obsessed. Either
+                    way, she will stop at nothing to ensure the security of her world.
+                                        </p>
+                                    </div>
+                                    <p>
+                                    </p>
+                                    <p>
+                                    </p>
+                                    <p>
+                                        <span style="color: #9933ff;">
+                                            <strong>
+                                                Trait
+                                            </strong>
+                                        </span>
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <span style="color: #0099ff;">
+                                                <strong>
+                                                    Vault of the Wardens (D)
+                                                </strong>
+                                            </span>
+                                            <ul style="list-style-type: circle;">
+                                                <li>
+                                                    Leap into the air, becoming immune to all hostile effects for 0.75 seconds.
+                                                </li>
+                                                <li>
+                                                    <span style="color: #FF8C00;">
+                                                        Passive: Maiev has 10 Armor.
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        <span style="color: #9933ff;">
+                                            <strong>
+                                                Basic Abilities
+                                            </strong>
+                                        </span>
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <span style="color: #0099ff;">
+                                                <strong>
+                                                    Fan of Knives (Q)
+                                                </strong>
+                                            </span>
+                                            <ul style="list-style-type: circle;">
+                                                <li>
+                                                    Deal 180 damage to enemies in a crescent area.
+                                                </li>
+                                                <li>
+                                                    Hitting at least 2 enemy Heroes with Fan of Knives reduces its cooldown to 0.5 seconds, and
+                            refunds the Mana cost.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <span style="color: #0099ff;">
+                                                <strong>
+                                                    Umbral Bind (W)
+                                                </strong>
+                                            </span>
+                                            <ul style="list-style-type: circle;">
+                                                <li>
+                                                    Maiev's next Basic Attack cleaves and applies a tether to enemy Heroes hit for 2.5 seconds.
+                            If a tethered Hero moves too far from Maiev, they are pulled toward her, dealing 110 damage
+                            and breaking the tether.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <span style="color: #0099ff;">
+                                                <strong>
+                                                    Spirit of Vengeance (E)
+                                                </strong>
+                                            </span>
+                                            <ul style="list-style-type: circle;">
+                                                <li>
+                                                    Send a shadow of Maiev outward that will return to its cast location, dealing 100 damage to
+                            enemies along both paths. Deals 100% more damage to enemy Heroes.
+                                                </li>
+                                                <li>
+                                                    Reactivate to Blink to the shadow's location.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        <span style="color: #9933ff;">
+                                            <strong>
+                                                Heroic Abilities
+                                            </strong>
+                                        </span>
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <span style="color: #0099ff;">
+                                                <strong>
+                                                    Containment Disc (R)
+                                                </strong>
+                                            </span>
+                                            <ul style="list-style-type: circle;">
+                                                <li>
+                                                    Throw a glaive in the target direction. If an enemy Hero is hit, Containment Disk can be
+                            reactivated to remove their vision and Time Stop them for 4 seconds.
+                                                </li>
+                                                <li>
+                                                    Containment Disc automatically activates 6 seconds after hitting a Hero.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <span style="color: #0099ff;">
+                                                <strong>
+                                                    Warden's Cage (R)
+                                                </strong>
+                                            </span>
+                                            <ul style="list-style-type: circle;">
+                                                <li>
+                                                    Summon 8 Warden Avatars as a cage around Maiev. After 1.5 seconds, enemy Heroes that come in
+                            contact with an Avatar re knocked to the center of the cage, and that Avatar is consumed.
+                            Warden Avatars last 7 seconds.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <p>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <strong>
+                                                <font color="#9900ff">
+                                                    Abilities
+                                                </font>
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    <strong>
+                                                        <font color="#9900ff">
+                                                            ​
+                                                        </font>
+                                                        <font color="#0099ff">
+                                                            Vault of the Wardens (D)
+                                                        </font>
+                                                    </strong>
+                                                    <ul style="list-style-type: circle;">
+                                                        <li>
+                                                            <span style="color: #FF8C00;">
+                                                                Passive Armor bonus reduced from 15 to 10
+                                                            </span>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <p>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-ptr" id="patch2018-01-29">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/ptr-patch.svg"/>
+                            <span class="text-shadow">
+                                2018-01-29 PTR Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.30.0.61718
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2018-01-29" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/21387327#maiev" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <div>
+                                <p>
+                                    Maiev Shadowsong stood watch over the imprisoned Betrayer for ten thousand years, and hunted him
+            relentlessly after he was released. Some say she's determined; others say she's obsessed. Either way, she
+            will stop at nothing to ensure the security of her world.
+                                </p>
+                            </div>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                                <span style="color: #9933ff;">
+                                    <strong>
+                                        Trait
+                                    </strong>
+                                </span>
+                            </p>
+                            <ul>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Vault of the Wardens (D)
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Leap into the air, becoming immune to all hostile effects for 0.75 seconds.
+                                        </li>
+                                        <li>
+                                            Passive: Maiev has 15 Armor.
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <p>
+                                <span style="color: #9933ff;">
+                                    <strong>
+                                        Basic Abilities
+                                    </strong>
+                                </span>
+                            </p>
+                            <ul>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Fan of Knives (Q)
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Deal 180 damage to enemies in a crescent area.
+                                        </li>
+                                        <li>
+                                            Hitting at least 2 enemy Heroes with Fan of Knives reduces its cooldown to 0.5 seconds, and refunds
+                    the Mana cost.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Umbral Bind (W)
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Maiev's next Basic Attack cleaves and applies a tether to enemy Heroes hit for 2.5 seconds. If a
+                    tethered Hero moves too far from Maiev, they are pulled toward her, dealing 110 damage and breaking
+                    the tether.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Spirit of Vengeance (E)
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Send a shadow of Maiev outward that will return to its cast location, dealing 100 damage to enemies
+                    along both paths. Deals 100% more damage to enemy Heroes.
+                                        </li>
+                                        <li>
+                                            Reactivate to Blink to the shadow's location.
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <p>
+                                <span style="color: #9933ff;">
+                                    <strong>
+                                        Heroic Abilities
+                                    </strong>
+                                </span>
+                            </p>
+                            <ul>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Containment Disc (R)
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Throw a glaive in the target direction. If an enemy Hero is hit, Containment Disk can be reactivated
+                    to remove their vision and Time Stop them for 4 seconds.
+                                        </li>
+                                        <li>
+                                            Containment Disc automatically activates 6 seconds after hitting a Hero.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Warden's Cage (R)
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Summon 8 Warden Avatars as a cage around Maiev. After 1.5 seconds, enemy Heroes that come in contact
+                    with an Avatar re knocked to the center of the cage, and that Avatar is consumed. Warden Avatars
+                    last 7 seconds.
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="checkbox-warning">
+                <strong>
+                    Warning!
+                </strong>
+                No results found. Select more Patch Types by using the dropdown menu on the top-right of the webpage.
+            </div>
+        </div>
+        <div id="toast">
+            Link copied to clipboard!
+        </div>
+        <footer>
+            <p>
+                © 2025 Nexus Patch Notes is a community-made website for helping Heroes of the Storm players to consult Patch Notes.
+                <br/>
+                © 2014 Blizzard Entertainment, Inc. All rights reserved. Heroes of the Storm is a trademark of Blizzard Entertainment, Inc.
+            </p>
+        </footer>
+        <div class="svg hover" id="BackToTop">
+        </div>
+    </body>
+    <script>
+        const btn = document.getElementById('BackToTop');
+
+    // Show/Hide on scroll
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 150) {
+            btn.classList.add('show');
+        } else {
+            btn.classList.remove('show');
+        }
+    });
+
+    // Smooth scroll to top
+    btn.addEventListener('click', () => {
+        window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+        });
+    });
+    </script>
+    <script>
+        function CopyLink(element) {
+        link = window.location.href.split("#")[0];
+        reference = element.getAttribute('href');
+        text = link + reference;
+        navigator.clipboard.writeText(text);
+        
+        var x = document.getElementById("toast");
+        x.className = "show";
+        setTimeout(
+            function(){
+                x.className = x.className.replace("show", "");
+            },
+            3000
+        );
+    }
+    </script>
+    <script>
+        function toggleDetails() {
+        document.querySelectorAll(".toggle").forEach(el => {
+            el.classList.toggle("hidden");
+        });
+    }
+    </script>
+    <script>
+        const dropdown = document.getElementById('patch-dropdown');
+    const button = dropdown.querySelector('.dropdown-button');
+    const panel = dropdown.querySelector('.dropdown-content');
+    const checkboxes = panel.querySelectorAll('input[type="checkbox"]');
+    const warningDiv = document.querySelector('.checkbox-warning');
+
+    // Update warning visibility
+    function updateWarning() {
+        const panels = document.querySelectorAll('.panel');
+        const allPanelsHidden = [...panels].every(p => window.getComputedStyle(p).display === 'none');
+        warningDiv.style.display = allPanelsHidden ? 'block' : 'none';
+    }
+
+    // Toggle visibility of .toggle-* elements
+    function setVisibilityForValue(value, show) {
+        document.querySelectorAll('.toggle-' + value).forEach(el => {
+            el.classList.toggle('hidden', !show);
+        });
+    }
+
+    // Dropdown toggle
+    button.addEventListener('click', (e) => {
+        e.stopPropagation();
+        dropdown.classList.toggle('open');
+    });
+
+    // Close dropdown when clicking outside
+    document.addEventListener('click', (e) => {
+        if (!dropdown.contains(e.target)) {
+            dropdown.classList.remove('open');
+        }
+    });
+
+    // Checkbox listeners
+    checkboxes.forEach(cb => {
+        cb.addEventListener('change', () => {
+            setVisibilityForValue(cb.value, cb.checked);
+            updateWarning();
+        });
+    });
+
+    // Select all checkboxes by default and update UI
+    window.addEventListener('load', () => {
+        checkboxes.forEach(cb => cb.checked = true);
+        checkboxes.forEach(cb => setVisibilityForValue(cb.value, cb.checked));
+        updateWarning();
+    });
+    </script>
+    <script>
+        document.querySelectorAll('.table-condensed th').forEach(th => {
+        th.textContent = th.textContent
+        .toLowerCase()
+        .replace(/\b\w/g, c => c.toUpperCase());
+    });
+    </script>
+</html>

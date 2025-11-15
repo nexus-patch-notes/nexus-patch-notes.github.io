@@ -1,0 +1,3234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <link href="../style.css" rel="stylesheet"/>
+        <title>
+            Li-Ming — Nexus Patch Notes
+        </title>
+        <link href="../images/assets/logo.png" rel="icon" type="image/x-icon"/>
+    </head>
+    <body>
+        <div class="hero-header fixed">
+            <div class="title-card">
+                <img class="icon-big" src="../images/heroes/liming.png"/>
+                <h3 class="text-shadow">
+                    Li-Ming
+                </h3>
+            </div>
+            <a class="guide-card centered partner-link" href="https://www.icy-veins.com/heroes/li-ming-build-guide">
+                <img aria-hidden="true" class="svg hover partner-logo" src="../images/icons/icy-veins.svg"/>
+                <h4 class="partner-link text-shadow">
+                    Li-Ming Build Guide
+                </h4>
+            </a>
+            <div class="dropdown" id="patch-dropdown">
+                <div class="dropdown-button">
+                    Patch Type
+                    <span class="dropdown-cursor">
+                        ▼
+                    </span>
+                </div>
+                <div class="dropdown-content">
+                    <label>
+                        <input checked="" type="checkbox" value="alpha"/>
+                        Alpha
+                    </label>
+                    <label>
+                        <input checked="" type="checkbox" value="beta"/>
+                        Beta
+                    </label>
+                    <label>
+                        <input checked="" type="checkbox" value="ptr"/>
+                        PTR
+                    </label>
+                    <label>
+                        <input checked="" type="checkbox" value="hotfix"/>
+                        Hotfix
+                    </label>
+                    <label>
+                        <input checked="" type="checkbox" value="live"/>
+                        Live
+                    </label>
+                </div>
+            </div>
+            <div class="navigation-bar">
+                <div class="toggle-button">
+                    <img aria-hidden="true" class="svg hover toggle" onclick="toggleDetails()" src="../images/icons/visible-details.svg">
+                        <img aria-hidden="true" class="svg hover toggle hidden" onclick="toggleDetails()" src="../images/icons/hidden-details.svg"/>
+                    </img>
+                </div>
+                <a href="../index.html">
+                    <img aria-hidden="true" class="svg hover" src="../images/icons/home.svg"/>
+                </a>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="panels-list">
+                <div class="panel panel-primary toggle-live" id="patch2025-09-30">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2025-09-30 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.55.13.95213
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2025-09-30" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://www.reddit.com/r/CursedHollow/comments/1nv5nz6/heroes_of_the_storm_live_update_20250930" title="View unofficial Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/reddit.svg"/>
+                                </a>
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/24229032#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    <strong>
+                                        Level 4
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Charged Blast
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Tal Rasha's Elements bonus is now additive instead of multiplicative.
+                                                </li>
+                                                <li>
+                                                    Now deals damage before the Basic Attack deals damage.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>
+                                        Level 7
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Seeker
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Now shows in the Death Recap as its own entry.
+                                                </li>
+                                                <li>
+                                                    Now displays as Seeker in the Death Recap.
+                                                </li>
+                                                <li>
+                                                    Now happens after the third Magic Missile deals damage.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>
+                                        Level 20
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Tal Rasha's Elements
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Tal Rasha's Elements bonus is now additive instead of multiplicative.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-ptr" id="patch2025-09-02">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/ptr-patch.svg"/>
+                            <span class="text-shadow">
+                                2025-09-02 PTR Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.55.13.94986
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2025-09-02" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/24232472#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    <strong>
+                                        Level 4
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Charged Blast
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Tal Rasha's Elements bonus is now additive instead of multiplicative.
+                                                </li>
+                                                <li>
+                                                    Now deals damage before the Basic Attack deals damage.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>
+                                        Level 7
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Seeker
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Now shows in the Death Recap as its own entry.
+                                                </li>
+                                                <li>
+                                                    Now displays as Seeker in the Death Recap.
+                                                </li>
+                                                <li>
+                                                    Now happens after the third Magic Missile deals damage.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>
+                                        Level 20
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Tal Rasha's Elements
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Tal Rasha's Elements bonus is now additive instead of multiplicative.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2025-07-29">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2025-07-29 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.55.12.94714
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2025-07-29" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://www.reddit.com/r/CursedHollow/comments/1mcpc95/heroes_of_the_storm_update_20250729" title="View unofficial Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/reddit.svg"/>
+                                </a>
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/24224135#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    <span style="color: rgb(255, 140, 0);">
+                                        <strong>
+                                            Level 20
+                                        </strong>
+                                    </span>
+                                    <ul>
+                                        <li>
+                                            <span style="color: rgb(255, 140, 0);">
+                                                <strong>
+                                                    Repulsion
+                                                </strong>
+                                            </span>
+                                            <ul>
+                                                <li>
+                                                    <span style="color: rgb(255, 140, 0);">
+                                                        Fixed an issue that caused Repulsion to not properly increase knockback speed.
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                            <span style="color: rgb(255, 140, 0);">
+                                            </span>
+                                        </li>
+                                    </ul>
+                                    <span style="color: rgb(255, 140, 0);">
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2025-05-15">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2025-05-15 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.55.11.94189
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2025-05-15" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://www.reddit.com/r/CursedHollow/comments/1knljvh/heroes_of_the_storm_update_20250515" title="View unofficial Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/reddit.svg"/>
+                                </a>
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/24205005#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    <strong>
+                                        Level 10
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Disintegrate
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Fixed an issue that allowed Disintegrate to be cast while moving.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2025-03-12">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2025-03-12 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.55.10.93810
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2025-03-12" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://www.reddit.com/r/CursedHollow/comments/1ja4h3a/heroes_of_the_storm_live_client_updated_20250312" title="View unofficial Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/reddit.svg"/>
+                                </a>
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/24185887#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    <strong>
+                                        Level 1
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Power Hungry
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Fixed an issue that caused an active Power Hungry buff to be removed when Li-Ming is killed.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-ptr" id="patch2025-02-21">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/ptr-patch.svg"/>
+                            <span class="text-shadow">
+                                2025-02-21 PTR Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.55.10.93733
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2025-02-21" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://www.reddit.com/r/CursedHollow/comments/1ivefjw/heroes_of_the_storm_ptr_update_20250221" title="View unofficial Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/reddit.svg"/>
+                                </a>
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/24180740#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    <strong>
+                                        Level 1
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Power Hungry
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Fixed an issue that caused an active Power Hungry buff to be removed when Li-Ming is killed.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2024-08-12">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2024-08-12 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.55.6.92665
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2024-08-12" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://www.reddit.com/r/CursedHollow/comments/1eso41g/heroes_of_the_storm_update_20240813" title="View unofficial Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/reddit.svg"/>
+                                </a>
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/24126146#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    <strong>
+                                        Level 1
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Aether Walker
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Fixed an issue that caused Aether Walker to apply the damage bonus to Magic Missiles incorrectly.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-ptr" id="patch2024-07-15">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/ptr-patch.svg"/>
+                            <span class="text-shadow">
+                                2024-07-15 PTR Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.55.6.92550
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2024-07-15" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://www.reddit.com/r/CursedHollow/comments/1e7wfxq/heroes_of_the_storm_ptr_updates_20240715_20240719" title="View unofficial Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/reddit.svg"/>
+                                </a>
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/24104602#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    <strong>
+                                        Level 1
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Aether Walker
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Fixed an issue that caused Aether Walker to apply the damage bonus to Magic Missiles incorrectly.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2024-05-21">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2024-05-21 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.55.5.92264
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2024-05-21" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://www.reddit.com/r/CursedHollow/comments/1cyo4tm/heroes_of_the_storm_update_20240521" title="View unofficial Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/reddit.svg"/>
+                                </a>
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/24096021#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <p>
+                                <strong style="color: rgb(153, 0, 255);">
+                                    Talents
+                                </strong>
+                            </p>
+                            <ul>
+                                <li>
+                                    <strong>
+                                        Level 10
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Disintegrate [R1]
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Can now be cancelled by pressing Stop or Hold Fire.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-ptr" id="patch2024-04-16">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/ptr-patch.svg"/>
+                            <span class="text-shadow">
+                                2024-04-16 PTR Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.55.5.92083
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2024-04-16" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://www.reddit.com/r/CursedHollow/comments/1c5wb1z/heroes_of_the_storm_ptr_update_20240417" title="View unofficial Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/reddit.svg"/>
+                                </a>
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/24077220#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <p>
+                                <strong style="color: rgb(153, 0, 255);">
+                                    Talents
+                                </strong>
+                            </p>
+                            <ul>
+                                <li>
+                                    <strong>
+                                        Level 10
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Disintegrate [R1]
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Can now be cancelled by pressing Stop or Hold Fire.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2024-02-06">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2024-02-06 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.55.4.91769
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2024-02-06" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://www.reddit.com/r/CursedHollow/comments/1atiwpr/comment/kqxl58l" title="View unofficial Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/reddit.svg"/>
+                                </a>
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/24061887#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Fixed an issue if Seeker is slected while Magic Missiles are in flight while Force Armor was selected.
+                                </li>
+                                <li>
+                                    Fixed an issue that caused Force Armor to grant multiple stacks from the same Magic Missiles cast.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-ptr" id="patch2024-01-17">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/ptr-patch.svg"/>
+                            <span class="text-shadow">
+                                2024-01-17 PTR Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.55.4.91690
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2024-01-17" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://www.reddit.com/r/heroesofthestorm/comments/19a3g68/patch_notes_explained_january_17_ptr" title="View unofficial Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/reddit.svg"/>
+                                </a>
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/24056177#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Fixed an issue if Seeker is slected while Magic Missiles are in flight while Force Armor was selected.
+                                </li>
+                                <li>
+                                    Fixed an issue that caused Force Armor to grant multiple stacks from the same Magic Missiles cast.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2023-11-16">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2023-11-16 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.55.4.91368
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2023-11-16" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://www.reddit.com/r/heroesofthestorm/comments/17wvv3i/heroes_difficulty_update_november_16_2023" title="View unofficial Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/reddit.svg"/>
+                                </a>
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/24031812#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Fixed an issue that caused Magic Missiles to not grant stacks of Force Armor when Tal Rasha's has been selected and Magic Missiles has not granted Spell Power.
+                                </li>
+                                <li>
+                                    Fixed an issue that caused Teleport to not be completely refunded by Critical Mass and Illusionist while Aether Walker is active.
+                                </li>
+                                <li>
+                                    Fixed an issue that caused Magic Missiles to hit Invulnerable enemies.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-ptr" id="patch2023-10-23">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/ptr-patch.svg"/>
+                            <span class="text-shadow">
+                                2023-10-23 PTR Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.55.4.91227
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2023-10-23" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://www.reddit.com/r/heroesofthestorm/comments/17et87v/heroes_difficulty_update_october_23_2023" title="View unofficial Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/reddit.svg"/>
+                                </a>
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/24017507#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Fixed an issue that caused Tal Rasha's Elements to prevent Force Armor from granting Block charges.
+                                </li>
+                                <li>
+                                    Fixed an issue where Aether Walker would sometime not reset correctly.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2020-05-06">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2020-05-06 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.50.1.79515
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2020-05-06" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/23411615#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <p>
+                                <strong style="color: rgb(153, 0, 255);">
+                                    Talents
+                                </strong>
+                            </p>
+                            <ul>
+                                <li>
+                                    <strong>
+                                        Level 10
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Disintegrate [R1]
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Cooldown reduced from 30 to 20 seconds.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <strong style="color: #0099ff;">
+                                                Wave of Force [R2]
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Cooldown increased from 20 to 30 seconds.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <blockquote>
+                                <strong>
+                                    Developer Comment:
+                                </strong>
+                                As Li-Ming has evolved, Wave of Force has become the more consistently powerful Heroic. It provides burst
+        damage, CC, and is instantly cast, whereas Disintegrate does its damage over time and causes Li-Ming to root
+        herself and become vulnerable. Because of this, we're swapping the cooldowns of these Heroics to better match
+        their power levels.
+                            </blockquote>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2019-10-15">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2019-10-15 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.48.2.76753
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2019-10-15" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/23181746#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <div>
+                            </div>
+                            <p>
+                                <strong style="color: rgb(153, 0, 255);">
+                                    Base
+                                </strong>
+                            </p>
+                            <ul>
+                                <li>
+                                    <strong>
+                                        Vitals
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            Health from 1232 to 1270.
+                                        </li>
+                                        <li>
+                                            Health regen from 2.57 to 2.65
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <p>
+                                <strong style="color: rgb(153, 0, 255);">
+                                    Talents
+                                </strong>
+                            </p>
+                            <ul>
+                                <li>
+                                    <strong>
+                                        Level 1
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <span style="color: #0099ff;">
+                                                <strong>
+                                                    Astral Presence [Passive]
+                                                </strong>
+                                            </span>
+                                            <ul>
+                                                <li>
+                                                    Removed.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <span style="color: #0099ff;">
+                                                <strong>
+                                                    Force Armor [Q]
+                                                </strong>
+                                            </span>
+                                            <ul>
+                                                <li>
+                                                    Additional functionality: Mana regeneration is increased by 100% while below 35% maximum Mana.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>
+                                        Level 4
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <span style="color: #0099ff;">
+                                                <strong>
+                                                    Triumvirate [W]
+                                                </strong>
+                                            </span>
+                                            <ul>
+                                                <li>
+                                                    Additional functionality: Max range Arcane Orbs also refund 40 Mana.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <blockquote>
+                                <strong>
+                                    Developer Comment:
+                                </strong>
+                                Li-Ming continues to be slightly lower performing than we would like, so these changes are directed at giving her a small survivability buff as well as a couple tweaks to under-performing Talents.
+                            </blockquote>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2019-08-28">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2019-08-28 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.47.2.76003
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2019-08-28" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/23090872#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <div>
+                                <strong>
+                                </strong>
+                            </div>
+                            <p>
+                                <strong style="color: rgb(153, 0, 255);">
+                                    Base
+                                </strong>
+                            </p>
+                            <ul>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Magic Missiles [Q]
+                                        </strong>
+                                    </span>
+                                    <ul>
+                                        <li>
+                                            Damage scaling increased from 3% to 3.5%.
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <p>
+                                <strong style="color: rgb(153, 0, 255);">
+                                    Talents
+                                </strong>
+                            </p>
+                            <ul>
+                                <li>
+                                    Rearranged talents at Levels 1 and 13 to appear in the same order as other Heroes (Q, W, E, etc.).
+                                </li>
+                                <li>
+                                    <strong>
+                                        Level 1
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <span style="color: #0099ff;">
+                                                <strong>
+                                                    Astral Presence [Passive]
+                                                </strong>
+                                            </span>
+                                            <ul>
+                                                <li>
+                                                    Mana threshold for Mana gain increased from 25% to 35%.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>
+                                        Level 7
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <span style="color: #0099ff;">
+                                                <strong>
+                                                    Seeker [Q]
+                                                </strong>
+                                            </span>
+                                            <ul>
+                                                <li>
+                                                    Damage increased from 125 to 140.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <span style="color: #0099ff;">
+                                                <strong>
+                                                    Zei's Vengeance [W]
+                                                </strong>
+                                            </span>
+                                            <ul>
+                                                <li>
+                                                    Damage increase bonus for distance traveled increased from 25% to 30%.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>
+                                        Level 10
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <span style="color: #0099ff;">
+                                                <strong>
+                                                    Disintegrate [R1]
+                                                </strong>
+                                            </span>
+                                            <ul>
+                                                <li>
+                                                    Damage increased from 11 to 12.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>
+                                        Level 13
+                                    </strong>
+                                    <ul>
+                                        <li>
+                                            <span style="color: #0099ff;">
+                                                <strong>
+                                                    Glass Cannon [Passive]
+                                                </strong>
+                                            </span>
+                                            <ul>
+                                                <li>
+                                                    Spell Power bonus increased from 15% to 20%.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <blockquote>
+                                <strong>
+                                    Developer Comment:
+                                </strong>
+                                While we haven't seen a huge change in Li-Ming's overall power since the Movement Speed changes to the game, we
+        took a look at her and wanted to give her a few buffs, particularly to under-powered talents. While a popular
+        suggestion, we don't feel that it's necessary yet to increase the speed of her Ability casts. We'll continue to
+        keep an eye on her as we get more data on her performance over time.
+                            </blockquote>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2019-04-17">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2019-04-17 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.44.1.73493
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2019-04-17" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/22933137#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <div>
+                                <strong>
+                                </strong>
+                            </div>
+                            <div>
+                                <p>
+                                    <strong>
+                                        <span style="color: #9900ff;">
+                                            Abilities
+                                        </span>
+                                    </strong>
+                                </p>
+                                <ul>
+                                    <li>
+                                        <strong>
+                                            <span style="color: #0099ff;">
+                                                Aether Walker (E)
+                                            </span>
+                                        </strong>
+                                        <ul style="list-style-type: circle;">
+                                            <li>
+                                                Adjusted Functionality: Now removes the Mana cost of Teleport
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <blockquote>
+                                    <strong>
+                                        Developer Comment:
+                                    </strong>
+                                    How about now?
+                                </blockquote>
+                            </div>
+                            <p>
+                                <strong>
+                                </strong>
+                            </p>
+                            <p>
+                                <strong>
+                                </strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2019-02-27">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2019-02-27 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.43.2.72481
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2019-02-27" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/22911361#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <p>
+                            </p>
+                            <p>
+                                <strong style="color: rgb(153, 0, 255);">
+                                    Talents
+                                </strong>
+                            </p>
+                            <ul>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Level 1
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Aether Walker (E)
+                                            <ul>
+                                                <li>
+                                                    Additional Functionality:
+                                                    <ul>
+                                                        <li>
+                                                            Casting Teleport causes Li-Ming's next cast of Magic Missiles to deal 10% increased
+                                    damage
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Level 4
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Triumvirate (W)
+                                            <ul>
+                                                <li>
+                                                    Cooldown reduction increased from 50% to 5 seconds
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Level 7
+                                        </strong>
+                                    </span>
+                                    <ul>
+                                        <li>
+                                            Zei's Vengeance (W)
+                                            <ul>
+                                                <li>
+                                                    Arcane Orb cooldown reduction reduced from 2 to 1 second
+                                                    <ul>
+                                                        <li>
+                                                            This should increase the total cooldown reduction of an Arcane Orb hitting with the
+                                    Triumvirate proc from 5 seconds to 6 seconds when Trimvirate and Zei's Vengeance are
+                                    both taken
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <blockquote>
+                                <strong>
+                                    Developer Comment:
+                                </strong>
+                                We're going to get you to want to pick Aether Walker. Just you wait…
+                            </blockquote>
+                            <p>
+                            </p>
+                            <div>
+                            </div>
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2019-01-23">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2019-01-23 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.42.1.71652
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2019-01-23" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/22863339#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <p>
+                            </p>
+                            <p>
+                                <strong style="color: rgb(153, 0, 255);">
+                                    Talents
+                                </strong>
+                            </p>
+                            <ul>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Level 1
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Aether Walker (E)
+                                            <ul>
+                                                <li>
+                                                    Damage taken time requirement for bonuses reduced from 4 to 3 seconds
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Level 13
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Diamond Skin (E)
+                                            <ul>
+                                                <li>
+                                                    Shield increased from 20 to 25%
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2018-10-16">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2018-10-16 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.39.0.69350
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2018-10-16" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/22548919#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Fixed an issue where Tal'Rasha's Elements would grant bonus damage to Calamity after being twice in a row.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-ptr" id="patch2018-10-08">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/ptr-patch.svg"/>
+                            <span class="text-shadow">
+                                2018-10-08 PTR Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.39.0.69099
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2018-10-08" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/22547648#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Fixed an issue where Tal'Rasha's Elements would grant bonus damage to Calamity after being twice in a row.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2018-09-04">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2018-09-04 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.37.0.67985
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2018-09-04" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/22448179#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Fixed an issue that prevented some “marked” effects from being consumed if the target was Shielded or Protected.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2018-06-12">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2018-06-12 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.34.0.65751
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2018-06-12" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/21849060#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Fixed an issue causing Disintegrate to deal one less damage tick than intended.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-ptr" id="patch2018-06-04">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/ptr-patch.svg"/>
+                            <span class="text-shadow">
+                                2018-06-04 PTR Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.34.0.65579
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2018-06-04" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/21795071#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Fixed an issue causing Disintegrate to deal one less damage tick than intended.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2018-04-24">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2018-04-24 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.32.0.64455
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2018-04-24" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/21719349#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Spell Armor granted by the Force Armor Talent is now correctly consumed when hit by Ability damage from non-Heroic sources.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-ptr" id="patch2018-04-16">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/ptr-patch.svg"/>
+                            <span class="text-shadow">
+                                2018-04-16 PTR Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.32.0.64255
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2018-04-16" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/21671838#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Spell Armor granted by the Force Armor Talent is now correctly consumed when hit by Ability damage from non-Heroic sources.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2018-04-11">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2018-04-11 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.31.2.64100
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2018-04-11" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/21656682#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <div>
+                            </div>
+                            <div>
+                                <span style="color: rgb(153, 51, 255);">
+                                    <strong>
+                                        Talents
+                                    </strong>
+                                </span>
+                            </div>
+                            <ul>
+                                <li>
+                                    <span style="color: rgb(0, 153, 255);">
+                                        <strong>
+                                            Level 1
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            <strong>
+                                                Aether Walker (E)
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Reduced the time required after taking damage from 5 to 4 seconds.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span style="color: rgb(0, 153, 255);">
+                                        <strong>
+                                            Level 4
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            <strong>
+                                                Dominance (Trait)
+                                            </strong>
+                                            <ul>
+                                                <li>
+                                                    Adjusted functionality:
+                                                    <ul>
+                                                        <li>
+                                                            Takedowns now restore 30% of missing Health.
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2018-02-06">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2018-02-06 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.30.0.61952
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2018-02-06" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/21509171#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    The Astral Presence icon is no longer missing its mouseover tooltip.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-ptr" id="patch2018-01-29">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/ptr-patch.svg"/>
+                            <span class="text-shadow">
+                                2018-01-29 PTR Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.30.0.61718
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2018-01-29" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/21387327#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    The Astral Presence icon is no longer missing its mouseover tooltip.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2017-12-12">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2017-12-12 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.29.3.60339
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2017-12-12" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/21307436#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Zei's Vengeance and Arcane Orb tooltips have been updated to clarify bonus damage functionality. Damage amounts have not been changed.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-ptr" id="patch2017-11-20">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/ptr-patch.svg"/>
+                            <span class="text-shadow">
+                                2017-11-20 PTR Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.29.3.59837
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2017-11-20" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/21194320#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Zei's Vengeance and Arcane Orb tooltips have been updated to clarify bonus damage functionality. Damage amounts have not been changed.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2017-09-26">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2017-09-26 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.28.0.57797
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2017-09-26" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/21072294#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Templar Li-Ming will now correctly play death sounds when killed.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-ptr" id="patch2017-09-18">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/ptr-patch.svg"/>
+                            <span class="text-shadow">
+                                2017-09-18 PTR Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.28.0.57547
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2017-09-18" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/21045721#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Templar Li-Ming will now correctly play death sounds when killed.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2017-09-05">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2017-09-05 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.27.3.57062
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2017-09-05" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/21043671#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Learning the Zei's Vengeance and Arcane Orbit Talents will no longer cause Arcane Orb to deal reduced damage
+            at close-range.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-ptr" id="patch2017-08-28">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/ptr-patch.svg"/>
+                            <span class="text-shadow">
+                                2017-08-28 PTR Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.27.3.56859
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2017-08-28" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/20976073#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Learning the Zei's Vengeance and Arcane Orbit Talents will no longer cause Arcane Orb to deal reduced damage
+            at close-range.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2017-06-13">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2017-06-13 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.26.0.54339
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2017-06-13" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/20838723#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Wave of Force will no longer cancel Sonya's Whirlwind animation.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-ptr" id="patch2017-06-05">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/ptr-patch.svg"/>
+                            <span class="text-shadow">
+                                2017-06-05 PTR Patch
+                            </span>
+                            <small class="greyed-out">
+                                2.26.0.54098
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2017-06-05" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/20812213#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Wave of Force will no longer cancel Sonya's Whirlwind animation.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2017-01-24">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2017-01-24 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                1.23.0.49747
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2017-01-24" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/20481262#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Fixed a minor animation issue affecting Li-Ming's ball that could occur after exiting Archon form.
+                                </li>
+                                <li>
+                                    Casting Disintegrate a moment before Li-Ming would be hit by Abilities like Falstad's Gust of Wind will no
+            longer cause a short delay before she is pushed.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-ptr" id="patch2017-01-17">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/ptr-patch.svg"/>
+                            <span class="text-shadow">
+                                2017-01-17 PTR Patch
+                            </span>
+                            <small class="greyed-out">
+                                1.23.0.49582
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2017-01-17" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/20477655#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Fixed a minor animation issue affecting Li-Ming's ball that could occur after exiting Archon form.
+                                </li>
+                                <li>
+                                    Casting Disintegrate a moment before Li-Ming would be hit by Abilities like Falstad's Gust of Wind will no
+            longer cause a short delay before she is pushed.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-hotfix" id="patch2017-01-12">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/hotfix-patch.svg"/>
+                            <span class="text-shadow">
+                                2017-01-12 Hotfix Patch
+                            </span>
+                            <small class="greyed-out">
+                                1.22.7.49495
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2017-01-12" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/20474696#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Basic Attacks that are empowered by the Cannoneer Talent will now correctly trigger the bonus damage granted by the Charged Blast Talent.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2016-12-06">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2016-12-06 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                1.22.2.48548
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2016-12-06" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/20379599#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <p>
+                            </p>
+                            <p>
+                                <strong style="color: rgb(153, 0, 255);">
+                                    Talents
+                                </strong>
+                            </p>
+                            <ul>
+                                <li>
+                                    <span style="color: rgb(0, 153, 255);">
+                                        <strong>
+                                            Level 7
+                                        </strong>
+                                    </span>
+                                    <ul>
+                                        <li>
+                                            Calamity (E)
+                                            <ul>
+                                                <li>
+                                                    Now only deals damage to Heroic targets
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <blockquote>
+                                <strong>
+                                    Developer Comment:
+                                </strong>
+                                Li-Ming's Calamity is being used just as much as a minion-clearing tool as a Hero-killing tool, which was never
+        the intention in her original design. By limiting this to Heroes only, it helps highlight one of her intended
+        weaknesses which was low wave-clear potential.
+                            </blockquote>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2016-09-27">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2016-09-27 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                1.20.2.46690
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2016-09-27" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/20285864#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <p>
+                            </p>
+                            <p>
+                                <span style="color: #9933ff;">
+                                    <strong>
+                                        Abilities
+                                    </strong>
+                                </span>
+                            </p>
+                            <ul>
+                                <li>
+                                    <font color="#0099ff">
+                                        <b>
+                                            Arcane Orb (W)
+                                        </b>
+                                    </font>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Beginning size reduced by roughly 33%
+                                        </li>
+                                        <li>
+                                            Maximum size reduced by roughly 33%
+                                        </li>
+                                        <li>
+                                            Explosion radius reduced by roughly 15%
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <p>
+                                <span style="color: #9933ff;">
+                                    <strong>
+                                        Talents
+                                    </strong>
+                                </span>
+                            </p>
+                            <ul>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Level 4
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Triumvirate (W)
+                                            <ul>
+                                                <li>
+                                                    Now reduces the cooldown of Arcane Orb by 50%, instead of 5 seconds
+                                                </li>
+                                                <li>
+                                                    Travel distance required reduced from 65 to 50%
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Level 7
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Zei's Vengeance (W)
+                                            <ul>
+                                                <li>
+                                                    Added functionality:
+                                                    <ul>
+                                                        <li>
+                                                            Now also reduces the cooldown of Arcane Orb by 25%
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <blockquote>
+                                <strong>
+                                    Developer Comment:
+                                </strong>
+                                Arcane Orb and the Talents affecting it have been slightly underperforming over the past couple months. We are
+        also unhappy with the unpredictably large explosion radius that occurs at close range detonations. To address
+        these concerns, we have made some base size adjustments to the Orb missile while also buffing Zei's Vengeance to
+        help round out the full build. While the size changes definitely look like a nerf on paper, in actual testing we
+        felt like they gave players tighter control with a lot less early-detonations on unintended targets.
+                            </blockquote>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-ptr" id="patch2016-09-19">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/ptr-patch.svg"/>
+                            <span class="text-shadow">
+                                2016-09-19 PTR Patch
+                            </span>
+                            <small class="greyed-out">
+                                1.20.2.46416
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2016-09-19" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/20271424#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <p>
+                            </p>
+                            <p>
+                                <span style="color: #9933ff;">
+                                    <strong>
+                                        Abilities
+                                    </strong>
+                                </span>
+                            </p>
+                            <ul>
+                                <li>
+                                    <font color="#0099ff">
+                                        <b>
+                                            Arcane Orb (W)
+                                        </b>
+                                    </font>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Beginning size reduced by roughly 33%
+                                        </li>
+                                        <li>
+                                            Maximum size reduced by roughly 33%
+                                        </li>
+                                        <li>
+                                            Explosion radius reduced by roughly 15%
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <p>
+                                <span style="color: #9933ff;">
+                                    <strong>
+                                        Talents
+                                    </strong>
+                                </span>
+                            </p>
+                            <ul>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Level 4
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Triumvirate (W)
+                                            <ul>
+                                                <li>
+                                                    Now reduces the cooldown of Arcane Orb by 50%, instead of 5 seconds
+                                                </li>
+                                                <li>
+                                                    Travel distance required reduced from 65 to 50%
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Level 7
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Zei's Vengeance (W)
+                                            <ul>
+                                                <li>
+                                                    Added functionality:
+                                                    <ul>
+                                                        <li>
+                                                            Now also reduces the cooldown of Arcane Orb by 25%
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <blockquote>
+                                <strong>
+                                    Developer Comment:
+                                </strong>
+                                Arcane Orb and the Talents affecting it have been slightly underperforming over the past couple months. We are
+        also unhappy with the unpredictably large explosion radius that occurs at close range detonations. To address
+        these concerns, we have made some base size adjustments to the Orb missile while also buffing Zei's Vengeance to
+        help round out the full build. While the size changes definitely look like a nerf on paper, in actual testing we
+        felt like they gave players tighter control with a lot less early-detonations on unintended targets.
+                            </blockquote>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2016-05-17">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2016-05-17 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                1.18.0.42958
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2016-05-17" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/20120032#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <p>
+                            </p>
+                            <ul>
+                                <li>
+                                    Cannoneer (Talent)
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Cannoneer stacks will now be displayed in the Buff bar next to the Hero Portrait.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Tal Rasha's Elements (Talent) has been reworked, and now reads as follows:
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Using Abilities grants 5% Ability Power to a maximum of 20%. This bonus is reset when the same
+                    Ability is used within a chain.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Disintegrate (R)
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Temporal Flux (Talent)
+                                            <ul>
+                                                <li>
+                                                    Now gradually Slows enemies caught in its beam, up to maximum of 60%.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <blockquote>
+                                <strong>
+                                    Developer Comment:
+                                </strong>
+                                After our last round of changes, Li-Ming's win rate and overall balance has leveled into a great spot. However,
+        we felt that there were a couple of changes to her level 20 Talents that would help them better fit her intended
+        design goals. Both Tal Rasha's Elements and Disintegrate will now take a bit more planning and finesse to
+        execute to their max potential.
+                            </blockquote>
+                            <p>
+                            </p>
+                        </div>
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Casting Teleport just as Tyrael's Judgment is about to hit Li-Ming will no longer cause her to slide a long
+            distance.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-ptr" id="patch2016-05-09">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/ptr-patch.svg"/>
+                            <span class="text-shadow">
+                                2016-05-09 PTR Patch
+                            </span>
+                            <small class="greyed-out">
+                                1.17.5.42742
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2016-05-09" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/20112698#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <p>
+                            </p>
+                            <ul>
+                                <li>
+                                    Cannoneer (Talent)
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Cannoneer stacks will now be displayed in the Buff bar next to the Hero Portrait.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Tal Rasha's Elements (Talent) has been reworked, and now reads as follows:
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Using Abilities grants 5% Ability Power to a maximum of 20%. This bonus is reset when the same
+                    Ability is used within a chain.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Disintegrate (R)
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Temporal Flux (Talent)
+                                            <ul>
+                                                <li>
+                                                    Now gradually Slows enemies caught in its beam, up to maximum of 60%.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <blockquote>
+                                <strong>
+                                    Developer Comment:
+                                </strong>
+                                After our last round of changes, Li-Ming's win rate and overall balance has leveled into a great spot. However,
+        we felt that there were a couple of changes to her level 20 Talents that would help them better fit her intended
+        design goals. Both Tal Rasha's Elements and Disintegrate will now take a bit more planning and finesse to
+        execute to their max potential.
+                            </blockquote>
+                            <p>
+                            </p>
+                        </div>
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Casting Teleport just as Tyrael's Judgment is about to hit Li-Ming will no longer cause her to slide a long
+            distance.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2016-04-12">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2016-04-12 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                1.17.1.42178
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2016-04-12" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/20090404#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <p>
+                            </p>
+                            <ul>
+                                <li>
+                                    Dominance (Talent)
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Health restoration decreased from 25% to 20% of maximum Health.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Arcane Orb (W)
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Damage reduced by 10% overall, from 150 (+3% per level) to 135 (+3% per level) initial damage, and
+                    450 (+3% per level) to 405 (+3% per level) damage at maximum range.
+                                        </li>
+                                        <li>
+                                            Cooldown decreased from 10 to 8 seconds.
+                                        </li>
+                                        <li>
+                                            Mana cost reduced from 50 to 40.
+                                        </li>
+                                        <li>
+                                            Triumvirate (Talent)
+                                            <ul>
+                                                <li>
+                                                    Cooldown reduction decreased from 6 to 5 seconds.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            Zei's Vengeance (Talent)
+                                            <ul>
+                                                <li>
+                                                    No longer causes Triumvirate to deal reduced damage to enemies that are close to Li-Ming.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Teleport (E)
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Calamity (Talent)
+                                            <ul>
+                                                <li>
+                                                    Area of effect reduced by 10%.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            Illusionist (Talent)
+                                            <ul>
+                                                <li>
+                                                    Minimum amount of damage taken in order to refresh Teleport's cooldown increased from 15% to
+                            20% of maximum Health.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Disintegrate (R)
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Cooldown increased from 20 to 30 seconds.
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <blockquote>
+                                <strong>
+                                    Developer Comment:
+                                </strong>
+                                Li-Ming has settled into a fairly healthy win-rate, and we are mostly happy with her overall performance in the
+        Nexus. Now that we have a good chunk of data we are pushing a few changes to help level out her talent pick
+        rates, which should increase her already amazing build diversity. We are also making a few balance tweaks in
+        order to lower her burst potential, while also increasing the appeal of some of her Arcane Orb talents.
+                                <br/>
+                                <br/>
+                                Disintegrate's low cooldown is allowing players more lane-clear versatility than we are comfortable with. We
+        have increased the cooldown to make players think a bit more about how and when to use the ability.
+                            </blockquote>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2016-03-29">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2016-03-29 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                1.17.0.41810
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2016-03-29" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/20063493#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Li-Ming's Arcane Orb can no longer hit the Sandstorm created by the Boss on Sky Temple.
+                                </li>
+                                <li>
+                                    Li-Ming will now properly play death sounds when killed.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-ptr" id="patch2016-03-21">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/ptr-patch.svg"/>
+                            <span class="text-shadow">
+                                2016-03-21 PTR Patch
+                            </span>
+                            <small class="greyed-out">
+                                1.17.0.41609
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2016-03-21" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/20060107#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Li-Ming's Arcane Orb can no longer hit the Sandstorm created by the Boss on Sky Temple.
+                                </li>
+                                <li>
+                                    Li-Ming will now properly play death sounds when killed.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2016-03-09">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2016-03-09 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                1.16.4.41393
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2016-03-09" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/20058183#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <p>
+                            </p>
+                            <ul>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Magic Missiles (Q)
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Now deals 50% damage against Structures
+                                        </li>
+                                        <li>
+                                            Mirrorball (Talent)
+                                            <ul>
+                                                <li>
+                                                    Now also increases the Mana cost of Magic Missiles by 5
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            Fireflies (Talent)
+                                            <ul>
+                                                <li>
+                                                    Now also reduces the Mana cost of Magic Missiles by 5
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Disintegrate (R)
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Temporal Flux (Talent)
+                                            <ul>
+                                                <li>
+                                                    Slow amount reduced from 60% to 40%
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <blockquote>
+                                <strong>
+                                    Developer Comment:
+                                </strong>
+                                Magic Missiles were not designed with the intent of dealing heavy Siege damage, so we are halving it against
+        Structures. Li-Ming's level 16 Talents are all incredibly valuable and fun to play with, but Mirrorball added
+        too much power without any kind of drawback. The shifts in Mana costs should help sweeten the pot for players
+        who want to spec into Fireflies.
+                                <br/>
+                                As for Temporal Flux . . . well, let's just say we were so in love with Li Ming's overwhelmingly powerful level
+        20 Talents that we misjudged how demoralizing a 60% slow could be to play against when its cooldown constantly
+        reset.
+                            </blockquote>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2016-03-01">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2016-03-01 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                1.16.3.41150
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2016-03-01" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/20049139#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Bug Fixes
+                            </h3>
+                            <ul>
+                                <li>
+                                    Li-Ming's Critical Mass Trait will no longer trigger when one of The Lost Vikings is killed if she did not
+            participate in the takedown.
+                                </li>
+                                <li>
+                                    Fixed a rare issue that could cause the effects of Li-Ming's Aether Walker Talent to become permanent under
+            specific circumstances.
+                                </li>
+                                <li>
+                                    Fixed an issue that could cause Li-Ming's Magic Missiles to fire in erratic directions when cast immediately
+            after exiting Archon form.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary toggle-live" id="patch2016-02-17">
+                    <div class="panel-heading">
+                        <h3>
+                            <img aria-hidden="true" class="svg" src="../images/icons/live-patch.svg"/>
+                            <span class="text-shadow">
+                                2016-02-17 Live Patch
+                            </span>
+                            <small class="greyed-out">
+                                1.16.2.40798
+                            </small>
+                            <a class="permalink greyed-out" href="#patch2016-02-17" onclick="CopyLink(this)" title="Get link to this location">
+                                <img aria-hidden="true" class="svg hover" src="../images/icons/internal-link.svg"/>
+                            </a>
+                            <div class="source-bar">
+                                <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/20038832#liming" title="View official Patch Notes">
+                                    <img aria-hidden="true" class="svg hover" src="../images/icons/blizzard.svg"/>
+                                </a>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="panel-body toggle">
+                        <div>
+                            <h3>
+                                Updates
+                            </h3>
+                            <p>
+                            </p>
+                            <ul>
+                                <li>
+                                    Astral Presence (Talent)
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Mana Regeneration bonus now only triggers while below 25% Mana, rather than 50%
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Diamond Skin (Talent)
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Shield amount decreased from 25% to 20% of maximum Health
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Tal Rasha's Elements (Talent)
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Ability Power bonus decreased from 20% to 10%
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Magic Missiles (Q)
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Damage reduced from 147 (+3.5% per level) to 147 (+3% per level)
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span style="color: #0099ff;">
+                                        <strong>
+                                            Arcane Orb (W)
+                                        </strong>
+                                    </span>
+                                    <ul style="list-style-type: circle;">
+                                        <li>
+                                            Ess of Johan (Talent) removed
+                                        </li>
+                                        <li>
+                                            Triumvirate (Talent)
+                                            <ul>
+                                                <li>
+                                                    Distance traveled requirement reduced from 80% to 65% of maximum distance
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <blockquote>
+                                <strong>
+                                    Developer Comment:
+                                </strong>
+                                Li-Ming is a little too strong right now. Her ability to deal incredible damage is awesome, it was just
+        happening too often, too easily. We've nerfed Astral Presence and Diamond Skin to preserve a couple of her core
+        weaknesses: Mana tension and fragility. We've also removed Ess of Johan, because we found that it made landing
+        Magic Missiles too easy. While we know that a lot of players really enjoy Ess of Johan, we think that it will be
+        better for Li-Ming in the long run to preserve her high skill cap.
+                            </blockquote>
+                            <p>
+                            </p>
+                            <p style="text-align: center;">
+                            </p>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="checkbox-warning">
+                <strong>
+                    Warning!
+                </strong>
+                No results found. Select more Patch Types by using the dropdown menu on the top-right of the webpage.
+            </div>
+        </div>
+        <div id="toast">
+            Link copied to clipboard!
+        </div>
+        <footer>
+            <p>
+                © 2025 Nexus Patch Notes is a community-made website for helping Heroes of the Storm players to consult Patch Notes.
+                <br/>
+                © 2014 Blizzard Entertainment, Inc. All rights reserved. Heroes of the Storm is a trademark of Blizzard Entertainment, Inc.
+            </p>
+        </footer>
+        <div class="svg hover" id="BackToTop">
+        </div>
+    </body>
+    <script>
+        const btn = document.getElementById('BackToTop');
+
+    // Show/Hide on scroll
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 150) {
+            btn.classList.add('show');
+        } else {
+            btn.classList.remove('show');
+        }
+    });
+
+    // Smooth scroll to top
+    btn.addEventListener('click', () => {
+        window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+        });
+    });
+    </script>
+    <script>
+        function CopyLink(element) {
+        link = window.location.href.split("#")[0];
+        reference = element.getAttribute('href');
+        text = link + reference;
+        navigator.clipboard.writeText(text);
+        
+        var x = document.getElementById("toast");
+        x.className = "show";
+        setTimeout(
+            function(){
+                x.className = x.className.replace("show", "");
+            },
+            3000
+        );
+    }
+    </script>
+    <script>
+        function toggleDetails() {
+        document.querySelectorAll(".toggle").forEach(el => {
+            el.classList.toggle("hidden");
+        });
+    }
+    </script>
+    <script>
+        const dropdown = document.getElementById('patch-dropdown');
+    const button = dropdown.querySelector('.dropdown-button');
+    const panel = dropdown.querySelector('.dropdown-content');
+    const checkboxes = panel.querySelectorAll('input[type="checkbox"]');
+    const warningDiv = document.querySelector('.checkbox-warning');
+
+    // Update warning visibility
+    function updateWarning() {
+        const panels = document.querySelectorAll('.panel');
+        const allPanelsHidden = [...panels].every(p => window.getComputedStyle(p).display === 'none');
+        warningDiv.style.display = allPanelsHidden ? 'block' : 'none';
+    }
+
+    // Toggle visibility of .toggle-* elements
+    function setVisibilityForValue(value, show) {
+        document.querySelectorAll('.toggle-' + value).forEach(el => {
+            el.classList.toggle('hidden', !show);
+        });
+    }
+
+    // Dropdown toggle
+    button.addEventListener('click', (e) => {
+        e.stopPropagation();
+        dropdown.classList.toggle('open');
+    });
+
+    // Close dropdown when clicking outside
+    document.addEventListener('click', (e) => {
+        if (!dropdown.contains(e.target)) {
+            dropdown.classList.remove('open');
+        }
+    });
+
+    // Checkbox listeners
+    checkboxes.forEach(cb => {
+        cb.addEventListener('change', () => {
+            setVisibilityForValue(cb.value, cb.checked);
+            updateWarning();
+        });
+    });
+
+    // Select all checkboxes by default and update UI
+    window.addEventListener('load', () => {
+        checkboxes.forEach(cb => cb.checked = true);
+        checkboxes.forEach(cb => setVisibilityForValue(cb.value, cb.checked));
+        updateWarning();
+    });
+    </script>
+    <script>
+        document.querySelectorAll('.table-condensed th').forEach(th => {
+        th.textContent = th.textContent
+        .toLowerCase()
+        .replace(/\b\w/g, c => c.toUpperCase());
+    });
+    </script>
+</html>
