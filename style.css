@@ -57,20 +57,20 @@ ol {
     border-style: solid;
     border-radius: .3em;
     border-width: 2px;
-    margin: 1em;
+    margin: 16px;
     scroll-margin-top: calc(70px + 16px);
 }
 
 .panel-heading {
     display: block;
     background-color: #11253D;
-    padding: 0.1em 1em 0.1em 1em;
+    padding: 2px 16px 2px 16px;
 }
 
 .panel-body {
     font-size: 14px;
     line-height: 150%;
-    margin: 1em;
+    margin: 16px;
 }
 
 .hidden {
@@ -142,7 +142,7 @@ body {
 }
 
 .main-content {
-    min-width: calc(100% - 2em);
+    width: 100%;
 }
 
 .hero-header {
@@ -152,7 +152,7 @@ body {
 
 #tab-content1 {
     max-width: 500px;
-    margin-top: 1em;
+    margin-top: 16px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -160,7 +160,7 @@ body {
 #tab-content2,
 #tab-content3,
 .panels-list {
-    max-width: 900px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -178,8 +178,8 @@ body {
 }
 
 .heroes-list {
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 .hero-content {
@@ -189,8 +189,8 @@ body {
 
 .tabs {
     display: flex;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 16px;
+    padding-bottom: 16px;
     position: relative;
     justify-content: center;
     text-align: left;
@@ -384,7 +384,7 @@ footer {
 }
 
 .checkbox-warning {
-    padding: 1em;
+    padding: 16px;
     color: #ff8c00;
 }
 
@@ -575,16 +575,23 @@ th .sort-icon {
     cursor: pointer;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
     .guide-card {
         display: none;
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 750px) {
     #patch-dropdown {
         display: none;
     }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
 }
 
 .table-condensed,
