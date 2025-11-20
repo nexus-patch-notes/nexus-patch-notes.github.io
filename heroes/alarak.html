@@ -9,58 +9,63 @@
         <link href="../images/assets/logo.png" rel="icon" type="image/x-icon"/>
     </head>
     <body>
-        <div class="hero-header fixed">
-            <div class="title-card">
-                <img class="icon-big" src="../images/heroes/alarak.png"/>
-                <h3 class="text-shadow">
-                    Alarak
-                </h3>
+        <div class="navigation-bar fixed">
+            <div class="left-menu">
+                <a href="../index.html">
+                    <img aria-hidden="true" class="svg hover" src="../images/icons/home.svg"/>
+                </a>
+                <a class="guide-card partner-link" href="https://www.icy-veins.com/heroes/alarak-build-guide">
+                    <img aria-hidden="true" class="svg hover partner-logo" src="../images/icons/icy-veins.svg"/>
+                    <h4 class="partner-link text-shadow">
+                        Hero Guide
+                    </h4>
+                </a>
             </div>
-            <a class="guide-card centered partner-link" href="https://www.icy-veins.com/heroes/alarak-build-guide">
-                <img aria-hidden="true" class="svg hover partner-logo" src="../images/icons/icy-veins.svg"/>
-                <h4 class="partner-link text-shadow">
-                    Alarak Build Guide
-                </h4>
-            </a>
-            <div class="dropdown" id="patch-dropdown">
-                <div class="dropdown-button">
-                    Patch Type
-                    <span class="dropdown-cursor">
-                        ▼
-                    </span>
-                </div>
-                <div class="dropdown-content">
-                    <label>
-                        <input checked="" type="checkbox" value="alpha"/>
-                        Alpha
-                    </label>
-                    <label>
-                        <input checked="" type="checkbox" value="beta"/>
-                        Beta
-                    </label>
-                    <label>
-                        <input checked="" type="checkbox" value="ptr"/>
-                        PTR
-                    </label>
-                    <label>
-                        <input checked="" type="checkbox" value="hotfix"/>
-                        Hotfix
-                    </label>
-                    <label>
-                        <input checked="" type="checkbox" value="live"/>
-                        Live
-                    </label>
+            <div class="center-menu">
+                <div class="title-card">
+                    <img class="icon-circle" src="../images/heroes/alarak.png">
+                        <h3 class="text-shadow">
+                            Alarak
+                        </h3>
+                    </img>
                 </div>
             </div>
-            <div class="navigation-bar">
+            <div class="right-menu">
+                <div class="dropdown" id="patch-dropdown">
+                    <div class="dropdown-button">
+                        Patch Type
+                        <span class="dropdown-cursor">
+                            ▼
+                        </span>
+                    </div>
+                    <div class="dropdown-content">
+                        <label>
+                            <input checked="" type="checkbox" value="alpha"/>
+                            Alpha
+                        </label>
+                        <label>
+                            <input checked="" type="checkbox" value="beta"/>
+                            Beta
+                        </label>
+                        <label>
+                            <input checked="" type="checkbox" value="ptr"/>
+                            PTR
+                        </label>
+                        <label>
+                            <input checked="" type="checkbox" value="hotfix"/>
+                            Hotfix
+                        </label>
+                        <label>
+                            <input checked="" type="checkbox" value="live"/>
+                            Live
+                        </label>
+                    </div>
+                </div>
                 <div class="toggle-button">
                     <img aria-hidden="true" class="svg hover toggle" onclick="toggleDetails()" src="../images/icons/visible-details.svg">
                         <img aria-hidden="true" class="svg hover toggle hidden" onclick="toggleDetails()" src="../images/icons/hidden-details.svg"/>
                     </img>
                 </div>
-                <a href="../index.html">
-                    <img aria-hidden="true" class="svg hover" src="../images/icons/home.svg"/>
-                </a>
             </div>
         </div>
         <div class="main-content">
@@ -5561,8 +5566,8 @@
     // Smooth scroll to top
     btn.addEventListener('click', () => {
         window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
+            top: 0,
+            behavior: 'smooth'
         });
     });
     </script>

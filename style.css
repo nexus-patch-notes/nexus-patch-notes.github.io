@@ -1,3 +1,8 @@
+.panel-body,
+.patch-notes {
+    font-size: 14px;
+}
+
 blockquote {
     line-height: 1.75;
     font-style: normal;
@@ -58,7 +63,7 @@ ol {
     border-radius: .3em;
     border-width: 2px;
     margin: 16px;
-    scroll-margin-top: calc(70px + 16px);
+    scroll-margin-top: calc(60px + 2px + 16px);
 }
 
 .panel-heading {
@@ -68,7 +73,6 @@ ol {
 }
 
 .panel-body {
-    font-size: 14px;
     line-height: 150%;
     margin: 16px;
 }
@@ -78,23 +82,13 @@ ol {
 }
 
 hr {
-    color: grey;
-    margin: 2em;
+    color: #2F465D;
+    margin: 16px;
 }
 
 .svg {
     vertical-align: text-bottom;
     width: 30px;
-}
-
-.navigation-bar {
-    display: flex;
-    position: absolute;
-    gap: 5px;
-    flex-wrap: wrap;
-    flex-flow: row wrap;
-    right: 24px;
-    bottom: 20px;
 }
 
 .source-bar {
@@ -151,7 +145,7 @@ body {
 }
 
 #tab-content1 {
-    max-width: 500px;
+    max-width: 535px;
     margin-top: 16px;
     margin-left: auto;
     margin-right: auto;
@@ -159,8 +153,9 @@ body {
 
 #tab-content2,
 #tab-content3,
-.panels-list {
-    max-width: 1000px;
+.panels-list,
+.patch-notes {
+    max-width: 1070px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -173,8 +168,14 @@ body {
     margin-top: 0px;
 }
 
-.main-content>.panels-list {
-    margin-top: 84px;
+.main-content>.panels-list,
+.main-content>.patch-notes {
+    margin-top: calc(60px + 2px + 16px);
+}
+
+.patch-notes {
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .heroes-list {
@@ -185,6 +186,31 @@ body {
 .hero-content {
     position: relative;
     top: 70px;
+}
+
+.navigation-bar {
+    display: flex;
+    position: relative;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 34px;
+}
+
+.center-menu {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.right-menu {
+    margin-right: 34px;
 }
 
 .tabs {
@@ -231,11 +257,11 @@ body {
 }
 
 #HeroesTable .column2 {
-    width: 140px;
+    width: 160px;
 }
 
 #HeroesTable .column3 {
-    width: 60px;
+    width: 70px;
 }
 
 #HeroesTable .column4 {
@@ -303,21 +329,27 @@ body {
     margin-bottom: 10px;
 }
 
-.icon-big {
-    height: 45px;
+.icon-circle {
+    height: 42px;
     margin-right: 10px;
     margin-left: 10px;
     border-radius: 100%;
     border: 2px solid #2F465D;
 }
 
-td>.icon-big {
+td>.icon-circle {
     margin-top: 4px;
 }
 
 .title-card {
     display: flex;
     align-items: center;
+}
+
+.title-card .icon-circle {
+    position: absolute;
+    left: -10px;
+    transform: translateX(-120%);
 }
 
 .affected {
@@ -327,13 +359,13 @@ td>.icon-big {
     gap: 8px;
 }
 
-.icon-small {
-    height: 40px;
+.icon-square {
+    height: 42px;
     border-radius: 20%;
     border: 2px solid #2F465D;
 }
 
-.icon-small:hover {
+.icon-square:hover {
     border-color: #0090ff;
 }
 
@@ -346,7 +378,7 @@ td>.icon-big {
 #BackToTop {
     position: fixed;
     bottom: 32px;
-    right: 32px;
+    right: 28px; /* Horizontal align with .toggle-button */
     width: 42px;
     height: 42px;
     background: url("images/icons/back-to-top.svg") no-repeat center center;
@@ -380,7 +412,11 @@ td>.icon-big {
 footer {
     font-size: 14px;
     text-align: center;
-    color:lightblue;
+}
+
+footer,
+.undocumented {
+    color: lightblue;
 }
 
 .checkbox-warning {
@@ -475,14 +511,6 @@ th .sort-icon {
     width: max-content;
 }
 
-.guide-card.centered {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 .partner-logo {
     width: 42px;
 }
@@ -529,8 +557,8 @@ th .sort-icon {
 
 #patch-dropdown {
     position: absolute;
-    right: 100px;
-    bottom: 16px;
+    right: calc(24px * 2 + 30px);
+    bottom: 12px;
 }
 
 .dropdown {
@@ -575,13 +603,13 @@ th .sort-icon {
     cursor: pointer;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 780px) {
     .guide-card {
         display: none;
     }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 700px) {
     #patch-dropdown {
         display: none;
     }
