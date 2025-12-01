@@ -431,7 +431,7 @@ td>.icon-circle {
 }
 
 .legend .updated>.dot {
-    background-color: #00ee00;
+    background-color: #0fdb0f;
 }
 
 .legend .ptr-to-live>.dot {
@@ -443,7 +443,7 @@ td>.icon-circle {
 }
 
 .panel-body .updated {
-    color: #00ee00;
+    color: #0fdb0f;
 }
 
 .panel-body .ptr-to-live {
@@ -464,14 +464,6 @@ footer {
     padding-top: 8px;
     padding-bottom: 16px;
     color: #ff9900;
-}
-
-.warning.undocumented.partial {
-    color: #00aeff;
-}
-
-.warning.undocumented.full {
-    color: #ff5700;
 }
 
 .unselectable {
@@ -708,5 +700,5 @@ th .sort-icon {
 }
 
 .table-condensed td .text-highlight {
-    color: #0099ff;
+    color: #0090ff;
 }
