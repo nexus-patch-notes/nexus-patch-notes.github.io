@@ -9,7 +9,7 @@
         <meta content="https://nexus-patch-notes.github.io" property="og:url"/>
         <meta content="website" property="og:type"/>
         <meta content="Nexus Patch Notes" property="og:site_name"/>
-        <link href="../style.css?v=1.2" rel="stylesheet"/>
+        <link href="../style.css?v=1.3" rel="stylesheet"/>
         <title>
             Rexxar — Nexus Patch Notes
         </title>
@@ -4170,13 +4170,16 @@
     });
     </script>
     <script>
-        const legendItems = document.querySelectorAll(`.legend`);
+        const legendClasses = ['ptr-to-live', 'undocumented'];
 
-    legendItems.forEach((item, index) => {
-        item.addEventListener('click', () => {
-            // If not the last item, scroll to next; otherwise loop back to first
-            const nextItem = legendItems[index + 1] || legendItems[0];
-            nextItem.scrollIntoView({ behavior: 'smooth' });
+    legendClasses.forEach(cls => {
+        const legendItems = document.querySelectorAll(`.legend .${cls}`);
+
+        legendItems.forEach((item, index) => {
+            item.addEventListener('click', () => {
+                const nextItem = legendItems[index + 1] || legendItems[0];
+                nextItem.scrollIntoView({ behavior: 'smooth' });
+            });
         });
     });
     </script>

@@ -9,7 +9,7 @@ blockquote {
     background: linear-gradient(-45deg, transparent 46%, rgba(255, 255, 255, 0.2) 49%, transparent 51%, transparent 55%);
     background-size: 6px 6px;
     background-position: 0 0;
-    margin-bottom: 1.75rem;
+    margin: 1rem;
     padding: 5px 5px 5px 10px;
     border-width: 0 0 0 0.5em;
     border-style: solid;
@@ -110,7 +110,7 @@ body {
 }
 
 .main-content {
-    width: 100%;
+    width: min(100vw, 100%);
     margin-bottom: -12px;  /* To keep the footer not too far from the bottom */
 }
 
@@ -119,28 +119,25 @@ body {
     padding-bottom: 5px;
 }
 
-#tab-content2 {
-    max-width: 720px;
+#tab-content2,
+#tab-content3 {
+    width: min(95vw, 720px);
     margin-top: 16px;
     margin-left: auto;
     margin-right: auto;
 }
 
 #tab-content1,
-#tab-content3,
+#tab-content4,
 .panels-list,
 .patch-notes {
-    max-width: 1070px;
+    width: min(100vw, 1070px);
     margin-left: auto;
     margin-right: auto;
 }
 
 .heroes-content {
     position: relative;
-}
-
-#tab-content2>.panels-list {
-    margin-top: 0px;
 }
 
 .main-content>.panels-list,
@@ -197,19 +194,31 @@ body {
     text-align: left;
 }
 
-.tabs .tab {
+.tabs>.tab {
     float: left;
     display: block;
 }
 
-.tabs .tab>label {
+.tabs>.tab>label {
     display: block;
-    padding: 10px 15px;
+    padding: 10px 10px;
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
     position: relative;
+}
+
+.tabs>.tab:not(.selected) {
+    color: #78dcff;
+}
+
+.tabs>.selected {
     color: #FFF;
+    background: #0090ff;
+}
+
+.tabs>.tab:not(.selected)>label:hover {
+    color: #0090ff;
 }
 
 .input-box {
@@ -241,7 +250,7 @@ body {
 }
 
 #HeroesTable .column4 {
-    width: 180px;
+    width: 210px;
 }
 
 #HeroesTable .column5 {
@@ -249,7 +258,7 @@ body {
 }
 
 #HeroesTable .column6 {
-    width: 180px;
+    width: 210px;
 }
 
 #HeroesTable .column7 {
@@ -257,22 +266,26 @@ body {
 }
 
 #BattlegroundsTable .column1 {
-    width: 80px;
+    width: 70px;
 }
 
 #BattlegroundsTable .column2 {
-    width: 200px;
+    width: 210px;
 }
 
 #BattlegroundsTable .column3 {
-    width: 0px;
+    width: 210px;
 }
 
 #BattlegroundsTable .column4 {
-    width: 180px;
+    width: 0px;
 }
 
 #BattlegroundsTable .column5 {
+    width: 210px;
+}
+
+#BattlegroundsTable .column6 {
     width: 0px;
 }
 
@@ -291,6 +304,11 @@ body {
     background: none !important;
     font-size: 16px;
     font-weight: bold;
+    color: #78dcff;
+}
+
+.links-table tr.header>td:hover {
+    color: #0090ff;
 }
 
 .links-table tr:hover {
@@ -349,14 +367,25 @@ td>.icon-circle {
     border: 2px solid #2F465D;
 }
 
-.icon-square:hover {
-    border-color: #0090ff;
+.icon-label {
+    font-weight: bold;
+    width: 100px;
+    color: #78dcff;
 }
 
 .icon-link {
-    display: grid;
-    color: #78dcff;
+    display: flex;
+    align-items: center;
+    gap: 8px;
     text-decoration: none;
+}
+
+.icon-link:hover>.icon-square {
+    border-color: #0090ff;
+}
+
+.icon-link:hover>.icon-label {
+    color:#0090ff;
 }
 
 #BackToTop {
@@ -422,15 +451,15 @@ td>.icon-circle {
     border-radius: 50%;
 }
 
-.legend {
-    scroll-margin-top: 160px;
+.legend>div {
+    scroll-margin-top: 166px;
 }
 
-.legend .undocumented>.dot {
+.legend>.undocumented>.dot {
     background-color: #86e4ff;
 }
 
-.legend .ptr-to-live>.dot {
+.legend>.ptr-to-live>.dot {
     background-color: #ff9900;
 }
 
@@ -440,6 +469,14 @@ td>.icon-circle {
 
 .panel-body .ptr-to-live {
     color: #ff9900;
+}
+
+.panel-body .category-title {
+    color: #ef37ff;
+}
+
+.panel-body .section-title {
+    color: #0099ff;
 }
 
 .warning,
@@ -643,8 +680,26 @@ th .sort-icon {
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 820px) {
     #patch-dropdown {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #BattlegroundsTable td:nth-of-type(3) {
+        display: none;
+    }
+
+    #BattlegroundsTable tr:not(:first-of-type) td:nth-of-type(4) {
+        display: none;
+    }
+
+    #HeroesTable td:nth-of-type(4) {
+        display: none;
+    }
+
+    #HeroesTable tr:not(:first-of-type) td:nth-of-type(5) {
         display: none;
     }
 }

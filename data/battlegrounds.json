@@ -1,0 +1,152 @@
+{
+    "Alterac Pass": {
+        "last-updated": {
+            "patch_date": "2025-12-01",
+            "version_number": "2.55.14.95774"
+        },
+        "last-changed": {
+            "patch_date": "2025-12-16",
+            "version_number": "2.55.14.95918"
+        }
+    },
+    "Battlefield of Eternity": {
+        "last-updated": {
+            "patch_date": "2025-12-01",
+            "version_number": "2.55.14.95774"
+        },
+        "last-changed": {
+            "patch_date": "2025-12-01",
+            "version_number": "2.55.14.95774"
+        }
+    },
+    "Blackheart's Bay": {
+        "last-updated": {
+            "patch_date": "2025-12-16",
+            "version_number": "2.55.14.95918"
+        },
+        "last-changed": {
+            "patch_date": "2025-12-16",
+            "version_number": "2.55.14.95918"
+        }
+    },
+    "Braxis Holdout": {
+        "last-updated": {
+            "patch_date": "2025-12-01",
+            "version_number": "2.55.14.95774"
+        },
+        "last-changed": {
+            "patch_date": "2025-12-01",
+            "version_number": "2.55.14.95774"
+        }
+    },
+    "Cursed Hollow": {
+        "last-updated": {
+            "patch_date": "2025-12-01",
+            "version_number": "2.55.14.95774"
+        },
+        "last-changed": {
+            "patch_date": "2025-12-04",
+            "version_number": "2.55.14.95817"
+        }
+    },
+    "Dragon Shire": {
+        "last-updated": {
+            "patch_date": "2025-12-01",
+            "version_number": "2.55.14.95774"
+        },
+        "last-changed": {
+            "patch_date": "2025-12-01",
+            "version_number": "2.55.14.95774"
+        }
+    },
+    "Garden of Terror": {
+        "last-updated": {
+            "patch_date": "2025-12-01",
+            "version_number": "2.55.14.95774"
+        },
+        "last-changed": {
+            "patch_date": "2025-12-01",
+            "version_number": "2.55.14.95774"
+        }
+    },
+    "Hanamura Temple": {
+        "last-updated": {
+            "patch_date": "2025-12-01",
+            "version_number": "2.55.14.95774"
+        },
+        "last-changed": {
+            "patch_date": "2025-12-01",
+            "version_number": "2.55.14.95774"
+        }
+    },
+    "Haunted Mines": {
+        "last-updated": {
+            "patch_date": "2025-09-30",
+            "version_number": "2.55.13.95213"
+        },
+        "last-changed": {
+            "patch_date": "2025-09-30",
+            "version_number": "2.55.13.95213"
+        }
+    },
+    "Infernal Shrines": {
+        "last-updated": {
+            "patch_date": "2025-12-01",
+            "version_number": "2.55.14.95774"
+        },
+        "last-changed": {
+            "patch_date": "2025-12-01",
+            "version_number": "2.55.14.95774"
+        }
+    },
+    "Sky Temple": {
+        "last-updated": {
+            "patch_date": "2025-12-01",
+            "version_number": "2.55.14.95774"
+        },
+        "last-changed": {
+            "patch_date": "2025-12-01",
+            "version_number": "2.55.14.95774"
+        }
+    },
+    "Tomb of the Spider Queen": {
+        "last-updated": {
+            "patch_date": "2025-12-01",
+            "version_number": "2.55.14.95774"
+        },
+        "last-changed": {
+            "patch_date": "2025-12-01",
+            "version_number": "2.55.14.95774"
+        }
+    },
+    "Towers of Doom": {
+        "last-updated": {
+            "patch_date": "2025-12-01",
+            "version_number": "2.55.14.95774"
+        },
+        "last-changed": {
+            "patch_date": "2025-12-01",
+            "version_number": "2.55.14.95774"
+        }
+    },
+    "Volskaya Foundry": {
+        "last-updated": {
+            "patch_date": "2025-12-16",
+            "version_number": "2.55.14.95918"
+        },
+        "last-changed": {
+            "patch_date": "2025-12-16",
+            "version_number": "2.55.14.95918"
+        }
+    },
+    "Warhead Junction": {
+        "last-updated": {
+            "patch_date": "2025-12-16",
+            "version_number": "2.55.14.95918"
+        },
+        "last-changed": {
+            "patch_date": "2025-12-16",
+            "version_number": "2.55.14.95918"
+        }
+    }
+}
