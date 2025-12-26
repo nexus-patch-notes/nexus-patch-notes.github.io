@@ -131,7 +131,7 @@ body {
 #tab-content4,
 .panels-list,
 .patch-notes {
-    width: min(100vw, 1070px);
+    width: min(100vw, 984px);
     margin-left: auto;
     margin-right: auto;
 }
@@ -371,7 +371,7 @@ td>.icon-circle {
 
 .icon-label {
     font-weight: bold;
-    width: 100px;
+    width: 92px;
     color: #78dcff;
 }
 
