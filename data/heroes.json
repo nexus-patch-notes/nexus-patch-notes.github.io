@@ -1,900 +1,900 @@
 {
     "Abathur": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-09-30",
             "version_number": "2.55.13.95213"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-09-30",
             "version_number": "2.55.13.95213"
         }
     },
     "Alarak": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         }
     },
     "Alexstrasza": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         }
     },
     "Ana": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-05-15",
             "version_number": "2.55.11.94189"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-05-15",
             "version_number": "2.55.11.94189"
         }
     },
     "Anduin": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2024-05-21",
             "version_number": "2.55.5.92264"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-07-29",
             "version_number": "2.55.12.94714"
         }
     },
     "Anub'arak": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-07-29",
             "version_number": "2.55.12.94714"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-07-29",
             "version_number": "2.55.12.94714"
         }
     },
     "Artanis": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2024-10-14",
             "version_number": "2.55.7.93009"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-09-30",
             "version_number": "2.55.13.95213"
         }
     },
     "Arthas": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         }
     },
     "Auriel": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-07-29",
             "version_number": "2.55.12.94714"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-08-05",
             "version_number": "2.55.12.94786"
         }
     },
     "Azmodan": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         }
     },
     "Blaze": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2024-10-14",
             "version_number": "2.55.7.93009"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2024-10-21",
             "version_number": "2.55.7.93054"
         }
     },
     "Brightwing": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         }
     },
     "Cassia": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2024-10-14",
             "version_number": "2.55.7.93009"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         }
     },
     "Chen": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         }
     },
     "Cho": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2020-10-07",
             "version_number": "2.52.1.82169"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-01-27",
             "version_number": "2.55.9.93565"
         }
     },
     "Chromie": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-01-27",
             "version_number": "2.55.9.93565"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-09-30",
             "version_number": "2.55.13.95213"
         }
     },
     "D.Va": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2024-12-09",
             "version_number": "2.55.8.93557"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         }
     },
     "Deathwing": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2024-05-21",
             "version_number": "2.55.5.92264"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-09-30",
             "version_number": "2.55.13.95213"
         }
     },
     "Deckard": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-07-29",
             "version_number": "2.55.12.94714"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-07-29",
             "version_number": "2.55.12.94714"
         }
     },
     "Dehaka": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-09-30",
             "version_number": "2.55.13.95213"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-09-30",
             "version_number": "2.55.13.95213"
         }
     },
     "Diablo": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2022-02-01",
             "version_number": "2.55.1.87306"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-10-06",
             "version_number": "2.55.13.95301"
         }
     },
     "E.T.C.": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-05-15",
             "version_number": "2.55.11.94189"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-09-30",
             "version_number": "2.55.13.95213"
         }
     },
     "Falstad": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-12-16",
             "version_number": "2.55.14.95918"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-16",
             "version_number": "2.55.14.95918"
         }
     },
     "Fenix": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2021-03-02",
             "version_number": "2.53.2.84200"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-09-30",
             "version_number": "2.55.13.95213"
         }
     },
     "Gall": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2024-05-21",
             "version_number": "2.55.5.92264"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-01-27",
             "version_number": "2.55.9.93565"
         }
     },
     "Garrosh": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         }
     },
     "Gazlowe": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2024-08-12",
             "version_number": "2.55.6.92665"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         }
     },
     "Genji": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-05-15",
             "version_number": "2.55.11.94189"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-07-29",
             "version_number": "2.55.12.94714"
         }
     },
     "Greymane": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         }
     },
     "Gul'dan": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-12-16",
             "version_number": "2.55.14.95918"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-16",
             "version_number": "2.55.14.95918"
         }
     },
     "Hanzo": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2024-10-14",
             "version_number": "2.55.7.93009"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-07-29",
             "version_number": "2.55.12.94714"
         }
     },
     "Hogger": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         }
     },
     "Illidan": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         }
     },
     "Imperius": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-07-29",
             "version_number": "2.55.12.94714"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-09-30",
             "version_number": "2.55.13.95213"
         }
     },
     "Jaina": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         }
     },
     "Johanna": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         }
     },
     "Junkrat": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2024-10-14",
             "version_number": "2.55.7.93009"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-09-30",
             "version_number": "2.55.13.95213"
         }
     },
     "Kael'thas": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-04",
             "version_number": "2.55.14.95817"
         }
     },
     "Kel'Thuzad": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2024-10-14",
             "version_number": "2.55.7.93009"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-09-30",
             "version_number": "2.55.13.95213"
         }
     },
     "Kerrigan": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-12-16",
             "version_number": "2.55.14.95918"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-16",
             "version_number": "2.55.14.95918"
         }
     },
     "Kharazim": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-03-12",
             "version_number": "2.55.10.93810"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-09-30",
             "version_number": "2.55.13.95213"
         }
     },
     "Leoric": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2024-05-21",
             "version_number": "2.55.5.92264"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-03-12",
             "version_number": "2.55.10.93810"
         }
     },
     "Li Li": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-07-29",
             "version_number": "2.55.12.94714"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-07-29",
             "version_number": "2.55.12.94714"
         }
     },
     "Li-Ming": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         }
     },
     "Lt. Morales": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         }
     },
     "Lunara": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         }
     },
     "Lúcio": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-07-29",
             "version_number": "2.55.12.94714"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-04",
             "version_number": "2.55.14.95817"
         }
     },
     "Maiev": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-09-30",
             "version_number": "2.55.13.95213"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-09-30",
             "version_number": "2.55.13.95213"
         }
     },
     "Mal'Ganis": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2024-05-21",
             "version_number": "2.55.5.92264"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2024-12-09",
             "version_number": "2.55.8.93557"
         }
     },
     "Malfurion": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2024-05-21",
             "version_number": "2.55.5.92264"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-05-15",
             "version_number": "2.55.11.94189"
         }
     },
     "Malthael": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-05-15",
             "version_number": "2.55.11.94189"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-05-15",
             "version_number": "2.55.11.94189"
         }
     },
     "Medivh": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2024-12-09",
             "version_number": "2.55.8.93557"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-05-15",
             "version_number": "2.55.11.94189"
         }
     },
     "Mei": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         }
     },
     "Mephisto": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2024-10-14",
             "version_number": "2.55.7.93009"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-05-15",
             "version_number": "2.55.11.94189"
         }
     },
     "Muradin": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-07-29",
             "version_number": "2.55.12.94714"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-08-05",
             "version_number": "2.55.12.94786"
         }
     },
     "Murky": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-07-29",
             "version_number": "2.55.12.94714"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-07-29",
             "version_number": "2.55.12.94714"
         }
     },
     "Nazeebo": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2021-09-27",
             "version_number": "2.54.4.86223"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-10-06",
             "version_number": "2.55.13.95301"
         }
     },
     "Nova": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         }
     },
     "Orphea": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-07-29",
             "version_number": "2.55.12.94714"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-09-30",
             "version_number": "2.55.13.95213"
         }
     },
     "Probius": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2024-05-21",
             "version_number": "2.55.5.92264"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-01-27",
             "version_number": "2.55.9.93565"
         }
     },
     "Qhira": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2024-08-12",
             "version_number": "2.55.6.92665"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2024-08-12",
             "version_number": "2.55.6.92665"
         }
     },
     "Ragnaros": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2024-05-21",
             "version_number": "2.55.5.92264"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-05-15",
             "version_number": "2.55.11.94189"
         }
     },
     "Raynor": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2024-10-14",
             "version_number": "2.55.7.93009"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         }
     },
     "Rehgar": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         }
     },
     "Rexxar": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2020-03-11",
             "version_number": "2.49.4.78679"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-09-30",
             "version_number": "2.55.13.95213"
         }
     },
     "Samuro": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2024-12-09",
             "version_number": "2.55.8.93557"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-09-30",
             "version_number": "2.55.13.95213"
         }
     },
     "Sgt. Hammer": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         }
     },
     "Sonya": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2021-05-18",
             "version_number": "2.54.0.85027"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-09-30",
             "version_number": "2.55.13.95213"
         }
     },
     "Stitches": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2024-05-21",
             "version_number": "2.55.5.92264"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-09-30",
             "version_number": "2.55.13.95213"
         }
     },
     "Stukov": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-04",
             "version_number": "2.55.14.95817"
         }
     },
     "Sylvanas": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-12-16",
             "version_number": "2.55.14.95918"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-16",
             "version_number": "2.55.14.95918"
         }
     },
     "Tassadar": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         }
     },
     "The Butcher": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-09-30",
             "version_number": "2.55.13.95213"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-10-06",
             "version_number": "2.55.13.95301"
         }
     },
     "The Lost Vikings": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-09-30",
             "version_number": "2.55.13.95213"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-09-30",
             "version_number": "2.55.13.95213"
         }
     },
     "Thrall": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-12-16",
             "version_number": "2.55.14.95918"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-16",
             "version_number": "2.55.14.95918"
         }
     },
     "Tracer": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-07-29",
             "version_number": "2.55.12.94714"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-09-30",
             "version_number": "2.55.13.95213"
         }
     },
     "Tychus": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-04",
             "version_number": "2.55.14.95817"
         }
     },
     "Tyrael": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         }
     },
     "Tyrande": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         }
     },
     "Uther": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-09-30",
             "version_number": "2.55.13.95213"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-10-06",
             "version_number": "2.55.13.95301"
         }
     },
     "Valeera": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-09-30",
             "version_number": "2.55.13.95213"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-09-30",
             "version_number": "2.55.13.95213"
         }
     },
     "Valla": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2024-10-14",
             "version_number": "2.55.7.93009"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-04",
             "version_number": "2.55.14.95817"
         }
     },
     "Varian": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-09-30",
             "version_number": "2.55.13.95213"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-09-30",
             "version_number": "2.55.13.95213"
         }
     },
     "Whitemane": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-03-12",
             "version_number": "2.55.10.93810"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-09-30",
             "version_number": "2.55.13.95213"
         }
     },
     "Xul": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2024-05-21",
             "version_number": "2.55.5.92264"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-09-30",
             "version_number": "2.55.13.95213"
         }
     },
     "Yrel": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2024-05-21",
             "version_number": "2.55.5.92264"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-07-29",
             "version_number": "2.55.12.94714"
         }
     },
     "Zagara": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-09-30",
             "version_number": "2.55.13.95213"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         }
     },
     "Zarya": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2024-10-14",
             "version_number": "2.55.7.93009"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-10-06",
             "version_number": "2.55.13.95301"
         }
     },
     "Zeratul": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2024-10-14",
             "version_number": "2.55.7.93009"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2024-10-14",
             "version_number": "2.55.7.93009"
         }
     },
     "Zul'jin": {
-        "last-updated": {
+        "last_updated": {
             "patch_date": "2025-12-01",
             "version_number": "2.55.14.95774"
         },
-        "last-changed": {
+        "last_changed": {
             "patch_date": "2025-12-04",
             "version_number": "2.55.14.95817"
         }
