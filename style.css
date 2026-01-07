@@ -121,7 +121,7 @@ body {
 
 #tab-content2,
 #tab-content3 {
-    width: min(95vw, 954px);
+    width: min(95vw, 928px);
     margin-top: 16px;
     margin-left: auto;
     margin-right: auto;
@@ -131,7 +131,7 @@ body {
 #tab-content4,
 .panels-list,
 .patch-notes {
-    width: min(100vw, 984px);
+    width: min(100vw, 958px);
     margin-left: auto;
     margin-right: auto;
 }
@@ -380,7 +380,7 @@ td>.icon-circle {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 6px;
 }
 
 .icon-square {
@@ -398,7 +398,7 @@ td>.icon-circle {
 .icon-link {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 4px;
     text-decoration: none;
 }
 
