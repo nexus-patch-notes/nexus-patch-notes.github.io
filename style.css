@@ -60,7 +60,7 @@ ol {
 }
 
 .hidden {
-  display: none !important;
+    display: none !important;
 }
 
 hr {
@@ -121,7 +121,7 @@ body {
 
 #tab-content2,
 #tab-content3 {
-    width: min(95vw, 720px);
+    width: min(95vw, 954px);
     margin-top: 16px;
     margin-left: auto;
     margin-right: auto;
@@ -204,8 +204,11 @@ body {
     padding: 10px 10px;
     font-size: 16px;
     font-weight: bold;
-    cursor: pointer;
     position: relative;
+}
+
+.tabs>.tab:not(.selected)>label {
+    cursor: pointer;
 }
 
 .tabs>.tab:not(.selected) {
@@ -267,6 +270,14 @@ body {
     width: 0px;
 }
 
+#HeroesTable .column8 {
+    width: 210px;
+}
+
+#HeroesTable .column9 {
+    width: 0px;
+}
+
 #BattlegroundsTable .column1 {
     width: 70px;
 }
@@ -291,6 +302,14 @@ body {
     width: 0px;
 }
 
+#BattlegroundsTable .column7 {
+    width: 210px;
+}
+
+#BattlegroundsTable .column8 {
+    width: 0px;
+}
+
 .links-table th,
 .links-table td {
     text-align: left;
@@ -307,6 +326,7 @@ body {
     font-size: 16px;
     font-weight: bold;
     color: #78dcff;
+    cursor: pointer;
 }
 
 .links-table tr.header>td:hover {
@@ -461,8 +481,24 @@ td>.icon-circle {
     background-color: #86e4ff;
 }
 
+.legend>.undocumented:hover {
+    color: #0090ff;
+}
+
+.legend>.undocumented:hover>.dot {
+    background-color: #0090ff;
+}
+
 .legend>.ptr-to-live>.dot {
     background-color: #ff9900;
+}
+
+.legend>.ptr-to-live:hover {
+    color: #ff6600;
+}
+
+.legend>.ptr-to-live:hover>.dot {
+    background-color: #ff6600;
 }
 
 .panel-body .undocumented {
@@ -516,44 +552,48 @@ th .sort-icon {
 }
 
 #toast {
-  visibility: hidden;
-  min-width: 180px;
-  margin-left: -125px;
-  background-color: lightblue;
-  color: #000000;
-  text-align: center;
-  border-radius: 2px;
-  padding: 8px;
-  position: fixed;
-  z-index: 1;
-  left: 50%;
-  bottom: 30px;
+    visibility: hidden;
+    min-width: 180px;
+    margin-left: -125px;
+    background-color: lightblue;
+    color: #000000;
+    text-align: center;
+    border-radius: 2px;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0090ff;
+    padding: 8px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
 }
 
 #toast.show {
-  visibility: visible;
-  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
-  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
 }
 
 @-webkit-keyframes fadein {
-  from {bottom: 0; opacity: 0;}
-  to {bottom: 30px; opacity: 1;}
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
 }
 
 @keyframes fadein {
-  from {bottom: 0; opacity: 0;}
-  to {bottom: 30px; opacity: 1;}
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
 }
 
 @-webkit-keyframes fadeout {
-  from {bottom: 30px; opacity: 1;}
-  to {bottom: 0; opacity: 0;}
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
 }
 
 @keyframes fadeout {
-  from {bottom: 30px; opacity: 1;}
-  to {bottom: 0; opacity: 0;}
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
 }
 
 .fixed {
@@ -618,6 +658,12 @@ th .sort-icon {
     display: flex;
     align-items: center;
     gap: 5px;
+    cursor: pointer;
+}
+
+.pull-right,
+.legend {
+    cursor: pointer;
 }
 
 .patch {
@@ -714,7 +760,7 @@ input[type="checkbox"]:checked::before {
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 720px) {
     #BattlegroundsTable td:nth-of-type(3) {
         display: none;
     }
@@ -732,11 +778,37 @@ input[type="checkbox"]:checked::before {
     }
 }
 
+@media only screen and (max-width: 920px) {
+    #BattlegroundsTable tr:first-of-type td:nth-of-type(5) {
+        display: none;
+    }
+
+    #BattlegroundsTable tr:not(:first-of-type) td:nth-of-type(7) {
+        display: none;
+    }
+
+    #BattlegroundsTable tr:not(:first-of-type) td:nth-of-type(8) {
+        display: none;
+    }
+
+    #HeroesTable tr:first-of-type td:nth-of-type(6) {
+        display: none;
+    }
+
+    #HeroesTable tr:not(:first-of-type) td:nth-of-type(8) {
+        display: none;
+    }
+
+    #HeroesTable tr:not(:first-of-type) td:nth-of-type(9) {
+        display: none;
+    }
+}
+
 @media (prefers-reduced-motion: reduce) {
-  * {
-    animation: none !important;
-    transition: none !important;
-  }
+    * {
+        animation: none !important;
+        transition: none !important;
+    }
 }
 
 .table-condensed,
@@ -776,4 +848,41 @@ input[type="checkbox"]:checked::before {
 
 .table-condensed td .text-highlight {
     color: #0090ff;
+}
+
+.tooltip-item {
+    position: relative;
+}
+
+.tooltip-text {
+    display: none;
+    width: fit-content;
+    background-color: lightblue;
+    color: black;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0090ff;
+    position: absolute;
+    left: -45px;
+    padding: 8px;
+    z-index: 1;
+    text-shadow: none;
+    font-weight: normal;
+}
+
+.tooltip-item:hover .tooltip-text {
+    display: block;
+    margin-top: 4px;
+}
+
+.tooltip-text::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -6px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent transparent #0090ff transparent;
 }
