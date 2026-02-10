@@ -21,12 +21,12 @@
     },
     "Blackheart's Bay": {
         "last_updated": {
-            "patch_date": "2025-12-16",
-            "version_number": "2.55.14.95918"
+            "patch_date": "2026-02-10",
+            "version_number": "2.55.15.96370"
         },
         "last_changed": {
-            "patch_date": "2025-12-16",
-            "version_number": "2.55.14.95918"
+            "patch_date": "2026-02-10",
+            "version_number": "2.55.15.96370"
         }
     },
     "Braxis Holdout": {
@@ -41,12 +41,12 @@
     },
     "Cursed Hollow": {
         "last_updated": {
-            "patch_date": "2025-12-01",
-            "version_number": "2.55.14.95774"
+            "patch_date": "2026-02-10",
+            "version_number": "2.55.15.96370"
         },
         "last_changed": {
-            "patch_date": "2025-12-04",
-            "version_number": "2.55.14.95817"
+            "patch_date": "2026-02-10",
+            "version_number": "2.55.15.96370"
         }
     },
     "Dragon Shire": {
@@ -81,12 +81,12 @@
     },
     "Haunted Mines": {
         "last_updated": {
-            "patch_date": "2025-09-30",
-            "version_number": "2.55.13.95213"
+            "patch_date": "2026-02-10",
+            "version_number": "2.55.15.96370"
         },
         "last_changed": {
-            "patch_date": "2025-09-30",
-            "version_number": "2.55.13.95213"
+            "patch_date": "2026-02-10",
+            "version_number": "2.55.15.96370"
         }
     },
     "Infernal Shrines": {
@@ -101,12 +101,12 @@
     },
     "Sky Temple": {
         "last_updated": {
-            "patch_date": "2025-12-16",
-            "version_number": "2.55.14.95918"
+            "patch_date": "2026-02-10",
+            "version_number": "2.55.15.96370"
         },
         "last_changed": {
-            "patch_date": "2025-12-16",
-            "version_number": "2.55.14.95918"
+            "patch_date": "2026-02-10",
+            "version_number": "2.55.15.96370"
         }
     },
     "Tomb of the Spider Queen": {
@@ -131,22 +131,22 @@
     },
     "Volskaya Foundry": {
         "last_updated": {
-            "patch_date": "2025-12-16",
-            "version_number": "2.55.14.95918"
+            "patch_date": "2026-02-10",
+            "version_number": "2.55.15.96370"
         },
         "last_changed": {
-            "patch_date": "2025-12-16",
-            "version_number": "2.55.14.95918"
+            "patch_date": "2026-02-10",
+            "version_number": "2.55.15.96370"
         }
     },
     "Warhead Junction": {
         "last_updated": {
-            "patch_date": "2025-12-16",
-            "version_number": "2.55.14.95918"
+            "patch_date": "2026-02-10",
+            "version_number": "2.55.15.96370"
         },
         "last_changed": {
-            "patch_date": "2025-12-16",
-            "version_number": "2.55.14.95918"
+            "patch_date": "2026-02-10",
+            "version_number": "2.55.15.96370"
         }
     }
 }
