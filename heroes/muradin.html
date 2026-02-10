@@ -121,6 +121,16 @@
                         </h3>
                     </div>
                     <div class="panel-body toggle">
+                        <div class="legend interactive">
+                            <div class="ptr-to-live">
+                                <span class="label">PTR to Live</span>
+                                <span class="dot"></span>
+                            </div>
+                            <div class="undocumented">
+                                <span class="label">Undocumented</span>
+                                <span class="dot"></span>
+                            </div>
+                        </div>
                         <div>
                             <h3>
                                 Updates
@@ -137,31 +147,24 @@
             </strong>
             <ul>
                 <li>
-                    Perfect Storm Quest removed.
+                    No longer unlocks Storm Bolt's pierce, Storm Bolt's cooldown reduction by 1 second
+                    from Basic Attacks, and Mana restoration from Basic Attacks upon reaching Level 10.
                 </li>
                 <li>
                     <b>
-                        NEW QUEST:
+                        New Quest:
                     </b>
-                    Basic Attack Heroes affected by Slows or Stuns. Slows provide 1 stack and Stuns provide 2 stacks. At
-                    <span style="color: rgb(255, 140, 0);">
-                        <s>
-                            35
-                        </s>
-                        50
-                    </span>
-                    stacks, Storm Bolt pierces to hit an additional target, and Muradin's Basic Attack reduces the cooldown of Storm Bolt by 0.5 seconds.
+                    Basic Attack enemy Heroes affected by Stuns, Slows<span class="undocumented">, or Roots</span>.
+                    Slowed <span class="undocumented">or Rooted</span> enemies provide 1 stack.
+                    Stunned enemies provide 2 stacks. At <span class="ptr-to-live"><s>35</s> 50</span> stacks,
+                    Storm Bolt pierces to hit an additional target, and
+                    Muradin's Basic Attacks reduce the cooldown of Storm Bolt by 0.5 seconds
+                    <span class="undocumented">and restore 3 Mana</span>.
                     <b>
                         Mythic Reward:
                     </b>
-                    At
-                    <span style="color: rgb(255, 140, 0);">
-                        <s>
-                            150
-                        </s>
-                        200
-                    </span>
-                    stacks, Storm Bolt's range is increased by 50% and width is increased by 100%, and now pierces all targets.
+                    At <span class="ptr-to-live"><s>150</s> 200</span> stacks, Storm Bolt's range
+                    is increased by 50% and width is increased by 100%, and now pierces all targets.
                 </li>
             </ul>
         </li>
@@ -185,6 +188,9 @@
                         <li>
                             Block charges reduced from 4 to 3.
                         </li>
+                        <li>
+                            <span class="undocumented">The maximum amount of charges is still 4.</span>
+                        </li>
                     </ul>
                 </li>
                 <li>
@@ -193,7 +199,7 @@
                     </strong>
                     <ul>
                         <li>
-                            Moved Talent from Level 7 to Level 1.
+                            Moved from Level 7 to Level 1.
                         </li>
                     </ul>
                 </li>
@@ -213,7 +219,7 @@
                             No longer increases Storm Bolt's cooldown reduction.
                         </li>
                         <li>
-                            Now increases Storm Bolt damage to non-Heroes by 500%.
+                            Damage bonus to non-Heroes increased from 350% to 500%.
                         </li>
                     </ul>
                 </li>
@@ -231,13 +237,11 @@
                     <ul>
                         <li>
                             <b>
-                                NEW:
+                                New:
                             </b>
                             If an enemy hit with Storm Bolt dies within 3 seconds, reset its cooldown.
-                            <span style="color: rgb(255, 140, 0);">
-                                This can only occur once per 10 seconds
-                            </span>
-                            .
+                            <span span="ptr-to-live">The cooldown cannot be reset more than
+                                once every 10 seconds.</span>
                         </li>
                     </ul>
                 </li>
@@ -261,50 +265,38 @@
             </ul>
         </li>
                                 <li>
-            <span style="color: rgb(255, 140, 0);">
-                <strong>
-                    Level 20
-                </strong>
-            </span>
+            <strong>
+                Level 20
+            </strong>
             <ul>
                 <li>
-                    <span style="color: rgb(255, 140, 0);">
-                        <strong style="color: #0099ff;">
-                            Mountain King
-                        </strong>
-                    </span>
+                    <strong style="color: #0099ff;">
+                        Mountain King
+                    </strong>
                     <ul>
                         <li>
-                            <span style="color: rgb(255, 140, 0);">
+                            <span class="ptr-to-live">
                                 <b>
-                                    NEW:
+                                    New:
                                 </b>
-                                Thunderclap and Dwarf Toss have an extra charge.
+                                Thunder Clap and Dwarf Toss have an extra charge.
                             </span>
                         </li>
                     </ul>
-                    <span style="color: rgb(255, 140, 0);">
-                    </span>
                 </li>
                 <li>
-                    <span style="color: rgb(255, 140, 0);">
-                        <strong style="color: #0099ff;">
-                            Rewind
-                        </strong>
-                    </span>
+                    <strong style="color: #0099ff;">
+                        Rewind
+                    </strong>
                     <ul>
                         <li>
-                            <span style="color: rgb(255, 140, 0);">
+                            <span class="ptr-to-live">
                                 Removed.
                             </span>
                         </li>
                     </ul>
-                    <span style="color: rgb(255, 140, 0);">
-                    </span>
                 </li>
             </ul>
-            <span style="color: rgb(255, 140, 0);">
-            </span>
         </li>
                             </ul>
                         </div>
@@ -468,6 +460,18 @@
                         </li>
                     </ul>
                 </li>
+                <li>
+                    <strong style="color: #0099ff;">
+                        Rewind
+                    </strong>
+                    <ul>
+                        <li>
+                            <span class="undocumented">
+                                Removed.
+                            </span>
+                        </li>
+                    </ul>
+                </li>
             </ul>
         </li>
                             </ul>
@@ -537,8 +541,8 @@
             </strong>
             <ul>
                 <li>
-                    No longer unlocks Storm Bolt's pierce and Mana restoration
-                    from Basic Attacks upon reaching Level 10.
+                    No longer unlocks Storm Bolt's pierce, Storm Bolt's cooldown reduction by 1 second
+                    from Basic Attacks, and Mana restoration from Basic Attacks upon reaching Level 10.
                 </li>
                 <li>
                     <b>
@@ -605,7 +609,7 @@
                             No longer increases Storm Bolt's cooldown reduction.
                         </li>
                         <li>
-                            Damage to non-Heroes increased from 350% to 500%.
+                            Damage bonus to non-Heroes increased from 350% to 500%.
                         </li>
                     </ul>
                 </li>

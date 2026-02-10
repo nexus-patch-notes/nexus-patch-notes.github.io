@@ -121,10 +121,33 @@
                         </h3>
                     </div>
                     <div class="panel-body toggle">
+                        <div class="legend interactive">
+                            <div class="ptr-to-live">
+                                <span class="label">PTR to Live</span>
+                                <span class="dot"></span>
+                            </div>
+                            <div class="undocumented">
+                                <span class="label">Undocumented</span>
+                                <span class="dot"></span>
+                            </div>
+                        </div>
                         <div>
                             <h3>
                                 Updates
                             </h3>
+                            <p>
+                                <strong style="color: rgb(153, 0, 255);">
+            Stats
+        </strong>
+                            </p>
+                            <ul>
+                                <li>
+            <span class="ptr-to-live">Mana increased from 450 to 500.</span>
+        </li>
+                                <li>
+            <span class="undocumented">Mana Regeneration increased from 2.7 to 3 per second.</span>
+        </li>
+                            </ul>
                             <p>
                                 <strong style="color: rgb(153, 0, 255);">
             Base
@@ -132,22 +155,11 @@
                             </p>
                             <ul>
                                 <li>
-            <span style="color: rgb(255, 140, 0);">
-                <s>
-                    Mana reduced from 500 to 450.
-                </s>
-            </span>
-        </li>
-                                <li>
             <strong style="color: #0099ff;">
-                Sentinel Shot [W]
+                Sentinel [W]
             </strong>
             <ul>
-                <li>
-                    <span style="color: rgb(255, 140, 0);">
-                        Mana cost increased to 55 from 50.
-                    </span>
-                </li>
+                <li><span class="ptr-to-live">Mana cost increased from 50 to 55.</span></li>
             </ul>
         </li>
                                 <li>
@@ -156,52 +168,45 @@
             </strong>
             <ul>
                 <li>
+                    <span class="ptr-to-live">Mana cost increased from 60 to 65.</span>
+                </li>
+                <li>
                     <b>
-                        NEW QUEST:
+                        New Quest:
                     </b>
-                    Hitting a Hero with Lunar Flare increased its damage by 5%, up to 250%. After hitting 10 Heroes, increase Lunar Flare's range by 30%. After hitting 20 Heroes, Sentinel now pierces the first Hero hit.
+                    Hitting a Hero with Lunar Flare increased its damage by
+                    <span class="undocumented"><s>5%</s> 4%</span>,
+                    up to <span class="undocumented"><s>180%</s> 250%</span>. After hitting 10 Heroes,
+                    increase Lunar Flare's range by 30%. After hitting 20 Heroes, Sentinel now pierces the first
+                    Hero hit.
                     <b>
                         Mythic Reward:
                     </b>
-                    After hitting
-                    <span style="color: rgb(255, 140, 0);">
-                        <s>
-                            50
-                        </s>
-                        45
-                    </span>
-                    Heroes, Tyrande's Basic Attacks occasionally trigger a Lunar Flare.
+                    After hitting <span class="ptr-to-live"><s>50</s> 45</span> Heroes,
+                    <span class="undocumented">every 8</span> Basic Attacks
+                    <span class="undocumented"><s>occasionally</s></span> trigger a Lunar Flare
+                    <span class="undocumented">at a random nearby enemy, prioritizing Heroes
+                        affected by Hunter's Mark.</span>
                 </li>
                 <li>
-                    Now restores 25 mana per enemy hit.
-                </li>
-                <li>
-                    Mana cost increased to 65 from 60.
+                    Now restores 25 Mana per enemy hit.
                 </li>
             </ul>
         </li>
                                 <li>
             <strong style="color: #0099ff;">
-                Starfall [R]
+                Shadowstalk [R1]
             </strong>
             <ul>
-                <li>
-                    <span style="color: rgb(255, 140, 0);">
-                        Mana cost increased to 85 from 75.
-                    </span>
-                </li>
+                <li><span class="ptr-to-live">Mana cost increased from 75 to 85.</span></li>
             </ul>
         </li>
                                 <li>
             <strong style="color: #0099ff;">
-                Shadowstalk [R]
+                Starfall [R2]
             </strong>
             <ul>
-                <li>
-                    <span style="color: rgb(255, 140, 0);">
-                        Mana cost increased to 85 from 75.
-                    </span>
-                </li>
+                <li><span class="ptr-to-live">Mana cost increased from 75 to 85.</span></li>
             </ul>
         </li>
                             </ul>
@@ -232,10 +237,10 @@
                     </strong>
                     <ul>
                         <li>
-                            Cooldown reduction reduced from .75 seconds to .5 seconds.
+                            Cooldown reduction reduced from 0.75 to 0.5 seconds.
                         </li>
                         <li>
-                            Moved Talent from Level 7 to Level 1.
+                            Moved from Level 7 to Level 1.
                         </li>
                     </ul>
                 </li>
@@ -265,7 +270,8 @@
                     </strong>
                     <ul>
                         <li>
-                            NEW: Grants 20% Spell Power for 10 seconds after hitting an enemy with Lunar Flare.
+                            <strong>New:</strong> Grants 20% Spell Power for 10 seconds after hitting an enemy with
+                            Lunar Flare.
                         </li>
                     </ul>
                 </li>
@@ -282,9 +288,7 @@
                     </strong>
                     <ul>
                         <li>
-                            <b>
-                                NEW:
-                            </b>
+                            <strong>New:</strong>
                             Sentinel now has an additional charge.
                         </li>
                     </ul>
@@ -292,8 +296,6 @@
             </ul>
         </li>
                             </ul>
-                            <p>
-                            </p>
                         </div>
                     </div>
                 </div>
@@ -461,7 +463,7 @@
                     </b>
                     After hitting 50 Heroes, <span class="undocumented">every 8</span> Basic Attacks
                     <span class="undocumented"><s>occasionally</s></span> trigger a Lunar Flare
-                    <span class="undocumented">at a random nearby enemy (prioritizing Heroes).</span>
+                    <span class="undocumented">at a random nearby enemy, prioritizing Heroes.</span>
                 </li>
                 <li>
                     Now restores 25 Mana per enemy hit.
