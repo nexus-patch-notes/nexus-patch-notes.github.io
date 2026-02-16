@@ -51,12 +51,12 @@
     },
     "Anub'arak": {
         "last_updated": {
-            "patch_date": "2025-07-29",
-            "version_number": "2.55.12.94714"
+            "patch_date": "2026-02-10",
+            "version_number": "2.55.15.96370"
         },
         "last_changed": {
-            "patch_date": "2025-07-29",
-            "version_number": "2.55.12.94714"
+            "patch_date": "2026-02-10",
+            "version_number": "2.55.15.96370"
         }
     },
     "Artanis": {
@@ -71,12 +71,12 @@
     },
     "Arthas": {
         "last_updated": {
-            "patch_date": "2025-12-01",
-            "version_number": "2.55.14.95774"
+            "patch_date": "2026-02-10",
+            "version_number": "2.55.15.96370"
         },
         "last_changed": {
-            "patch_date": "2025-12-01",
-            "version_number": "2.55.14.95774"
+            "patch_date": "2026-02-10",
+            "version_number": "2.55.15.96370"
         }
     },
     "Auriel": {
@@ -255,18 +255,18 @@
             "version_number": "2.55.14.95774"
         },
         "last_changed": {
-            "patch_date": "2025-12-01",
-            "version_number": "2.55.14.95774"
+            "patch_date": "2026-02-10",
+            "version_number": "2.55.15.96370"
         }
     },
     "Gazlowe": {
         "last_updated": {
-            "patch_date": "2024-08-12",
-            "version_number": "2.55.6.92665"
+            "patch_date": "2026-02-10",
+            "version_number": "2.55.15.96370"
         },
         "last_changed": {
-            "patch_date": "2025-12-01",
-            "version_number": "2.55.14.95774"
+            "patch_date": "2026-02-10",
+            "version_number": "2.55.15.96370"
         }
     },
     "Genji": {
@@ -295,8 +295,8 @@
             "version_number": "2.55.14.95918"
         },
         "last_changed": {
-            "patch_date": "2025-12-16",
-            "version_number": "2.55.14.95918"
+            "patch_date": "2026-02-10",
+            "version_number": "2.55.15.96370"
         }
     },
     "Hanzo": {
@@ -491,12 +491,12 @@
     },
     "Malfurion": {
         "last_updated": {
-            "patch_date": "2024-05-21",
-            "version_number": "2.55.5.92264"
+            "patch_date": "2026-02-10",
+            "version_number": "2.55.15.96370"
         },
         "last_changed": {
-            "patch_date": "2025-05-15",
-            "version_number": "2.55.11.94189"
+            "patch_date": "2026-02-10",
+            "version_number": "2.55.15.96370"
         }
     },
     "Malthael": {
@@ -561,12 +561,12 @@
     },
     "Nazeebo": {
         "last_updated": {
-            "patch_date": "2021-09-27",
-            "version_number": "2.54.4.86223"
+            "patch_date": "2026-02-10",
+            "version_number": "2.55.15.96370"
         },
         "last_changed": {
-            "patch_date": "2025-10-06",
-            "version_number": "2.55.13.95301"
+            "patch_date": "2026-02-10",
+            "version_number": "2.55.15.96370"
         }
     },
     "Nova": {
@@ -815,8 +815,8 @@
             "version_number": "2.55.7.93009"
         },
         "last_changed": {
-            "patch_date": "2025-12-04",
-            "version_number": "2.55.14.95817"
+            "patch_date": "2026-02-10",
+            "version_number": "2.55.15.96370"
         }
     },
     "Varian": {
@@ -861,12 +861,12 @@
     },
     "Zagara": {
         "last_updated": {
-            "patch_date": "2025-09-30",
-            "version_number": "2.55.13.95213"
+            "patch_date": "2026-02-10",
+            "version_number": "2.55.15.96370"
         },
         "last_changed": {
-            "patch_date": "2025-12-01",
-            "version_number": "2.55.14.95774"
+            "patch_date": "2026-02-10",
+            "version_number": "2.55.15.96370"
         }
     },
     "Zarya": {
@@ -895,8 +895,8 @@
             "version_number": "2.55.14.95774"
         },
         "last_changed": {
-            "patch_date": "2025-12-04",
-            "version_number": "2.55.14.95817"
+            "patch_date": "2026-02-10",
+            "version_number": "2.55.15.96370"
         }
     }
 }
