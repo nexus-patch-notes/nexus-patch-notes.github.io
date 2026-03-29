@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="2019-08-14 Hotfix Patch Notes for Heroes of the Storm, with official and undocumented changes." name="description"/>
+        <meta content="Nexus Patch Notes" property="og:title"/>
+        <meta content="2019-08-14 Hotfix Patch Notes for Heroes of the Storm, with official and undocumented changes." property="og:description"/>
+        <meta content="https://nexus-patch-notes.github.io/images/assets/logo.png" property="og:image"/>
+        <meta content="https://nexus-patch-notes.github.io" property="og:url"/>
+        <meta content="website" property="og:type"/>
+        <meta content="Nexus Patch Notes" property="og:site_name"/>
+        <meta content="JrPVjGOFJBJqgBFHQDCkagy0SgCnHJX8h0X0zwJc9SI" name="google-site-verification"/>
+        <link href="../style.css?v=1.8" rel="stylesheet"/>
+        <title>
+            2019-08-14 Hotfix — Nexus Patch Notes
+        </title>
+        <link href="../images/assets/logo.png" rel="icon" type="image/x-icon"/>
+        <link href="https://nexus-patch-notes.github.io/patches/2019-08-14-hotfix.html" rel="canonical"/>
+        <script type="application/ld+json">
+            {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Nexus Patch Notes",
+        "url": "https://nexus-patch-notes.github.io/",
+        "description": "2019-08-14 Hotfix Patch Notes for Heroes of the Storm, with official and undocumented changes.",
+        "alternateName": "NPN",
+        "inLanguage": "en",
+        "publisher": {
+            "@type": "Person",
+            "name": "Elitesparkle",
+            "url": "https://github.com/Elitesparkle/"
+        },
+        "about": {
+            "@type": "VideoGame",
+            "name": "Heroes of the Storm",
+            "alternateName": "HOTS",
+            "url": "https://heroesofthestorm.com/"
+        }
+    }
+        </script>
+    </head>
+    <body>
+        <div class="navigation-bar fixed">
+            <div class="left-menu">
+                <a href="..">
+                    <img alt="Home" aria-hidden="true" class="svg hover" height="30" src="../images/icons/home.svg" width="30"/>
+                </a>
+            </div>
+            <div class="center-menu">
+                <div class="title-card">
+                    <h3 class="text-shadow">
+                        Heroes of the Storm Patch Notes
+                    </h3>
+                </div>
+            </div>
+            <div class="right-menu">
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="panels-list">
+                <div class="panel panel-patch panel-notes">
+                    <div class="panel-heading">
+                        <div class="patch-info">
+                            <a class="pull-right" href="../index.html#patch2019-08-14" title="View the summary Patch Notes">
+                                <img aria-hidden="true" class="svg hover" height="30" role="presentation" src="../images/icons/hotfix-patch.svg" width="30"/>
+                            </a>
+                            <div class="text-header">
+                                <span class="text-shadow">2019-08-14 Hotfix Patch</span>
+                                <small class="greyed-out">
+                                    2.47.1.75792
+                                </small>
+                            </div>
+                        </div>
+                        <div class="source-bar">
+                            <a class="pull-right" href="https://news.blizzard.com/en-us/heroes-of-the-storm/23096767" rel="noopener noreferrer" title="View official Patch Notes">
+                                <img alt="Official Source" aria-hidden="true" class="svg hover" height="30" src="../images/icons/blizzard.svg" width="30"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <h1 class="category-title text-shadow">
+                            General
+                        </h1>
+                        <div class="section-block">
+                            <p class="missing-changes">
+                                For general changes and/or gameplay updates, check out the official Patch Notes.
+                            </p>
+                        </div>
+                        <h1 class="category-title text-shadow">
+                            Heroes
+                        </h1>
+                        <div class="section-block">
+                            <div class="section-label">
+                                <img alt="Qhira" class="icon-square" height="42" src="../images/heroes/qhira.png" width="42">
+                                    <h2 class="subject-title text-shadow">
+                                        <a href="../heroes/qhira.html#patch2019-08-14">
+                                            Qhira
+                                        </a>
+                                    </h2>
+                                </img>
+                            </div>
+                            <div class="section-html">
+                                <div>
+                                    <h3>
+                                        Bug Fixes
+                                    </h3>
+                                    <ul>
+                                        <li>
+            Fatal Wounds no longer causes Blood Rage to deal bonus damage to enemies that have less than 5 stacks.
+        </li>
+                                        <li>
+            Fatal Wounds no longer causes the activated portion of Blood Rage to deal bonus damage.
+        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="svg hover" id="BackToTop">
+        </div>
+    </body>
+    <script>
+        const btn = document.getElementById('BackToTop');
+
+    // Show/Hide on scroll
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 150) {
+            btn.classList.add('show');
+        } else {
+            btn.classList.remove('show');
+        }
+    });
+
+    // Smooth scroll to top
+    btn.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+    </script>
+    <script>
+        const legendClasses = ['ptr-to-live', 'undocumented'];
+
+    legendClasses.forEach(cls => {
+        const legendItems = document.querySelectorAll(`.legend .${cls}`);
+
+        legendItems.forEach((item, index) => {
+            item.addEventListener('click', () => {
+                const nextItem = legendItems[index + 1] || legendItems[0];
+                nextItem.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    });
+    </script>
+</html>
