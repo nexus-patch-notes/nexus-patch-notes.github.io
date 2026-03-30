@@ -9,7 +9,7 @@
         <meta content="https://nexus-patch-notes.github.io" property="og:url"/>
         <meta content="website" property="og:type"/>
         <meta content="Nexus Patch Notes" property="og:site_name"/>
-        <link href="../style.css?v=1.9" rel="stylesheet"/>
+        <link href="../style.css?v=1.10" rel="stylesheet"/>
         <title>
             Falstad — Nexus Patch Notes
         </title>
@@ -445,8 +445,8 @@
                     </div>
                     <div class="panel-body toggle">
                         <div class="legend interactive">
-                            <div class="undocumented">
-                                <span class="label">Undocumented</span>
+                            <div class="reverted">
+                                <span class="label">Reverted</span>
                                 <span class="dot"></span>
                             </div>
                         </div>
@@ -466,11 +466,11 @@
             </strong>
             <ul>
                 <li>
-                    <span class="undocumented"><s>Now strikes more frequently, from every second to every .8 seconds.
+                    <span class="reverted"><s>Now strikes more frequently, from every second to every .8 seconds.
                             Total number of strikes stay the same.</s></span>
                 </li>
                 <li>
-                    <span class="undocumented"><s>Cast range increased from 6.5 to 7.5.</s></span>
+                    <span class="reverted"><s>Cast range increased from 6.5 to 7.5.</s></span>
                 </li>
             </ul>
         </li>
@@ -492,10 +492,10 @@
                     </strong>
                     <ul>
                         <li>
-                            <span class="undocumented"><s>Cooldown increased from 45 to 60 seconds.</s></span>
+                            <span class="reverted"><s>Cooldown increased from 45 to 60 seconds.</s></span>
                         </li>
                         <li>
-                            <span class="undocumented"><s>Quest requirements increased from
+                            <span class="reverted"><s>Quest requirements increased from
                                     50/125/300 to 60/150/300.</s></span>
                         </li>
                     </ul>
@@ -509,7 +509,7 @@
                                 Bug Fixes
                             </h3>
                             <ul>
-                                <li><span class="undocumented"><s>Fixed an issue causing Falstad's Gathering Storm
+                                <li><span class="reverted"><s>Fixed an issue causing Falstad's Gathering Storm
                     to give its second Reward multiple times.</s></span></li>
                             </ul>
                         </div>
@@ -5558,7 +5558,7 @@
     });
     </script>
     <script>
-        const legendClasses = ['ptr-to-live', 'undocumented'];
+        const legendClasses = ['ptr-to-live', 'reverted', 'undocumented'];
 
     legendClasses.forEach(cls => {
         const legendItems = document.querySelectorAll(`.legend .${cls}`);

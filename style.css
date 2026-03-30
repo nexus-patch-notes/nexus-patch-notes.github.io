@@ -548,6 +548,18 @@ td>.icon-circle {
     background-color: #0090ff;
 }
 
+.legend>.reverted>.dot {
+    background-color: #ffd700;
+}
+
+.legend.interactive>.reverted:hover {
+    color: #ff9900;
+}
+
+.legend.interactive>.reverted:hover>.dot {
+    background-color: #ff9900;
+}
+
 .legend>.ptr-to-live>.dot {
     background-color: #ff9900;
 }
@@ -562,6 +574,10 @@ td>.icon-circle {
 
 .panel-body .undocumented {
     color: #86e4ff;
+}
+
+.panel-body .reverted {
+    color: #ffd700;
 }
 
 .panel-body .ptr-to-live {

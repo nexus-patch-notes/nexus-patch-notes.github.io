@@ -9,7 +9,7 @@
         <meta content="https://nexus-patch-notes.github.io" property="og:url"/>
         <meta content="website" property="og:type"/>
         <meta content="Nexus Patch Notes" property="og:site_name"/>
-        <link href="../style.css?v=1.9" rel="stylesheet"/>
+        <link href="../style.css?v=1.10" rel="stylesheet"/>
         <title>
             Warhead Junction — Nexus Patch Notes
         </title>
@@ -315,8 +315,8 @@
                     </div>
                     <div class="panel-body toggle">
                         <div class="legend interactive">
-                            <div class="undocumented">
-                                <span class="label">Undocumented</span>
+                            <div class="reverted">
+                                <span class="label">Reverted</span>
                                 <span class="dot"></span>
                             </div>
                         </div>
@@ -339,9 +339,9 @@
                 </strong>
             </span>
             <ul>
-                <li><span class="undocumented"><s>Heroic Basic Attacks against Structures recently hit by Warheads
+                <li><span class="reverted"><s>Heroic Basic Attacks against Structures recently hit by Warheads
                             no longer set the burning's duration to 5 seconds.</s></span></li>
-                <li><span class="undocumented"><s>Heroic Basic Attacks against Structures recently hit by Warheads
+                <li><span class="reverted"><s>Heroic Basic Attacks against Structures recently hit by Warheads
                             now pause the burning's duration for 3 seconds.</s></span></li>
             </ul>
         </li>
@@ -2017,7 +2017,7 @@
     });
     </script>
     <script>
-        const legendClasses = ['ptr-to-live', 'undocumented'];
+        const legendClasses = ['ptr-to-live', 'reverted', 'undocumented'];
 
     legendClasses.forEach(cls => {
         const legendItems = document.querySelectorAll(`.legend .${cls}`);

@@ -9,7 +9,7 @@
         <meta content="https://nexus-patch-notes.github.io" property="og:url"/>
         <meta content="website" property="og:type"/>
         <meta content="Nexus Patch Notes" property="og:site_name"/>
-        <link href="../style.css?v=1.9" rel="stylesheet"/>
+        <link href="../style.css?v=1.10" rel="stylesheet"/>
         <title>
             Alterac Pass — Nexus Patch Notes
         </title>
@@ -154,8 +154,8 @@
                     </div>
                     <div class="panel-body toggle">
                         <div class="legend interactive">
-                            <div class="undocumented">
-                                <span class="label">Undocumented</span>
+                            <div class="reverted">
+                                <span class="label">Reverted</span>
                                 <span class="dot"></span>
                             </div>
                         </div>
@@ -164,7 +164,7 @@
                                 Bug Fixes
                             </h3>
                             <ul>
-                                <li><span class="undocumented"><s>Fixed an issue causing the Objective capture time to not be capped at 55
+                                <li><span class="reverted"><s>Fixed an issue causing the Objective capture time to not be capped at 55
                     seconds.</s></span></li>
                             </ul>
                         </div>
@@ -1254,7 +1254,7 @@
     });
     </script>
     <script>
-        const legendClasses = ['ptr-to-live', 'undocumented'];
+        const legendClasses = ['ptr-to-live', 'reverted', 'undocumented'];
 
     legendClasses.forEach(cls => {
         const legendItems = document.querySelectorAll(`.legend .${cls}`);

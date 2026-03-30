@@ -9,7 +9,7 @@
         <meta content="https://nexus-patch-notes.github.io" property="og:url"/>
         <meta content="website" property="og:type"/>
         <meta content="Nexus Patch Notes" property="og:site_name"/>
-        <link href="../style.css?v=1.9" rel="stylesheet"/>
+        <link href="../style.css?v=1.10" rel="stylesheet"/>
         <title>
             Volskaya Foundry — Nexus Patch Notes
         </title>
@@ -570,8 +570,8 @@
                     </div>
                     <div class="panel-body toggle">
                         <div class="legend interactive">
-                            <div class="undocumented">
-                                <span class="label">Undocumented</span>
+                            <div class="reverted">
+                                <span class="label">Reverted</span>
                                 <span class="dot"></span>
                             </div>
                         </div>
@@ -596,16 +596,16 @@
             <ul>
                 <li><strong>Stats</strong>
                     <ul>
-                        <li><span class="undocumented"><s>Health scaling for minutes 6-10
+                        <li><span class="reverted"><s>Health scaling for minutes 6-10
                                     increased from 825 to 862.</s></span>
                         </li>
-                        <li><span class="undocumented"><s>Health scaling for minutes 11-15
+                        <li><span class="reverted"><s>Health scaling for minutes 11-15
                                     increased from 1150 to 1294.</s></span>
                         </li>
-                        <li><span class="undocumented"><s>Health scaling for minutes 16-20
+                        <li><span class="reverted"><s>Health scaling for minutes 16-20
                                     increased from 1437 to 1725.</s></span>
                         </li>
-                        <li><span class="undocumented"><s>Health scaling for minutes 21-60
+                        <li><span class="reverted"><s>Health scaling for minutes 21-60
                                     increased from 1725 to 2156.</s></span>
                         </li>
                     </ul>
@@ -2689,7 +2689,7 @@
     });
     </script>
     <script>
-        const legendClasses = ['ptr-to-live', 'undocumented'];
+        const legendClasses = ['ptr-to-live', 'reverted', 'undocumented'];
 
     legendClasses.forEach(cls => {
         const legendItems = document.querySelectorAll(`.legend .${cls}`);

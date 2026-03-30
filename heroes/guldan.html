@@ -9,7 +9,7 @@
         <meta content="https://nexus-patch-notes.github.io" property="og:url"/>
         <meta content="website" property="og:type"/>
         <meta content="Nexus Patch Notes" property="og:site_name"/>
-        <link href="../style.css?v=1.9" rel="stylesheet"/>
+        <link href="../style.css?v=1.10" rel="stylesheet"/>
         <title>
             Gul'dan — Nexus Patch Notes
         </title>
@@ -284,8 +284,8 @@
                     </div>
                     <div class="panel-body toggle">
                         <div class="legend interactive">
-                            <div class="undocumented">
-                                <span class="label">Undocumented</span>
+                            <div class="reverted">
+                                <span class="label">Reverted</span>
                                 <span class="dot"></span>
                             </div>
                         </div>
@@ -310,10 +310,10 @@
                     </strong>
                     <ul>
                         <li>
-                            <span class="undocumented"><s>Pinnacle Reward healing increased from 50% to 100%.</s></span>
+                            <span class="reverted"><s>Pinnacle Reward healing increased from 50% to 100%.</s></span>
                         </li>
                         <li>
-                            <span class="undocumented"><s>Pinnacle Reward requirement reduced from 100 to 85.</s></span>
+                            <span class="reverted"><s>Pinnacle Reward requirement reduced from 100 to 85.</s></span>
                         </li>
                     </ul>
                 </li>
@@ -330,7 +330,7 @@
                     </strong>
                     <ul>
                         <li>
-                            <span class="undocumented"><s>Damage reduced by 10%.</s></span>
+                            <span class="reverted"><s>Damage reduced by 10%.</s></span>
                         </li>
                     </ul>
                 </li>
@@ -3529,7 +3529,7 @@
     });
     </script>
     <script>
-        const legendClasses = ['ptr-to-live', 'undocumented'];
+        const legendClasses = ['ptr-to-live', 'reverted', 'undocumented'];
 
     legendClasses.forEach(cls => {
         const legendItems = document.querySelectorAll(`.legend .${cls}`);

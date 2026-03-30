@@ -9,7 +9,7 @@
         <meta content="https://nexus-patch-notes.github.io" property="og:url"/>
         <meta content="website" property="og:type"/>
         <meta content="Nexus Patch Notes" property="og:site_name"/>
-        <link href="../style.css?v=1.9" rel="stylesheet"/>
+        <link href="../style.css?v=1.10" rel="stylesheet"/>
         <title>
             Sylvanas — Nexus Patch Notes
         </title>
@@ -446,8 +446,8 @@
                     </div>
                     <div class="panel-body toggle">
                         <div class="legend interactive">
-                            <div class="undocumented">
-                                <span class="label">Undocumented</span>
+                            <div class="reverted">
+                                <span class="label">Reverted</span>
                                 <span class="dot"></span>
                             </div>
                         </div>
@@ -467,7 +467,7 @@
             </strong>
             <ul>
                 <li>
-                    <span class="undocumented"><s>Cooldown between uses reduced from 2 to 1 second.</s></span>
+                    <span class="reverted"><s>Cooldown between uses reduced from 2 to 1 second.</s></span>
                 </li>
             </ul>
         </li>
@@ -489,7 +489,7 @@
                     </strong>
                     <ul>
                         <li>
-                            <span class="undocumented"><s>Damage increased from 130 to 150.</s></span>
+                            <span class="reverted"><s>Damage increased from 130 to 150.</s></span>
                         </li>
                     </ul>
                 </li>
@@ -506,10 +506,10 @@
                     </strong>
                     <ul>
                         <li>
-                            <span class="undocumented"><s>No longer affects Mercenaries.</s></span>
+                            <span class="reverted"><s>No longer affects Mercenaries.</s></span>
                         </li>
                         <li>
-                            <span class="undocumented"><s>Now affects Heroes too.</s></span>
+                            <span class="reverted"><s>Now affects Heroes too.</s></span>
                         </li>
                     </ul>
                 </li>
@@ -6309,7 +6309,7 @@
     });
     </script>
     <script>
-        const legendClasses = ['ptr-to-live', 'undocumented'];
+        const legendClasses = ['ptr-to-live', 'reverted', 'undocumented'];
 
     legendClasses.forEach(cls => {
         const legendItems = document.querySelectorAll(`.legend .${cls}`);
