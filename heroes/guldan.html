@@ -9,7 +9,7 @@
         <meta content="https://nexus-patch-notes.github.io" property="og:url"/>
         <meta content="website" property="og:type"/>
         <meta content="Nexus Patch Notes" property="og:site_name"/>
-        <link href="../style.css?v=1.8" rel="stylesheet"/>
+        <link href="../style.css?v=1.9" rel="stylesheet"/>
         <title>
             Gul'dan — Nexus Patch Notes
         </title>
@@ -68,27 +68,27 @@
                     </div>
                     <div class="dropdown-content">
                         <label>
-                            <input checked="" type="checkbox" value="alpha"/>
+                            <input type="checkbox" value="alpha"/>
                             Alpha
                         </label>
                         <label>
-                            <input checked="" type="checkbox" value="beta"/>
+                            <input type="checkbox" value="beta"/>
                             Beta
                         </label>
                         <label>
-                            <input checked="" type="checkbox" value="ptr"/>
+                            <input type="checkbox" value="ptr"/>
                             PTR
                         </label>
                         <label>
-                            <input checked="" type="checkbox" value="hotfix"/>
+                            <input type="checkbox" value="hotfix"/>
                             Hotfix
                         </label>
                         <label>
-                            <input checked="" type="checkbox" value="live"/>
+                            <input type="checkbox" value="live"/>
                             Live
                         </label>
                         <label>
-                            <input checked="" type="checkbox" value="revert"/>
+                            <input type="checkbox" value="revert"/>
                             Revert
                         </label>
                     </div>
@@ -3442,24 +3442,56 @@
     }
     </script>
     <script>
-        const dropdown = document.getElementById('patch-dropdown');
+        const STORAGE_KEY = 'patch-type-dropdown-selections';
+    const DEFAULT_CHECKED = ['alpha', 'beta', 'ptr', 'hotfix', 'live', 'revert'];
+
+    const dropdown = document.getElementById('patch-dropdown');
     const button = dropdown.querySelector('.dropdown-button');
     const panel = dropdown.querySelector('.dropdown-content');
     const checkboxes = panel.querySelectorAll('input[type="checkbox"]');
     const warningDiv = document.querySelector('.warning.checkbox');
 
-    // Update warning visibility
+    // Load saved selections, falling back to all-checked default
+    function loadSelections() {
+        try {
+            const saved = localStorage.getItem(STORAGE_KEY);
+            return saved ? JSON.parse(saved) : DEFAULT_CHECKED;
+        } catch {
+            return DEFAULT_CHECKED;
+        }
+    }
+
+    // Save current selections to localStorage
+    function saveSelections() {
+        const checked = [...checkboxes]
+            .filter(cb => cb.checked)
+            .map(cb => cb.value);
+        try {
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(checked));
+        } catch {
+            // Fail silently when storage unavailable (e.g. private browsing quota exceeded)
+        }
+    }
+
     function updateWarning() {
         const panels = document.querySelectorAll('.panel-patch');
         const allPanelsHidden = [...panels].every(p => window.getComputedStyle(p).display === 'none');
         warningDiv.classList.toggle('hidden', !allPanelsHidden);
     }
 
-    // Toggle visibility of .toggle-* elements
     function setVisibilityForValue(value, show) {
         document.querySelectorAll('.toggle-' + value).forEach(el => {
             el.classList.toggle('hidden', !show);
         });
+    }
+
+    // Apply saved state to checkboxes and trigger visibility updates
+    function applySelections(checkedValues) {
+        checkboxes.forEach(cb => {
+            cb.checked = checkedValues.includes(cb.value);
+            setVisibilityForValue(cb.value, cb.checked);
+        });
+        updateWarning();
     }
 
     // Dropdown toggle
@@ -3479,15 +3511,14 @@
     checkboxes.forEach(cb => {
         cb.addEventListener('change', () => {
             setVisibilityForValue(cb.value, cb.checked);
+            saveSelections();
             updateWarning();
         });
     });
 
-    // Select all checkboxes by default and update UI
-    window.addEventListener('load', () => {
-        checkboxes.forEach(cb => cb.checked = true);
-        checkboxes.forEach(cb => setVisibilityForValue(cb.value, cb.checked));
-        updateWarning();
+    // Initialise on page load
+    document.addEventListener('DOMContentLoaded', () => {
+        applySelections(loadSelections());
     });
     </script>
     <script>
@@ -3510,5 +3541,7 @@
             });
         });
     });
+    </script>
+    <script>
     </script>
 </html>

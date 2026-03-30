@@ -635,9 +635,17 @@ footer {
 }
 
 .warning.checkbox {
+    color: #ff9900;
+}
+
+.main-content>*>.warning.checkbox {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.main-content>.warning.checkbox {
     padding-top: 8px;
     padding-bottom: 16px;
-    color: #ff9900;
 }
 
 .unselectable {
@@ -832,11 +840,11 @@ th .sort-icon {
 }
 
 .dropdown.open .dropdown-content {
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
-.dropdown-content label {
-    display: block;
+.dropdown-content>div {
     margin: 4px 0;
     cursor: pointer;
 }
