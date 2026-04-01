@@ -956,8 +956,14 @@ input[type="checkbox"]:checked::before {
 
 .table-condensed,
 .table-condensed td,
-.table-condensed th:first-child
-{
+.table-condensed th:first-child {
+    border-collapse: collapse;
+    border: #2f465d;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.table-condensed.undocumented th {
     border-collapse: collapse;
     border: #2f465d;
     border-style: solid;
@@ -1032,4 +1038,16 @@ input[type="checkbox"]:checked::before {
 
 .patch-notes {
     align-items: normal;
+}
+
+.increased   {
+    color: #00bd09;
+}
+
+.decreased {
+    color: #ff0000;
+}
+
+.unchanged    {
+    color: #ffcc00;
 }
