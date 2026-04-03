@@ -456,7 +456,7 @@ td>.icon-circle {
 
 .icon-label {
     font-weight: bold;
-    width: 92px;
+    width: 91px;
     color: #78dcff;
 }
 
@@ -572,6 +572,14 @@ td>.icon-circle {
     background-color: #ff6600;
 }
 
+details>summary {
+    color: #86e4ff;
+}
+
+details>summary:hover {
+    color: #0099ff;
+}
+
 .panel-body .undocumented {
     color: #86e4ff;
 }
@@ -582,11 +590,6 @@ td>.icon-circle {
 
 .panel-body .ptr-to-live {
     color: #ff9900;
-}
-
-.panel-body .section-title,
-.panel-body .category-title {
-    color: #9900ff;
 }
 
 .panel-body .subject-title {
@@ -611,7 +614,6 @@ td>.icon-circle {
     display: flex;
     align-items: center;
     width: fit-content;
-    /* gap: 6px; */
     border: 1px solid #2f465d;
     border-right: 20px solid transparent;
 }
@@ -625,14 +627,40 @@ td>.icon-circle {
     color:#0090ff;
 }
 
-.panel-body>.category-title {
-    /* margin: auto; */
+.category-title {
+    color: #9900ff;
+}
+
+.category-title:hover {
+    color: #7700ff;
+}
+
+.category-title .category-label {
     width: fit-content;
-    color: #90f;
-    border-bottom: 1px solid #90f;
+    border-bottom: 1px solid #9900ff;
     border-right: min(40vw, 600px) solid transparent;
-    /* font-variant-caps: small-caps; */
-    /* border-left: 20px solid transparent; **/
+}
+
+.category-title:hover>.category-label {
+    border-bottom: 1px solid #7700ff;
+}
+
+.arrow {
+    display: inline-block;
+    transform: rotate(90deg);
+    transition: transform 0.2s ease;
+}
+
+.category-title.collapsed>span.category-label {
+    border-right: none;
+}
+
+.general-section,
+.battlegrounds-section,
+.heroes-section {
+    margin-left: 0px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 .section-html {

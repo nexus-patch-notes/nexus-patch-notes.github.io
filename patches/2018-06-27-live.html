@@ -10,7 +10,7 @@
         <meta content="website" property="og:type"/>
         <meta content="Nexus Patch Notes" property="og:site_name"/>
         <meta content="JrPVjGOFJBJqgBFHQDCkagy0SgCnHJX8h0X0zwJc9SI" name="google-site-verification"/>
-        <link href="../style.css?v=1.11" rel="stylesheet"/>
+        <link href="../style.css?v=1.12" rel="stylesheet"/>
         <title>
             2018-06-27 Live — Nexus Patch Notes
         </title>
@@ -50,7 +50,7 @@
                 <div class="title-card">
                     <img class="icon-circle" height="42" role="presentation" src="../images/blizzard/hots-logo.png" width="42">
                         <div class="text-header text-shadow">
-                            Heroes of the Storm Patch Notes
+                            Patch Notes
                         </div>
                     </img>
                 </div>
@@ -90,18 +90,18 @@
                                 <span class="dot"></span>
                             </div>
                         </div>
-                        <h1 class="category-title text-shadow">
-                            General
+                        <h1 class="category-title general-title text-shadow" onclick="toggleSection('general')">
+                            <span class="category-label">General</span>
                         </h1>
-                        <div class="section-block">
+                        <div class="section-block general-section toggle">
                             <p class="missing-changes">
                                 For general changes and/or gameplay updates, check out the official Patch Notes.
                             </p>
                         </div>
-                        <h1 class="category-title text-shadow">
-                            Heroes
+                        <h1 class="category-title Heroes-title text-shadow" onclick="toggleSection('Heroes')">
+                            <span class="category-label">Heroes</span>
                         </h1>
-                        <div class="section-block">
+                        <div class="section-block Heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Alexstrasza" class="icon-square" height="42" src="../images/heroes/alexstrasza.png" width="42">
                                     <h2 class="subject-title text-shadow">
@@ -129,7 +129,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block">
+                        <div class="section-block Heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Ana" class="icon-square" height="42" src="../images/heroes/ana.png" width="42">
                                     <h2 class="subject-title text-shadow">
@@ -168,7 +168,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block">
+                        <div class="section-block Heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Anub'arak" class="icon-square" height="42" src="../images/heroes/anubarak.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -230,7 +230,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block">
+                        <div class="section-block Heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Blaze" class="icon-square" height="42" src="../images/heroes/blaze.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -306,7 +306,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block">
+                        <div class="section-block Heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Cassia" class="icon-square" height="42" src="../images/heroes/cassia.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -370,7 +370,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block">
+                        <div class="section-block Heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Deckard" class="icon-square" height="42" src="../images/heroes/deckard.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -411,7 +411,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block">
+                        <div class="section-block Heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Diablo" class="icon-square" height="42" src="../images/heroes/diablo.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -519,7 +519,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block">
+                        <div class="section-block Heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Fenix" class="icon-square" height="42" src="../images/heroes/fenix.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -671,7 +671,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block">
+                        <div class="section-block Heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Greymane" class="icon-square" height="42" src="../images/heroes/greymane.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -758,7 +758,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block">
+                        <div class="section-block Heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Johanna" class="icon-square" height="42" src="../images/heroes/johanna.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -812,7 +812,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block">
+                        <div class="section-block Heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Maiev" class="icon-square" height="42" src="../images/heroes/maiev.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -929,7 +929,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block">
+                        <div class="section-block Heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Medivh" class="icon-square" height="42" src="../images/heroes/medivh.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -951,7 +951,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block">
+                        <div class="section-block Heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Nazeebo" class="icon-square" height="42" src="../images/heroes/nazeebo.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -1002,7 +1002,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block">
+                        <div class="section-block Heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Probius" class="icon-square" height="42" src="../images/heroes/probius.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -1043,7 +1043,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block">
+                        <div class="section-block Heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Rehgar" class="icon-square" height="42" src="../images/heroes/rehgar.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -1243,7 +1243,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block">
+                        <div class="section-block Heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Thrall" class="icon-square" height="42" src="../images/heroes/thrall.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -1265,7 +1265,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block">
+                        <div class="section-block Heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Tracer" class="icon-square" height="42" src="../images/heroes/tracer.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -1315,7 +1315,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block">
+                        <div class="section-block Heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Yrel" class="icon-square" height="42" src="../images/heroes/yrel.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -1480,7 +1480,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block">
+                        <div class="section-block Heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Zagara" class="icon-square" height="42" src="../images/heroes/zagara.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -1557,7 +1557,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block">
+                        <div class="section-block Heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Zul'jin" class="icon-square" height="42" src="../images/heroes/zuljin.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -1663,5 +1663,15 @@
             });
         });
     });
+    </script>
+    <script>
+        function toggleSection(category) {
+        document.querySelectorAll('.' + category + '-section').forEach(el => {
+            el.classList.toggle('hidden');
+        });
+        document.querySelectorAll('.' + category + '-title').forEach(el => {
+            el.classList.toggle('collapsed');
+        });
+    }
     </script>
 </html>
