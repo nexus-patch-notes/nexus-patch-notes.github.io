@@ -10,7 +10,7 @@
         <meta content="website" property="og:type"/>
         <meta content="Nexus Patch Notes" property="og:site_name"/>
         <meta content="JrPVjGOFJBJqgBFHQDCkagy0SgCnHJX8h0X0zwJc9SI" name="google-site-verification"/>
-        <link href="../style.css?v=1.12" rel="stylesheet"/>
+        <link href="../style.css?v=1.13" rel="stylesheet"/>
         <title>
             2017-11-14 Live — Nexus Patch Notes
         </title>
@@ -80,16 +80,16 @@
                         </div>
                     </div>
                     <div class="panel-body">
-                        <h1 class="category-title general-title text-shadow" onclick="toggleSection('general')">
-                            <span class="category-label">General</span>
+                        <h1 class="category-title text-shadow">
+                            <span class="category-label general-label" onclick="toggleSection('general')">General</span>
                         </h1>
                         <div class="section-block general-section toggle">
                             <p class="missing-changes">
                                 For general changes and/or gameplay updates, check out the official Patch Notes.
                             </p>
                         </div>
-                        <h1 class="category-title Heroes-title text-shadow" onclick="toggleSection('Heroes')">
-                            <span class="category-label">Heroes</span>
+                        <h1 class="category-title text-shadow">
+                            <span class="category-label Heroes-label" onclick="toggleSection('Heroes')">Heroes</span>
                         </h1>
                         <div class="section-block Heroes-section toggle">
                             <div class="section-label">
@@ -1284,7 +1284,7 @@
         document.querySelectorAll('.' + category + '-section').forEach(el => {
             el.classList.toggle('hidden');
         });
-        document.querySelectorAll('.' + category + '-title').forEach(el => {
+        document.querySelectorAll('.' + category + '-label').forEach(el => {
             el.classList.toggle('collapsed');
         });
     }
