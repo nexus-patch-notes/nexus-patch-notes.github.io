@@ -572,12 +572,24 @@ td>.icon-circle {
     background-color: #ff6600;
 }
 
-details>summary {
+details>summary:hover {
+    color: #cccccc;
+}
+
+details.undocumented>summary {
     color: #86e4ff;
 }
 
-details>summary:hover {
+details.undocumented>summary:hover {
     color: #0099ff;
+}
+
+details.ptr-to-live>summary {
+    color: #ff9900;
+}
+
+details.ptr-to-live>summary:hover {
+    color: #ff6600;
 }
 
 .panel-body .undocumented {
