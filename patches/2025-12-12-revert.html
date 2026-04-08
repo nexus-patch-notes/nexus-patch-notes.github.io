@@ -597,12 +597,12 @@
     </script>
     <script>
         const CATEGORIES = ['general', 'battlegrounds', 'heroes'];
-    const STORAGE_KEY = 'collapsible-sections';
+    const COLLAPSIBLE_SECTIONS_STORAGE_KEY = 'collapsible-sections';
     const DEFAULT_STATES = Object.fromEntries(CATEGORIES.map(c => [c, 'expanded']));
 
     function loadStates() {
         try {
-            const saved = localStorage.getItem(STORAGE_KEY);
+            const saved = localStorage.getItem(COLLAPSIBLE_SECTIONS_STORAGE_KEY);
             return saved ? { ...DEFAULT_STATES, ...JSON.parse(saved) } : DEFAULT_STATES;
         } catch {
             return DEFAULT_STATES;
@@ -611,7 +611,7 @@
 
     function saveStates(states) {
         try {
-            localStorage.setItem(STORAGE_KEY, JSON.stringify(states));
+            localStorage.setItem(COLLAPSIBLE_SECTIONS_STORAGE_KEY, JSON.stringify(states));
         } catch {
             // Fail silently when storage unavailable (e.g. private browsing quota exceeded)
         }

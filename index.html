@@ -46109,12 +46109,12 @@
     </script>
     <script>
         const CATEGORIES = ['general', 'battlegrounds', 'heroes'];
-    const STORAGE_KEY = 'collapsible-sections';
+    const COLLAPSIBLE_SECTIONS_STORAGE_KEY = 'collapsible-sections';
     const DEFAULT_STATES = Object.fromEntries(CATEGORIES.map(c => [c, 'expanded']));
 
     function loadStates() {
         try {
-            const saved = localStorage.getItem(STORAGE_KEY);
+            const saved = localStorage.getItem(COLLAPSIBLE_SECTIONS_STORAGE_KEY);
             return saved ? { ...DEFAULT_STATES, ...JSON.parse(saved) } : DEFAULT_STATES;
         } catch {
             return DEFAULT_STATES;
@@ -46123,7 +46123,7 @@
 
     function saveStates(states) {
         try {
-            localStorage.setItem(STORAGE_KEY, JSON.stringify(states));
+            localStorage.setItem(COLLAPSIBLE_SECTIONS_STORAGE_KEY, JSON.stringify(states));
         } catch {
             // Fail silently when storage unavailable (e.g. private browsing quota exceeded)
         }
@@ -46161,7 +46161,7 @@
     document.addEventListener('DOMContentLoaded', restoreSectionStates);
     </script>
     <script>
-        const STORAGE_KEY = 'patch-type-dropdown-selections';
+        const PATCH_TYPES_STORAGE_KEY = 'patch-type-dropdown-selections';
     const DEFAULT_CHECKED = ['alpha', 'beta', 'ptr', 'hotfix', 'live', 'revert'];
 
     const dropdown = document.getElementById('patch-dropdown');
@@ -46173,7 +46173,7 @@
     // Load saved selections, falling back to all-checked default
     function loadSelections() {
         try {
-            const saved = localStorage.getItem(STORAGE_KEY);
+            const saved = localStorage.getItem(PATCH_TYPES_STORAGE_KEY);
             return saved ? JSON.parse(saved) : DEFAULT_CHECKED;
         } catch {
             return DEFAULT_CHECKED;
@@ -46186,7 +46186,7 @@
             .filter(cb => cb.checked)
             .map(cb => cb.value);
         try {
-            localStorage.setItem(STORAGE_KEY, JSON.stringify(checked));
+            localStorage.setItem(PATCH_TYPES_STORAGE_KEY, JSON.stringify(checked));
         } catch {
             // Fail silently when storage unavailable (e.g. private browsing quota exceeded)
         }

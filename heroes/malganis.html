@@ -2956,7 +2956,7 @@
     }
     </script>
     <script>
-        const STORAGE_KEY = 'patch-type-dropdown-selections';
+        const PATCH_TYPES_STORAGE_KEY = 'patch-type-dropdown-selections';
     const DEFAULT_CHECKED = ['alpha', 'beta', 'ptr', 'hotfix', 'live', 'revert'];
 
     const dropdown = document.getElementById('patch-dropdown');
@@ -2968,7 +2968,7 @@
     // Load saved selections, falling back to all-checked default
     function loadSelections() {
         try {
-            const saved = localStorage.getItem(STORAGE_KEY);
+            const saved = localStorage.getItem(PATCH_TYPES_STORAGE_KEY);
             return saved ? JSON.parse(saved) : DEFAULT_CHECKED;
         } catch {
             return DEFAULT_CHECKED;
@@ -2981,7 +2981,7 @@
             .filter(cb => cb.checked)
             .map(cb => cb.value);
         try {
-            localStorage.setItem(STORAGE_KEY, JSON.stringify(checked));
+            localStorage.setItem(PATCH_TYPES_STORAGE_KEY, JSON.stringify(checked));
         } catch {
             // Fail silently when storage unavailable (e.g. private browsing quota exceeded)
         }
