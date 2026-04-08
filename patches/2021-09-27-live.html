@@ -89,9 +89,9 @@
                             </p>
                         </div>
                         <h1 class="category-title text-shadow">
-                            <span class="category-label Heroes-label" onclick="toggleSection('Heroes')">Heroes</span>
+                            <span class="category-label heroes-label" onclick="toggleSection('heroes')">Heroes</span>
                         </h1>
-                        <div class="section-block Heroes-section toggle">
+                        <div class="section-block heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Ana" class="icon-square" height="42" src="../images/heroes/ana.png" width="42">
                                     <h2 class="subject-title text-shadow">
@@ -221,7 +221,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block Heroes-section toggle">
+                        <div class="section-block heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Brightwing" class="icon-square" height="42" src="../images/heroes/brightwing.png" width="42">
                                     <h2 class="subject-title text-shadow">
@@ -279,7 +279,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block Heroes-section toggle">
+                        <div class="section-block heroes-section toggle">
                             <div class="section-label">
                                 <img alt="ETC" class="icon-square" height="42" src="../images/heroes/etc.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -432,7 +432,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block Heroes-section toggle">
+                        <div class="section-block heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Gazlowe" class="icon-square" height="42" src="../images/heroes/gazlowe.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -496,7 +496,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block Heroes-section toggle">
+                        <div class="section-block heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Kael'thas" class="icon-square" height="42" src="../images/heroes/kaelthas.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -604,7 +604,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block Heroes-section toggle">
+                        <div class="section-block heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Kel'Thuzad" class="icon-square" height="42" src="../images/heroes/kelthuzad.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -699,7 +699,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block Heroes-section toggle">
+                        <div class="section-block heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Li Li" class="icon-square" height="42" src="../images/heroes/lili.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -774,7 +774,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block Heroes-section toggle">
+                        <div class="section-block heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Maiev" class="icon-square" height="42" src="../images/heroes/maiev.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -899,7 +899,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block Heroes-section toggle">
+                        <div class="section-block heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Nazeebo" class="icon-square" height="42" src="../images/heroes/nazeebo.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -1035,7 +1035,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block Heroes-section toggle">
+                        <div class="section-block heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Stukov" class="icon-square" height="42" src="../images/heroes/stukov.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -1161,7 +1161,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block Heroes-section toggle">
+                        <div class="section-block heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Thrall" class="icon-square" height="42" src="../images/heroes/thrall.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -1291,7 +1291,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block Heroes-section toggle">
+                        <div class="section-block heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Valla" class="icon-square" height="42" src="../images/heroes/valla.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -1373,7 +1373,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block Heroes-section toggle">
+                        <div class="section-block heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Zagara" class="icon-square" height="42" src="../images/heroes/zagara.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -1442,7 +1442,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block Heroes-section toggle">
+                        <div class="section-block heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Zarya" class="icon-square" height="42" src="../images/heroes/zarya.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -1607,13 +1607,56 @@
     });
     </script>
     <script>
-        function toggleSection(category) {
+        const CATEGORIES = ['general', 'battlegrounds', 'heroes'];
+    const STORAGE_KEY = 'collapsible-sections';
+    const DEFAULT_STATES = Object.fromEntries(CATEGORIES.map(c => [c, 'expanded']));
+
+    function loadStates() {
+        try {
+            const saved = localStorage.getItem(STORAGE_KEY);
+            return saved ? { ...DEFAULT_STATES, ...JSON.parse(saved) } : DEFAULT_STATES;
+        } catch {
+            return DEFAULT_STATES;
+        }
+    }
+
+    function saveStates(states) {
+        try {
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(states));
+        } catch {
+            // Fail silently when storage unavailable (e.g. private browsing quota exceeded)
+        }
+    }
+
+    function toggleSection(category) {
         document.querySelectorAll('.' + category + '-section').forEach(el => {
             el.classList.toggle('hidden');
         });
+
         document.querySelectorAll('.' + category + '-label').forEach(el => {
             el.classList.toggle('collapsed');
         });
+
+        const isCollapsed = document.querySelector('.' + category + '-section').classList.contains('hidden');
+        const states = loadStates();
+        states[category] = isCollapsed ? 'collapsed' : 'expanded';
+        saveStates(states);
     }
+
+    function restoreSectionStates() {
+        const states = loadStates();
+        CATEGORIES.forEach(category => {
+            if (states[category] === 'collapsed') {
+                document.querySelectorAll('.' + category + '-section').forEach(el => {
+                    el.classList.add('hidden');
+                });
+                document.querySelectorAll('.' + category + '-label').forEach(el => {
+                    el.classList.add('collapsed');
+                });
+            }
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', restoreSectionStates);
     </script>
 </html>

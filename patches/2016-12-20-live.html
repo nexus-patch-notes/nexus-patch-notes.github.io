@@ -95,9 +95,9 @@
                             </p>
                         </div>
                         <h1 class="category-title text-shadow">
-                            <span class="category-label Heroes-label" onclick="toggleSection('Heroes')">Heroes</span>
+                            <span class="category-label heroes-label" onclick="toggleSection('heroes')">Heroes</span>
                         </h1>
-                        <div class="section-block Heroes-section toggle">
+                        <div class="section-block heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Artanis" class="icon-square" height="42" src="../images/heroes/artanis.png" width="42">
                                     <h2 class="subject-title text-shadow">
@@ -153,7 +153,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block Heroes-section toggle">
+                        <div class="section-block heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Dehaka" class="icon-square" height="42" src="../images/heroes/dehaka.png" width="42">
                                     <h2 class="subject-title text-shadow">
@@ -217,7 +217,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block Heroes-section toggle">
+                        <div class="section-block heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Diablo" class="icon-square" height="42" src="../images/heroes/diablo.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -314,7 +314,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block Heroes-section toggle">
+                        <div class="section-block heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Ragnaros" class="icon-square" height="42" src="../images/heroes/ragnaros.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -450,7 +450,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section-block Heroes-section toggle">
+                        <div class="section-block heroes-section toggle">
                             <div class="section-label">
                                 <img alt="Zeratul" class="icon-square" height="42" src="../images/heroes/zeratul.png" width="42"/>
                                 <h2 class="subject-title text-shadow">
@@ -535,13 +535,56 @@
     });
     </script>
     <script>
-        function toggleSection(category) {
+        const CATEGORIES = ['general', 'battlegrounds', 'heroes'];
+    const STORAGE_KEY = 'collapsible-sections';
+    const DEFAULT_STATES = Object.fromEntries(CATEGORIES.map(c => [c, 'expanded']));
+
+    function loadStates() {
+        try {
+            const saved = localStorage.getItem(STORAGE_KEY);
+            return saved ? { ...DEFAULT_STATES, ...JSON.parse(saved) } : DEFAULT_STATES;
+        } catch {
+            return DEFAULT_STATES;
+        }
+    }
+
+    function saveStates(states) {
+        try {
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(states));
+        } catch {
+            // Fail silently when storage unavailable (e.g. private browsing quota exceeded)
+        }
+    }
+
+    function toggleSection(category) {
         document.querySelectorAll('.' + category + '-section').forEach(el => {
             el.classList.toggle('hidden');
         });
+
         document.querySelectorAll('.' + category + '-label').forEach(el => {
             el.classList.toggle('collapsed');
         });
+
+        const isCollapsed = document.querySelector('.' + category + '-section').classList.contains('hidden');
+        const states = loadStates();
+        states[category] = isCollapsed ? 'collapsed' : 'expanded';
+        saveStates(states);
     }
+
+    function restoreSectionStates() {
+        const states = loadStates();
+        CATEGORIES.forEach(category => {
+            if (states[category] === 'collapsed') {
+                document.querySelectorAll('.' + category + '-section').forEach(el => {
+                    el.classList.add('hidden');
+                });
+                document.querySelectorAll('.' + category + '-label').forEach(el => {
+                    el.classList.add('collapsed');
+                });
+            }
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', restoreSectionStates);
     </script>
 </html>
