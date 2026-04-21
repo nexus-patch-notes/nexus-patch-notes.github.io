@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="2026-04-21 Hotfix Patch Notes for Heroes of the Storm, with official and undocumented changes." name="description"/>
+        <meta content="Nexus Patch Notes" property="og:title"/>
+        <meta content="2026-04-21 Hotfix Patch Notes for Heroes of the Storm, with official and undocumented changes." property="og:description"/>
+        <meta content="https://nexus-patch-notes.github.io/images/assets/logo.png" property="og:image"/>
+        <meta content="https://nexus-patch-notes.github.io" property="og:url"/>
+        <meta content="website" property="og:type"/>
+        <meta content="Nexus Patch Notes" property="og:site_name"/>
+        <meta content="JrPVjGOFJBJqgBFHQDCkagy0SgCnHJX8h0X0zwJc9SI" name="google-site-verification"/>
+        <link href="../style.css?v=1.13" rel="stylesheet"/>
+        <title>
+            2026-04-21 Hotfix — Nexus Patch Notes
+        </title>
+        <link href="../images/assets/logo.png" rel="icon" type="image/x-icon"/>
+        <link href="https://nexus-patch-notes.github.io/patches/2026-04-21-hotfix.html" rel="canonical"/>
+        <script type="application/ld+json">
+            {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Nexus Patch Notes",
+        "url": "https://nexus-patch-notes.github.io/",
+        "description": "2026-04-21 Hotfix Patch Notes for Heroes of the Storm, with official and undocumented changes.",
+        "alternateName": "NPN",
+        "inLanguage": "en",
+        "publisher": {
+            "@type": "Person",
+            "name": "Elitesparkle",
+            "url": "https://github.com/Elitesparkle/"
+        },
+        "about": {
+            "@type": "VideoGame",
+            "name": "Heroes of the Storm",
+            "alternateName": "HOTS",
+            "url": "https://heroesofthestorm.com/"
+        }
+    }
+        </script>
+    </head>
+    <body>
+        <div class="navigation-bar fixed">
+            <div class="left-menu">
+                <a href="..">
+                    <img alt="Home" aria-hidden="true" class="svg hover" height="30" src="../images/icons/home.svg" width="30"/>
+                </a>
+            </div>
+            <div class="center-menu">
+                <div class="title-card">
+                    <img class="icon-circle" height="42" role="presentation" src="../images/blizzard/hots-logo.png" width="42">
+                        <div class="text-header text-shadow">
+                            Patch Notes
+                        </div>
+                    </img>
+                </div>
+            </div>
+            <div class="right-menu">
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="panels-list">
+                <div class="panel panel-patch panel-notes">
+                    <div class="panel-heading">
+                        <div class="patch-info">
+                            <a class="pull-right" href="../index.html#patch2026-04-21" title="View the summary Patch Notes">
+                                <img aria-hidden="true" class="svg hover" height="30" role="presentation" src="../images/icons/hotfix-patch.svg" width="30"/>
+                            </a>
+                            <div class="text-header">
+                                <span class="text-shadow">2026-04-21 Hotfix Patch</span>
+                                <small class="greyed-out">
+                                    2.55.16.96870
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <div class="legend">
+                            <div class="undocumented">
+                                <span class="label">Undocumented</span>
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+                        <h1 class="category-title text-shadow">
+                            <span class="category-label general-label" onclick="toggleSection('general')">General</span>
+                        </h1>
+                        <div class="section-block general-section toggle">
+                            <div>
+                                <h3>
+                                    Bug Fixes
+                                </h3>
+                                <ul>
+                                    <li><span class="undocumented">Fixed an issue causing the Scrapper Mad Axe Mono Wheel Mount
+                to not be usable.</span></li>
+                                    <li><span class="undocumented">Fixed various tooltips related to the latest changes.</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="svg hover" id="BackToTop">
+        </div>
+    </body>
+    <script>
+        const btn = document.getElementById('BackToTop');
+
+    // Show/Hide on scroll
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 150) {
+            btn.classList.add('show');
+        } else {
+            btn.classList.remove('show');
+        }
+    });
+
+    // Smooth scroll to top
+    btn.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+    </script>
+    <script>
+        const legendClasses = ['ptr-to-live', 'reverted', 'undocumented'];
+
+    legendClasses.forEach(cls => {
+        const legendItems = document.querySelectorAll(`.legend .${cls}`);
+
+        legendItems.forEach((item, index) => {
+            item.addEventListener('click', () => {
+                const nextItem = legendItems[index + 1] || legendItems[0];
+                nextItem.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    });
+    </script>
+    <script>
+        const CATEGORIES = ['general', 'battlegrounds', 'heroes'];
+    const COLLAPSIBLE_SECTIONS_STORAGE_KEY = 'collapsible-sections';
+    const DEFAULT_STATES = Object.fromEntries(CATEGORIES.map(c => [c, 'expanded']));
+
+    function loadStates() {
+        try {
+            const saved = localStorage.getItem(COLLAPSIBLE_SECTIONS_STORAGE_KEY);
+            return saved ? { ...DEFAULT_STATES, ...JSON.parse(saved) } : DEFAULT_STATES;
+        } catch {
+            return DEFAULT_STATES;
+        }
+    }
+
+    function saveStates(states) {
+        try {
+            localStorage.setItem(COLLAPSIBLE_SECTIONS_STORAGE_KEY, JSON.stringify(states));
+        } catch {
+            // Fail silently when storage unavailable (e.g. private browsing quota exceeded)
+        }
+    }
+
+    function toggleSection(category) {
+        document.querySelectorAll('.' + category + '-section').forEach(el => {
+            el.classList.toggle('hidden');
+        });
+
+        document.querySelectorAll('.' + category + '-label').forEach(el => {
+            el.classList.toggle('collapsed');
+        });
+
+        const isCollapsed = document.querySelector('.' + category + '-section').classList.contains('hidden');
+        const states = loadStates();
+        states[category] = isCollapsed ? 'collapsed' : 'expanded';
+        saveStates(states);
+    }
+
+    function restoreSectionStates() {
+        const states = loadStates();
+        CATEGORIES.forEach(category => {
+            if (states[category] === 'collapsed') {
+                document.querySelectorAll('.' + category + '-section').forEach(el => {
+                    el.classList.add('hidden');
+                });
+                document.querySelectorAll('.' + category + '-label').forEach(el => {
+                    el.classList.add('collapsed');
+                });
+            }
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', restoreSectionStates);
+    </script>
+</html>
