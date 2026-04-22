@@ -21,12 +21,12 @@
     },
     "Blackheart's Bay": {
         "last_updated": {
-            "patch_date": "2026-02-10",
-            "version_number": "2.55.15.96370"
+            "patch_date": "2026-04-20",
+            "version_number": "2.55.16.96846"
         },
         "last_changed": {
-            "patch_date": "2026-02-10",
-            "version_number": "2.55.15.96370"
+            "patch_date": "2026-04-20",
+            "version_number": "2.55.16.96846"
         }
     },
     "Braxis Holdout": {
@@ -61,12 +61,12 @@
     },
     "Garden of Terror": {
         "last_updated": {
-            "patch_date": "2025-12-01",
-            "version_number": "2.55.14.95774"
+            "patch_date": "2026-04-20",
+            "version_number": "2.55.16.96846"
         },
         "last_changed": {
-            "patch_date": "2025-12-01",
-            "version_number": "2.55.14.95774"
+            "patch_date": "2026-04-20",
+            "version_number": "2.55.16.96846"
         }
     },
     "Hanamura Temple": {
@@ -81,12 +81,12 @@
     },
     "Haunted Mines": {
         "last_updated": {
-            "patch_date": "2026-02-10",
-            "version_number": "2.55.15.96370"
+            "patch_date": "2026-04-20",
+            "version_number": "2.55.16.96846"
         },
         "last_changed": {
-            "patch_date": "2026-02-10",
-            "version_number": "2.55.15.96370"
+            "patch_date": "2026-04-20",
+            "version_number": "2.55.16.96846"
         }
     },
     "Infernal Shrines": {
@@ -141,12 +141,12 @@
     },
     "Warhead Junction": {
         "last_updated": {
-            "patch_date": "2026-02-10",
-            "version_number": "2.55.15.96370"
+            "patch_date": "2026-04-20",
+            "version_number": "2.55.16.96846"
         },
         "last_changed": {
-            "patch_date": "2026-02-10",
-            "version_number": "2.55.15.96370"
+            "patch_date": "2026-04-20",
+            "version_number": "2.55.16.96846"
         }
     }
 }
