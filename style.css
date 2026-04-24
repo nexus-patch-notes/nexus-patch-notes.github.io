@@ -572,6 +572,16 @@ td>.icon-circle {
     background-color: #ff6600;
 }
 
+details:not(open) summary::after {
+    content: "(click to expand)";
+    color: #3c536b;
+}
+
+details:open summary::after {
+    content: "(click to collapse)";
+    color: #3c536b;
+}
+
 details>summary:hover {
     color: #cccccc;
     cursor: pointer;
