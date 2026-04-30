@@ -726,7 +726,7 @@ th .sort-icon {
     border-color: var(--color-azure);
     padding: 8px;
     position: fixed;
-    z-index: 1;
+    z-index: 1000;
     left: 50%;
     bottom: 30px;
 }
@@ -759,13 +759,13 @@ th .sort-icon {
 
 .fixed {
     position: fixed;
-    z-index: 1;
+    z-index: 1000;
 }
 
 .sticky {
     position: sticky;
     position: -webkit-sticky;
-    z-index: 1;
+    z-index: 1000;
 }
 
 .fixed,
@@ -1109,17 +1109,17 @@ input[type="checkbox"]:checked::before {
     gap: 4px;
 }
 
-.icon-wrap:has(.legend-markers)::before {
+.legend-markers::before {
     content: "";
     position: absolute;
-    bottom: 0px;
-    left: 2px;
-    right: -2px;
+    bottom: 6px;
+    left: 0px;
+    right: 0px;
     height: 14px;
     border-radius: 0 0 7px 7px;
     background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.6) 40%);
     pointer-events: none;
-    z-index: 0;
+    z-index: -1;
 }
 
 .legend-markers {
@@ -1131,6 +1131,7 @@ input[type="checkbox"]:checked::before {
     flex-direction: row;
     justify-content: center;
     font-size: var(--legend-marker-font-size);
+    z-index: 1;
 }
 
 .legend-markers>.legend-marker.undocumented::after {
