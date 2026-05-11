@@ -71,12 +71,12 @@
     },
     "Arthas": {
         "last_updated": {
-            "patch_date": "2026-04-20",
-            "version_number": "2.55.16.96846"
+            "patch_date": "2026-05-11",
+            "version_number": "2.55.16.97039"
         },
         "last_changed": {
-            "patch_date": "2026-04-20",
-            "version_number": "2.55.16.96846"
+            "patch_date": "2026-05-11",
+            "version_number": "2.55.16.97039"
         }
     },
     "Auriel": {
@@ -91,12 +91,12 @@
     },
     "Azmodan": {
         "last_updated": {
-            "patch_date": "2026-02-10",
-            "version_number": "2.55.15.96370"
+            "patch_date": "2026-05-11",
+            "version_number": "2.55.16.97039"
         },
         "last_changed": {
-            "patch_date": "2026-02-19",
-            "version_number": "2.55.15.96443"
+            "patch_date": "2026-05-11",
+            "version_number": "2.55.16.97039"
         }
     },
     "Blaze": {
@@ -131,12 +131,12 @@
     },
     "Chen": {
         "last_updated": {
-            "patch_date": "2026-04-20",
-            "version_number": "2.55.16.96846"
+            "patch_date": "2026-05-11",
+            "version_number": "2.55.16.97039"
         },
         "last_changed": {
-            "patch_date": "2026-04-21",
-            "version_number": "2.55.16.96881"
+            "patch_date": "2026-05-11",
+            "version_number": "2.55.16.97039"
         }
     },
     "Cho": {
@@ -171,12 +171,12 @@
     },
     "Deathwing": {
         "last_updated": {
-            "patch_date": "2026-04-20",
-            "version_number": "2.55.16.96846"
+            "patch_date": "2026-05-11",
+            "version_number": "2.55.16.97039"
         },
         "last_changed": {
-            "patch_date": "2026-04-20",
-            "version_number": "2.55.16.96846"
+            "patch_date": "2026-05-11",
+            "version_number": "2.55.16.97039"
         }
     },
     "Deckard": {
@@ -261,12 +261,12 @@
     },
     "Gazlowe": {
         "last_updated": {
-            "patch_date": "2026-04-20",
-            "version_number": "2.55.16.96846"
+            "patch_date": "2026-05-11",
+            "version_number": "2.55.16.97039"
         },
         "last_changed": {
-            "patch_date": "2026-04-20",
-            "version_number": "2.55.16.96846"
+            "patch_date": "2026-05-11",
+            "version_number": "2.55.16.97039"
         }
     },
     "Genji": {
@@ -481,12 +481,12 @@
     },
     "Mal'Ganis": {
         "last_updated": {
-            "patch_date": "2026-04-20",
-            "version_number": "2.55.16.96846"
+            "patch_date": "2026-05-11",
+            "version_number": "2.55.16.97039"
         },
         "last_changed": {
-            "patch_date": "2026-04-20",
-            "version_number": "2.55.16.96846"
+            "patch_date": "2026-05-11",
+            "version_number": "2.55.16.97039"
         }
     },
     "Malfurion": {
@@ -525,8 +525,8 @@
             "version_number": "2.55.14.95774"
         },
         "last_changed": {
-            "patch_date": "2025-12-01",
-            "version_number": "2.55.14.95774"
+            "patch_date": "2026-05-11",
+            "version_number": "2.55.16.97039"
         }
     },
     "Mephisto": {
@@ -545,18 +545,18 @@
             "version_number": "2.55.16.96846"
         },
         "last_changed": {
-            "patch_date": "2026-04-20",
-            "version_number": "2.55.16.96846"
+            "patch_date": "2026-05-11",
+            "version_number": "2.55.16.97039"
         }
     },
     "Murky": {
         "last_updated": {
-            "patch_date": "2026-02-19",
-            "version_number": "2.55.15.96443"
+            "patch_date": "2026-05-11",
+            "version_number": "2.55.16.97039"
         },
         "last_changed": {
-            "patch_date": "2026-02-19",
-            "version_number": "2.55.15.96443"
+            "patch_date": "2026-05-11",
+            "version_number": "2.55.16.97039"
         }
     },
     "Nazeebo": {
@@ -645,8 +645,8 @@
             "version_number": "2.49.4.78679"
         },
         "last_changed": {
-            "patch_date": "2025-09-30",
-            "version_number": "2.55.13.95213"
+            "patch_date": "2026-05-11",
+            "version_number": "2.55.16.97039"
         }
     },
     "Samuro": {
@@ -761,12 +761,12 @@
     },
     "Tychus": {
         "last_updated": {
-            "patch_date": "2025-12-01",
-            "version_number": "2.55.14.95774"
+            "patch_date": "2026-05-11",
+            "version_number": "2.55.16.97039"
         },
         "last_changed": {
-            "patch_date": "2026-02-10",
-            "version_number": "2.55.15.96370"
+            "patch_date": "2026-05-11",
+            "version_number": "2.55.16.97039"
         }
     },
     "Tyrael": {
@@ -785,8 +785,8 @@
             "version_number": "2.55.16.96846"
         },
         "last_changed": {
-            "patch_date": "2026-04-20",
-            "version_number": "2.55.16.96846"
+            "patch_date": "2026-05-11",
+            "version_number": "2.55.16.97039"
         }
     },
     "Uther": {
@@ -861,12 +861,12 @@
     },
     "Zagara": {
         "last_updated": {
-            "patch_date": "2026-02-10",
-            "version_number": "2.55.15.96370"
+            "patch_date": "2026-05-11",
+            "version_number": "2.55.16.97039"
         },
         "last_changed": {
-            "patch_date": "2026-02-19",
-            "version_number": "2.55.15.96443"
+            "patch_date": "2026-05-11",
+            "version_number": "2.55.16.97039"
         }
     },
     "Zarya": {
