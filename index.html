@@ -65213,7 +65213,15 @@
     }
     </script>
     <script>
-        function tabSelection(selectedIndex) {
+        document.addEventListener("DOMContentLoaded", () => {
+    const params = new URLSearchParams(window.location.search);
+    const tabParam = parseInt(params.get("tab"), 10);
+    if (!isNaN(tabParam)) {
+            tabSelection(tabParam);
+        }
+    });
+
+    function tabSelection(selectedIndex) {
         const totalTabs = document.querySelectorAll(".tab").length;
 
         for (let i = 1; i <= totalTabs; i++) {
