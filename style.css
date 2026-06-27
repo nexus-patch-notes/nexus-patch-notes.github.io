@@ -1168,7 +1168,7 @@ a:hover {
     height: 100%;
     overflow: auto;
     background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.75);
 }
 
 .modal>.content>.title {
@@ -1190,10 +1190,10 @@ a:hover {
 
 .modal>.content {
     background-color: var(--color-ceramic);
-    margin: 222px 16px auto 16px;
+    margin: 196px 16px auto 16px;
     padding: 25px 20px 5px 20px;
     border: 2px solid var(--color-bluewood);
-    width: min(100vw, 882px);
+    width: min(100vw, 475px);
     border-radius: 4px;
     font-size: 14px;
 }
