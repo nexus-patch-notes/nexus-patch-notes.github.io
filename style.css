@@ -949,10 +949,6 @@ input[type="checkbox"]:checked::before {
     #patch-dropdown {
         display: none;
     }
-
-    .modal>.content {
-        width: 85vw !important;
-    }
 }
 
 @media only screen and (max-width: 720px) {
@@ -1163,6 +1159,7 @@ a:hover {
 
 .modal {
     display: none;
+    justify-content: center;
     position: fixed;
     z-index: 2000;
     left: 0;
@@ -1192,11 +1189,12 @@ a:hover {
 }
 
 .modal>.content {
-    background-color: var(--color-ceramic);;
-    margin: 10% auto;
-    padding: 20px 20px 5px 20px;
-    border: 1px solid var(--color-bluewood);
-    width: 780px;
+    background-color: var(--color-ceramic);
+    margin: 222px 16px auto 16px;
+    padding: 25px 20px 5px 20px;
+    border: 2px solid var(--color-bluewood);
+    width: min(100vw, 882px);
+    border-radius: 4px;
 }
 
 .modal>.content>p {
@@ -1204,10 +1202,10 @@ a:hover {
 }
 
 .modal>.content>.close {
-    margin-top: -10px;
+    margin-top: -15px;
     color: var(--color-cyan);
     float: right;
-    font-size: 28px;
+    font-size: 36px;
     font-weight: bold;
 }
 

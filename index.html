@@ -10,7 +10,7 @@
         <meta content="website" property="og:type"/>
         <meta content="Nexus Patch Notes" property="og:site_name"/>
         <meta content="JrPVjGOFJBJqgBFHQDCkagy0SgCnHJX8h0X0zwJc9SI" name="google-site-verification"/>
-        <link href="style.css?v=1.2" rel="stylesheet"/>
+        <link href="style.css?v=1.21" rel="stylesheet"/>
         <title>
             Nexus Patch Notes · Heroes of the Storm Patch Notes
         </title>
@@ -65218,7 +65218,7 @@
 
         if (selectedIndex === 4) {
             const modal = document.getElementById("supporters-modal");
-            modal.style.display = "block";
+            modal.style.display = "flex";
         }
     }
     </script>
@@ -65435,7 +65435,7 @@
         const close = modal.querySelector(".close");
 
         buttons.forEach(button => {
-            button.onclick = () => modal.style.display = "block";
+            button.onclick = () => modal.style.display = "flex";
         });
 
         close.onclick = () => modal.style.display = "none";
