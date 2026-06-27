@@ -1195,6 +1195,7 @@ a:hover {
     border: 2px solid var(--color-bluewood);
     width: min(100vw, 882px);
     border-radius: 4px;
+    font-size: 14px;
 }
 
 .modal>.content>p {
