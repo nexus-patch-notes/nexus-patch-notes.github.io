@@ -65123,6 +65123,7 @@
     <script>
         function CopyLink(element) {
         link = window.location.href.split("#")[0];
+        link = link.replace(/\?[^#]*/, '');
         reference = element.getAttribute('href');
         text = link + reference;
         navigator.clipboard.writeText(text);

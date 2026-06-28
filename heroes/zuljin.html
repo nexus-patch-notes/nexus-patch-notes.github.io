@@ -9,7 +9,7 @@
         <meta content="https://nexus-patch-notes.github.io" property="og:url"/>
         <meta content="website" property="og:type"/>
         <meta content="Nexus Patch Notes" property="og:site_name"/>
-        <link href="../style.css?v=1.23" rel="stylesheet"/>
+        <link href="../style.css?v=1.24" rel="stylesheet"/>
         <title>
             Zul'jin · Nexus Patch Notes
         </title>
@@ -5254,6 +5254,7 @@
     <script>
         function CopyLink(element) {
         link = window.location.href.split("#")[0];
+        link = link.replace(/\?[^#]*/, '');
         reference = element.getAttribute('href');
         text = link + reference;
         navigator.clipboard.writeText(text);
