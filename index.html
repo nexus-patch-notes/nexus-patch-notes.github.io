@@ -65213,11 +65213,16 @@
     }
     </script>
     <script>
-        document.addEventListener("DOMContentLoaded", () => {
-    const params = new URLSearchParams(window.location.search);
-    const tabParam = parseInt(params.get("tab"), 10);
-    if (!isNaN(tabParam)) {
-            tabSelection(tabParam);
+        const tabNameValueMap = {
+        "patches": 1,"heroes": 2,"battlegrounds": 3,"supporters": 4
+    };
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const params = new URLSearchParams(window.location.search);
+        const tabParam = params.get("tab");
+
+        if (tabParam && tabNameValueMap[tabParam]) {
+            tabSelection(tabNameValueMap[tabParam]);
         }
     });
 
