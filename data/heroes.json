@@ -1,12 +1,12 @@
 {
     "Abathur": {
         "last_updated": {
-            "patch_date": "2025-09-30",
-            "version_number": "2.55.13.95213"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         },
         "last_changed": {
-            "patch_date": "2025-09-30",
-            "version_number": "2.55.13.95213"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "Alarak": {
@@ -21,12 +21,12 @@
     },
     "Alexstrasza": {
         "last_updated": {
-            "patch_date": "2025-12-01",
-            "version_number": "2.55.14.95774"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         },
         "last_changed": {
-            "patch_date": "2025-12-01",
-            "version_number": "2.55.14.95774"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "Ana": {
@@ -35,8 +35,8 @@
             "version_number": "2.55.11.94189"
         },
         "last_changed": {
-            "patch_date": "2026-02-10",
-            "version_number": "2.55.15.96370"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "Anduin": {
@@ -55,8 +55,8 @@
             "version_number": "2.55.15.96370"
         },
         "last_changed": {
-            "patch_date": "2026-02-10",
-            "version_number": "2.55.15.96370"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "Artanis": {
@@ -75,8 +75,8 @@
             "version_number": "2.55.16.97039"
         },
         "last_changed": {
-            "patch_date": "2026-05-11",
-            "version_number": "2.55.16.97039"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "Auriel": {
@@ -101,12 +101,12 @@
     },
     "Blaze": {
         "last_updated": {
-            "patch_date": "2024-10-14",
-            "version_number": "2.55.7.93009"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         },
         "last_changed": {
-            "patch_date": "2024-10-21",
-            "version_number": "2.55.7.93054"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "Brightwing": {
@@ -141,22 +141,22 @@
     },
     "Cho": {
         "last_updated": {
-            "patch_date": "2020-10-07",
-            "version_number": "2.52.1.82169"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         },
         "last_changed": {
-            "patch_date": "2025-01-27",
-            "version_number": "2.55.9.93565"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "Chromie": {
         "last_updated": {
-            "patch_date": "2025-01-27",
-            "version_number": "2.55.9.93565"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         },
         "last_changed": {
-            "patch_date": "2025-09-30",
-            "version_number": "2.55.13.95213"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "D.Va": {
@@ -175,8 +175,8 @@
             "version_number": "2.55.16.97039"
         },
         "last_changed": {
-            "patch_date": "2026-05-11",
-            "version_number": "2.55.16.97039"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "Deckard": {
@@ -185,8 +185,8 @@
             "version_number": "2.55.12.94714"
         },
         "last_changed": {
-            "patch_date": "2025-07-29",
-            "version_number": "2.55.12.94714"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "Dehaka": {
@@ -201,12 +201,12 @@
     },
     "Diablo": {
         "last_updated": {
-            "patch_date": "2022-02-01",
-            "version_number": "2.55.1.87306"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         },
         "last_changed": {
-            "patch_date": "2025-10-06",
-            "version_number": "2.55.13.95301"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "E.T.C.": {
@@ -241,12 +241,12 @@
     },
     "Gall": {
         "last_updated": {
-            "patch_date": "2024-05-21",
-            "version_number": "2.55.5.92264"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         },
         "last_changed": {
-            "patch_date": "2025-01-27",
-            "version_number": "2.55.9.93565"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "Garrosh": {
@@ -271,12 +271,12 @@
     },
     "Genji": {
         "last_updated": {
-            "patch_date": "2025-05-15",
-            "version_number": "2.55.11.94189"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         },
         "last_changed": {
-            "patch_date": "2025-07-29",
-            "version_number": "2.55.12.94714"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "Greymane": {
@@ -311,12 +311,12 @@
     },
     "Hogger": {
         "last_updated": {
-            "patch_date": "2025-12-01",
-            "version_number": "2.55.14.95774"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         },
         "last_changed": {
-            "patch_date": "2025-12-01",
-            "version_number": "2.55.14.95774"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "Illidan": {
@@ -345,18 +345,18 @@
             "version_number": "2.55.15.96370"
         },
         "last_changed": {
-            "patch_date": "2026-04-20",
-            "version_number": "2.55.16.96846"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "Johanna": {
         "last_updated": {
-            "patch_date": "2025-12-01",
-            "version_number": "2.55.14.95774"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         },
         "last_changed": {
-            "patch_date": "2025-12-01",
-            "version_number": "2.55.14.95774"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "Junkrat": {
@@ -395,8 +395,8 @@
             "version_number": "2.55.15.96370"
         },
         "last_changed": {
-            "patch_date": "2026-02-10",
-            "version_number": "2.55.15.96370"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "Kharazim": {
@@ -415,8 +415,8 @@
             "version_number": "2.55.5.92264"
         },
         "last_changed": {
-            "patch_date": "2025-03-12",
-            "version_number": "2.55.10.93810"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "Li Li": {
@@ -481,12 +481,12 @@
     },
     "Mal'Ganis": {
         "last_updated": {
-            "patch_date": "2026-05-11",
-            "version_number": "2.55.16.97039"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         },
         "last_changed": {
-            "patch_date": "2026-05-11",
-            "version_number": "2.55.16.97039"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "Malfurion": {
@@ -495,8 +495,8 @@
             "version_number": "2.55.15.96370"
         },
         "last_changed": {
-            "patch_date": "2026-02-10",
-            "version_number": "2.55.15.96370"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "Malthael": {
@@ -515,8 +515,8 @@
             "version_number": "2.55.16.96846"
         },
         "last_changed": {
-            "patch_date": "2026-04-20",
-            "version_number": "2.55.16.96846"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "Mei": {
@@ -565,8 +565,8 @@
             "version_number": "2.55.15.96370"
         },
         "last_changed": {
-            "patch_date": "2026-04-20",
-            "version_number": "2.55.16.96846"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "Nova": {
@@ -575,8 +575,8 @@
             "version_number": "2.55.14.95774"
         },
         "last_changed": {
-            "patch_date": "2025-12-01",
-            "version_number": "2.55.14.95774"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "Orphea": {
@@ -595,28 +595,28 @@
             "version_number": "2.55.5.92264"
         },
         "last_changed": {
-            "patch_date": "2025-01-27",
-            "version_number": "2.55.9.93565"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "Qhira": {
         "last_updated": {
-            "patch_date": "2024-08-12",
-            "version_number": "2.55.6.92665"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         },
         "last_changed": {
-            "patch_date": "2024-08-12",
-            "version_number": "2.55.6.92665"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "Ragnaros": {
         "last_updated": {
-            "patch_date": "2024-05-21",
-            "version_number": "2.55.5.92264"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         },
         "last_changed": {
-            "patch_date": "2025-05-15",
-            "version_number": "2.55.11.94189"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "Raynor": {
@@ -741,12 +741,12 @@
     },
     "Thrall": {
         "last_updated": {
-            "patch_date": "2026-04-20",
-            "version_number": "2.55.16.96846"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         },
         "last_changed": {
-            "patch_date": "2026-04-20",
-            "version_number": "2.55.16.96846"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "Tracer": {
@@ -765,8 +765,8 @@
             "version_number": "2.55.16.97039"
         },
         "last_changed": {
-            "patch_date": "2026-05-11",
-            "version_number": "2.55.16.97039"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "Tyrael": {
@@ -831,12 +831,12 @@
     },
     "Whitemane": {
         "last_updated": {
-            "patch_date": "2025-03-12",
-            "version_number": "2.55.10.93810"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         },
         "last_changed": {
-            "patch_date": "2025-09-30",
-            "version_number": "2.55.13.95213"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "Xul": {
@@ -845,18 +845,18 @@
             "version_number": "2.55.5.92264"
         },
         "last_changed": {
-            "patch_date": "2025-09-30",
-            "version_number": "2.55.13.95213"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "Yrel": {
         "last_updated": {
-            "patch_date": "2024-05-21",
-            "version_number": "2.55.5.92264"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         },
         "last_changed": {
-            "patch_date": "2025-07-29",
-            "version_number": "2.55.12.94714"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "Zagara": {
@@ -865,8 +865,8 @@
             "version_number": "2.55.16.97039"
         },
         "last_changed": {
-            "patch_date": "2026-05-11",
-            "version_number": "2.55.16.97039"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "Zarya": {
