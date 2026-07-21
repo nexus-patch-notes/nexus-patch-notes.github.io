@@ -95,8 +95,8 @@
             "version_number": "2.55.16.97039"
         },
         "last_changed": {
-            "patch_date": "2026-05-11",
-            "version_number": "2.55.16.97039"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "Blaze": {
@@ -321,12 +321,12 @@
     },
     "Illidan": {
         "last_updated": {
-            "patch_date": "2025-12-01",
-            "version_number": "2.55.14.95774"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         },
         "last_changed": {
-            "patch_date": "2025-12-01",
-            "version_number": "2.55.14.95774"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         }
     },
     "Imperius": {
@@ -561,8 +561,8 @@
     },
     "Nazeebo": {
         "last_updated": {
-            "patch_date": "2026-02-10",
-            "version_number": "2.55.15.96370"
+            "patch_date": "2026-07-20",
+            "version_number": "2.55.17.97605"
         },
         "last_changed": {
             "patch_date": "2026-07-20",
