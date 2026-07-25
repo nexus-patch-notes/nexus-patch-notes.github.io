@@ -36,12 +36,11 @@ blockquote {
 }
 
 .text-header {
-    display: block;
-    font-size: 1.17em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 0;
-    margin-right: 0;
+    display: flex;
+    align-items: last baseline;
+    gap: 4px;
+    font-size: 18px;
+    margin: 0;
     font-weight: bold;
 }
 
@@ -79,6 +78,7 @@ ol {
     background-color: var(--color-ceramic);
     padding: 2px 16px 2px 16px;
     border-radius: 4px 4px 4px 4px;
+    height: 59px;
 }
 
 .panel-heading span {
@@ -373,10 +373,11 @@ body {
 .toggle-button .header,
 .links-table tr.header {
     background: none !important;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     color: var(--color-cyan);
     cursor: pointer;
+    font-variant-caps: small-caps;
 }
 
 .links-table tr.header>td:hover {
@@ -778,24 +779,32 @@ th .sort-icon {
     background-color: var(--color-ceramic);
 }
 
-.guide-card {
+.guide-card,
+.patch-card {
     display: flex;
     align-items: center;
     gap: 5px;
     width: max-content;
     font-variant-caps: small-caps;
+    text-decoration: none;
+}
+
+.guide-card.interactive,
+.patch-card.interactive {
+    color: var(--color-cyan);
+}
+
+.guide-card:not(.interactive),
+.patch-card:not(.interactive) {
+    color: rgb(255, 255, 255) !important;
 }
 
 .partner-logo {
     width: 42px;
 }
 
-.partner-link {
-    color: var(--color-cyan);
-    text-decoration: none;
-}
-
-.guide-card:hover>.partner-link {
+.guide-card.interactive:hover,
+.patch-card.interactive:hover {
     color: var(--color-azure);
 }
 
@@ -823,18 +832,15 @@ th .sort-icon {
     width: 28px;
     height: 28px;
     padding: 1px;
-    filter: /* Turn SVG into border-only SVG */
-        drop-shadow(-1px -1px 0px var(--color-cyan))
-        drop-shadow(1px -1px 0px var(--color-cyan))
-        drop-shadow(1px 1px 0px var(--color-cyan))
-        drop-shadow(-1px 1px 0px var(--color-cyan));
+    filter: brightness(0) invert(1);
 }
 
 .permalink>.svg {
     width: 20px;
 }
 
-.guide-card:hover>.svg,
+.guide-card.interactive:hover>.svg,
+.patch-card.interactive:hover>.svg,
 .svg.hover:hover {
     filter: /* Change SVG from black to #0090ff */
         invert(35%)
@@ -1066,6 +1072,8 @@ input[type="checkbox"]:checked::before {
     z-index: 1;
     text-shadow: none;
     font-weight: normal;
+    font-size: 14px;
+    font-variant-caps: normal;
 }
 
 .tooltip-item:hover .tooltip-text {
