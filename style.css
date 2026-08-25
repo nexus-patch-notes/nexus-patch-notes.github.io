@@ -35,6 +35,10 @@ blockquote {
     color: grey;
 }
 
+.highlighted {
+    color: #009300;
+}
+
 .text-header {
     display: flex;
     align-items: last baseline;
