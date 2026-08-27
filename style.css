@@ -4,6 +4,8 @@
     --color-azure: #0090ff;
     --color-ceramic: #11253D;
     --color-bluewood: #2F465D;
+    --color-elephant: #162C44;
+    --color-verdant: #00bd09;
     --color-grey: #3c536b;
     --color-cyan: #78dcff;
     --color-blizzard: #86e4ff;
@@ -155,7 +157,7 @@ a:active {
 
 body {
     color: white;
-    background-color: #162C44;
+    background-color: var(--color-elephant);
     font-family: 'Open Sans Condensed', sans-serif;
     display: flex;
     flex-direction: column;
@@ -1048,8 +1050,8 @@ input[type="checkbox"]:checked::before {
 .table-condensed td {
     text-align: center;
     background-color: #1d334c;
-    padding-left:2px;
-    padding-right:2px;
+    padding-left: 8px;
+    padding-right: 8px;
     height: 30px;
 }
 
@@ -1101,15 +1103,52 @@ input[type="checkbox"]:checked::before {
 }
 
 .increased   {
-    color: #00bd09;
+    color: var(--color-verdant);
 }
 
 .decreased {
-    color: #ff0000;
+    color: red;
 }
 
-.unchanged    {
+.unchanged {
     color: #ffcc00;
+}
+
+.map-rotations {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.map-rotation {
+    display: table;
+    color: white;
+}
+
+.map-rotation span::after {
+    margin-left: 5px;
+    padding: 1px 3px 1px 2px;
+    border-radius: 5px;
+    font-size: 13px;
+    background-color: var(--color-ceramic);
+}
+
+.map-rotation .added {
+    color: var(--color-verdant);
+}
+
+.map-rotation .removed {
+    color: red;
+}
+
+.map-rotation .added::after {
+    content: "Added";
+    border: solid 1px var(--color-verdant);
+}
+
+.map-rotation .removed::after {
+    content: "Removed";
+    border: solid 1px red;
 }
 
 .icon-wrap {
