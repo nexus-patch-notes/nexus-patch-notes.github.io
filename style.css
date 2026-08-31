@@ -541,7 +541,7 @@ td>.icon-circle {
     gap: 2px;
 }
 
-.legend>*>.label::before {
+.legend>*>.legend-label::before {
     content: var(--legend-marker-content);
     font-size: var(--legend-marker-font-size);
     margin-bottom: -3px;
