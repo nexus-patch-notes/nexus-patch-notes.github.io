@@ -61,12 +61,12 @@
     },
     "Garden of Terror": {
         "last_updated": {
-            "patch_date": "2026-04-20",
-            "version_number": "2.55.16.96846"
+            "patch_date": "2026-09-28",
+            "version_number": "2.57.0.98285"
         },
         "last_changed": {
-            "patch_date": "2026-04-20",
-            "version_number": "2.55.16.96846"
+            "patch_date": "2026-09-28",
+            "version_number": "2.57.0.98285"
         }
     },
     "Hanamura Temple": {
@@ -135,8 +135,8 @@
             "version_number": "2.55.15.96370"
         },
         "last_changed": {
-            "patch_date": "2026-02-10",
-            "version_number": "2.55.15.96370"
+            "patch_date": "2026-09-28",
+            "version_number": "2.57.0.98285"
         }
     },
     "Warhead Junction": {

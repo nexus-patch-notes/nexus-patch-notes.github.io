@@ -1,12 +1,12 @@
 {
     "Abathur": {
         "last_updated": {
-            "patch_date": "2026-07-20",
-            "version_number": "2.55.17.97605"
+            "patch_date": "2026-09-28",
+            "version_number": "2.57.0.98285"
         },
         "last_changed": {
-            "patch_date": "2026-08-12",
-            "version_number": "2.55.17.97771"
+            "patch_date": "2026-09-28",
+            "version_number": "2.57.0.98285"
         }
     },
     "Alarak": {
@@ -21,12 +21,12 @@
     },
     "Alexstrasza": {
         "last_updated": {
-            "patch_date": "2026-07-20",
-            "version_number": "2.55.17.97605"
+            "patch_date": "2026-09-28",
+            "version_number": "2.57.0.98285"
         },
         "last_changed": {
-            "patch_date": "2026-08-12",
-            "version_number": "2.55.17.97771"
+            "patch_date": "2026-09-28",
+            "version_number": "2.57.0.98285"
         }
     },
     "Ana": {
@@ -45,8 +45,8 @@
             "version_number": "2.55.5.92264"
         },
         "last_changed": {
-            "patch_date": "2025-07-29",
-            "version_number": "2.55.12.94714"
+            "patch_date": "2026-09-28",
+            "version_number": "2.57.0.98285"
         }
     },
     "Anub'arak": {
@@ -251,12 +251,12 @@
     },
     "Garrosh": {
         "last_updated": {
-            "patch_date": "2026-04-20",
-            "version_number": "2.55.16.96846"
+            "patch_date": "2026-09-28",
+            "version_number": "2.57.0.98285"
         },
         "last_changed": {
-            "patch_date": "2026-04-20",
-            "version_number": "2.55.16.96846"
+            "patch_date": "2026-09-28",
+            "version_number": "2.57.0.98285"
         }
     },
     "Gazlowe": {
@@ -481,12 +481,12 @@
     },
     "Mal'Ganis": {
         "last_updated": {
-            "patch_date": "2026-07-20",
-            "version_number": "2.55.17.97605"
+            "patch_date": "2026-09-28",
+            "version_number": "2.57.0.98285"
         },
         "last_changed": {
-            "patch_date": "2026-07-20",
-            "version_number": "2.55.17.97605"
+            "patch_date": "2026-09-28",
+            "version_number": "2.57.0.98285"
         }
     },
     "Malfurion": {
@@ -495,8 +495,8 @@
             "version_number": "2.55.17.97605"
         },
         "last_changed": {
-            "patch_date": "2026-07-20",
-            "version_number": "2.55.17.97605"
+            "patch_date": "2026-09-28",
+            "version_number": "2.57.0.98285"
         }
     },
     "Malthael": {
@@ -601,22 +601,22 @@
     },
     "Qhira": {
         "last_updated": {
-            "patch_date": "2026-07-20",
-            "version_number": "2.55.17.97605"
+            "patch_date": "2026-09-28",
+            "version_number": "2.57.0.98285"
         },
         "last_changed": {
-            "patch_date": "2026-07-24",
-            "version_number": "2.55.17.97650"
+            "patch_date": "2026-09-28",
+            "version_number": "2.57.0.98285"
         }
     },
     "Ragnaros": {
         "last_updated": {
-            "patch_date": "2026-07-24",
-            "version_number": "2.55.17.97650"
+            "patch_date": "2026-09-28",
+            "version_number": "2.57.0.98285"
         },
         "last_changed": {
-            "patch_date": "2026-08-12",
-            "version_number": "2.55.17.97771"
+            "patch_date": "2026-09-28",
+            "version_number": "2.57.0.98285"
         }
     },
     "Raynor": {
@@ -831,12 +831,12 @@
     },
     "Whitemane": {
         "last_updated": {
-            "patch_date": "2026-07-20",
-            "version_number": "2.55.17.97605"
+            "patch_date": "2026-09-28",
+            "version_number": "2.57.0.98285"
         },
         "last_changed": {
-            "patch_date": "2026-07-24",
-            "version_number": "2.55.17.97650"
+            "patch_date": "2026-09-28",
+            "version_number": "2.57.0.98285"
         }
     },
     "Xul": {
@@ -845,18 +845,18 @@
             "version_number": "2.55.17.97605"
         },
         "last_changed": {
-            "patch_date": "2026-07-20",
-            "version_number": "2.55.17.97605"
+            "patch_date": "2026-09-28",
+            "version_number": "2.57.0.98285"
         }
     },
     "Yrel": {
         "last_updated": {
-            "patch_date": "2026-07-24",
-            "version_number": "2.55.17.97650"
+            "patch_date": "2026-09-28",
+            "version_number": "2.57.0.98285"
         },
         "last_changed": {
-            "patch_date": "2026-07-24",
-            "version_number": "2.55.17.97650"
+            "patch_date": "2026-09-28",
+            "version_number": "2.57.0.98285"
         }
     },
     "Zagara": {
