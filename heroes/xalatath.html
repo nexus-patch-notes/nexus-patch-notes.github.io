@@ -128,6 +128,11 @@
                         </div>
                     </div>
                     <div class="panel-body toggle" data-nosnippet="">
+                        <div class="legend interactive">
+                            <div class="undocumented">
+                                <span class="legend-label">Undocumented</span>
+                            </div>
+                        </div>
                         <div>
                             <h3>
                                 Updates
@@ -186,7 +191,7 @@
                     </strong>
                     <ul>
                         <li>
-                            No longer increases duration.
+                            No longer increases Dark Heart Ritual's duration.
                         </li>
                     </ul>
                 </li>
@@ -196,8 +201,7 @@
                     </strong>
                     <ul>
                         <li>
-                            Now grants Spell Armor only while actively blinking. The bonus no longer persists for 2
-                            seconds.
+                            Now grants Spell Armor only during Void Step, and not also for 2 seconds after it ends.
                         </li>
                     </ul>
                 </li>
@@ -342,14 +346,26 @@
                                 Bug Fixes
                             </h3>
                             <ul>
+                                <ul>
+                                    <li>
+                <span class="undocumented">
+                    Xal'atath now features Mastery Rings.
+                </span>
+            </li>
+                                    <li>
+                Fixed an issue with Xal'atath's Health Regeneration
+                <span class="undocumented">not being equal to maximum Health divided by 480</span>.
+            </li>
+                                    <li>
+                Fixed an issue with Xal'atath's Health Regeneration
+                <span class="undocumented">scaling by 4% twice per level</span>.
+            </li>
+                                </ul>
                                 <li>
             <strong>
                 Base
             </strong>
             <ul>
-                <li>
-                    Fixed an issue with Xal'atath's Health Regeneration.
-                </li>
                 <li>
                     <strong style="color: #0099ff;">
                         Shadow Mark [Q]
@@ -366,7 +382,14 @@
                     </strong>
                     <ul>
                         <li>
-                            Fixed issues related to Dark Heart Ritual's self reveal logic.
+                            Fixed issues related to Dark Heart Ritual's self-reveal logic
+                            <span class="undocumented">when hitting enemies from fog of war</span>.
+                        </li>
+                        <li>
+                            <span class="undocumented">
+                                Fixed an issue causing Dark Heart Ritual to break Unrevealable
+                                when first created for 1.1 seconds.
+                            </span>
                         </li>
                     </ul>
                 </li>
@@ -413,8 +436,9 @@
                     </strong>
                     <ul>
                         <li>
-                            Fixed an issue that caused Void Summoner to not spawn the Void Minion at Xal'atath's
-                            position at cast time.
+                            Fixed an issue that caused Void Summoner to not spawn the Void Minion
+                            at Xal'atath's position at cast time
+                            <span class="undocumented">but at Xal'atath's new position after the first teleport</span>.
                         </li>
                     </ul>
                 </li>
