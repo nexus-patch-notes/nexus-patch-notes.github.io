@@ -5,8 +5,8 @@
             "version_number": "2.57.0.98285"
         },
         "last_changed": {
-            "patch_date": "2026-09-28",
-            "version_number": "2.57.0.98285"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         }
     },
     "Alarak": {
@@ -25,8 +25,8 @@
             "version_number": "2.57.0.98285"
         },
         "last_changed": {
-            "patch_date": "2026-09-28",
-            "version_number": "2.57.0.98285"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         }
     },
     "Ana": {
@@ -65,8 +65,8 @@
             "version_number": "2.55.7.93009"
         },
         "last_changed": {
-            "patch_date": "2025-09-30",
-            "version_number": "2.55.13.95213"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         }
     },
     "Arthas": {
@@ -85,8 +85,8 @@
             "version_number": "2.55.12.94714"
         },
         "last_changed": {
-            "patch_date": "2026-09-29",
-            "version_number": "2.57.0.98304"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         }
     },
     "Azmodan": {
@@ -105,8 +105,8 @@
             "version_number": "2.55.17.97605"
         },
         "last_changed": {
-            "patch_date": "2026-07-20",
-            "version_number": "2.55.17.97605"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         }
     },
     "Brightwing": {
@@ -145,18 +145,18 @@
             "version_number": "2.55.17.97605"
         },
         "last_changed": {
-            "patch_date": "2026-07-20",
-            "version_number": "2.55.17.97605"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         }
     },
     "Chromie": {
         "last_updated": {
-            "patch_date": "2026-07-24",
-            "version_number": "2.55.17.97650"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         },
         "last_changed": {
-            "patch_date": "2026-08-12",
-            "version_number": "2.55.17.97771"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         }
     },
     "D.Va": {
@@ -261,12 +261,12 @@
     },
     "Gazlowe": {
         "last_updated": {
-            "patch_date": "2026-05-11",
-            "version_number": "2.55.16.97039"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         },
         "last_changed": {
-            "patch_date": "2026-05-11",
-            "version_number": "2.55.16.97039"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         }
     },
     "Genji": {
@@ -275,18 +275,18 @@
             "version_number": "2.55.17.97605"
         },
         "last_changed": {
-            "patch_date": "2026-07-24",
-            "version_number": "2.55.17.97650"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         }
     },
     "Greymane": {
         "last_updated": {
-            "patch_date": "2025-12-01",
-            "version_number": "2.55.14.95774"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         },
         "last_changed": {
-            "patch_date": "2025-12-01",
-            "version_number": "2.55.14.95774"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         }
     },
     "Gul'dan": {
@@ -345,8 +345,8 @@
             "version_number": "2.55.15.96370"
         },
         "last_changed": {
-            "patch_date": "2026-07-24",
-            "version_number": "2.55.17.97650"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         }
     },
     "Johanna": {
@@ -365,8 +365,8 @@
             "version_number": "2.55.7.93009"
         },
         "last_changed": {
-            "patch_date": "2025-09-30",
-            "version_number": "2.55.13.95213"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         }
     },
     "Kael'thas": {
@@ -425,8 +425,8 @@
             "version_number": "2.55.12.94714"
         },
         "last_changed": {
-            "patch_date": "2026-04-20",
-            "version_number": "2.55.16.96846"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         }
     },
     "Li-Ming": {
@@ -455,18 +455,18 @@
             "version_number": "2.55.14.95774"
         },
         "last_changed": {
-            "patch_date": "2025-12-01",
-            "version_number": "2.55.14.95774"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         }
     },
     "Lúcio": {
         "last_updated": {
-            "patch_date": "2025-07-29",
-            "version_number": "2.55.12.94714"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         },
         "last_changed": {
-            "patch_date": "2025-12-04",
-            "version_number": "2.55.14.95817"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         }
     },
     "Maiev": {
@@ -511,32 +511,32 @@
     },
     "Medivh": {
         "last_updated": {
-            "patch_date": "2026-04-20",
-            "version_number": "2.55.16.96846"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         },
         "last_changed": {
-            "patch_date": "2026-07-20",
-            "version_number": "2.55.17.97605"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         }
     },
     "Mei": {
         "last_updated": {
-            "patch_date": "2025-12-01",
-            "version_number": "2.55.14.95774"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         },
         "last_changed": {
-            "patch_date": "2026-05-11",
-            "version_number": "2.55.16.97039"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         }
     },
     "Mephisto": {
         "last_updated": {
-            "patch_date": "2024-10-14",
-            "version_number": "2.55.7.93009"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         },
         "last_changed": {
-            "patch_date": "2025-05-15",
-            "version_number": "2.55.11.94189"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         }
     },
     "Muradin": {
@@ -691,12 +691,12 @@
     },
     "Stukov": {
         "last_updated": {
-            "patch_date": "2025-12-01",
-            "version_number": "2.55.14.95774"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         },
         "last_changed": {
-            "patch_date": "2026-04-20",
-            "version_number": "2.55.16.96846"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         }
     },
     "Sylvanas": {
@@ -715,8 +715,8 @@
             "version_number": "2.55.14.95774"
         },
         "last_changed": {
-            "patch_date": "2025-12-01",
-            "version_number": "2.55.14.95774"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         }
     },
     "The Butcher": {
@@ -741,12 +741,12 @@
     },
     "Thrall": {
         "last_updated": {
-            "patch_date": "2026-07-20",
-            "version_number": "2.55.17.97605"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         },
         "last_changed": {
-            "patch_date": "2026-07-20",
-            "version_number": "2.55.17.97605"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         }
     },
     "Tracer": {
@@ -841,12 +841,12 @@
     },
     "Xal'atath": {
         "last_updated": {
-            "patch_date": "2026-10-05",
-            "version_number": "2.57.0.98348"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         },
         "last_changed": {
-            "patch_date": "2026-10-05",
-            "version_number": "2.57.0.98348"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         }
     },
     "Xul": {
@@ -855,18 +855,18 @@
             "version_number": "2.55.17.97605"
         },
         "last_changed": {
-            "patch_date": "2026-09-28",
-            "version_number": "2.57.0.98285"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         }
     },
     "Yrel": {
         "last_updated": {
-            "patch_date": "2026-09-28",
-            "version_number": "2.57.0.98285"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         },
         "last_changed": {
-            "patch_date": "2026-09-28",
-            "version_number": "2.57.0.98285"
+            "patch_date": "2026-11-23",
+            "version_number": "2.57.1.98746"
         }
     },
     "Zagara": {
